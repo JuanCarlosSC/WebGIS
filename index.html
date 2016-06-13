@@ -1,0 +1,181 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+
+<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+	<title>Callbacks - fullPage.js</title>
+	<meta name="author" content="Alvaro Trigo Lopez" />
+	<meta name="description" content="fullPage callback function." />
+	<meta name="keywords"  content="fullpage,jquery,demo,callbac,function,event" />
+	<meta name="Resource-type" content="Document" />
+
+
+	<link rel="stylesheet" type="text/css" href="css/jquery.fullPage.css" />
+	<link rel="stylesheet" type="text/css" href="css/examples.css" />
+
+	<!--[if IE]>
+		<script type="text/javascript">
+			 var console = { log: function() {} };
+		</script>
+	<![endif]-->
+
+	<script src="js/jquery-1.10.2.min.js"></script>
+	<script src="http://ajax.googleapis.com/ajax/libs/jqueryui/1.9.1/jquery-ui.min.js"></script>
+
+	<script type="text/javascript" src="js/jquery.fullPage.js"></script>
+	<script type="text/javascript" src="js/examples.js"></script>
+	<script type="text/javascript">
+		$(document).ready(function() {
+			$('#fullpage').fullpage({
+				sectionsColor: ['#1bbc9b', '#4BBFC3', '#7BAABE', 'whitesmoke', '#ccddff'],
+				anchors: ['firstPage', 'secondPage', '3rdPage', '4thpage', '5page'],
+				menu: '#menu',
+				afterLoad: function(anchorLink, index){
+
+					//section 2
+					if(index == 2){
+						//moving the image
+						$('#section1').find('img').delay(500).animate({
+							left: '0%'
+						}, 1500, 'easeOutExpo');
+
+						$('#section1').find('p').first().fadeIn(1800, function(){
+							$('#section1').find('p').last().fadeIn(1800);
+						});;
+
+					}
+
+					//section 3
+					if(anchorLink == '3rdPage'){
+						//moving the image
+						$('#section2').find('.intro').delay(500).animate({
+							left: '0%'
+						}, 1500, 'easeOutExpo');
+					}
+				}
+			});
+
+		});
+	</script>
+
+	<style>
+		#section0{
+			background-image: url(1.jpg);
+		}
+		#section1 img{
+			left: 130%;
+			position:relative;
+		}
+		#section1 p{
+			display:none;
+		}
+		#section2 .intro{
+			left: -130%;
+			position:relative;
+		}
+		#menu{
+			background: rgba(0, 0, 0, 0.6);
+			height: 59px;
+		}
+		ul#menu li {
+		    float: right;
+		}
+		#slogan{
+			color: white;
+		    margin-left: 723px;
+		    font-size: 35px;
+		    font-style: italic;
+		}
+		#contenedorSlogan{
+			width: 1442px;
+		    margin-left: auto;
+		    margin-right: auto;
+		    background: rgba(0, 0, 0, 0.6);
+		}
+		#contenedorInformacion h3{
+			margin-top: 130px;
+		    font-size: 35px;
+		    color: white;
+		    background: rgba(0, 0, 0, 0.6);
+		    width: 355px;
+		    margin-left: auto;
+		    margin-right: auto;
+		    border: 4px solid #d47630;
+		}
+	</style>
+
+</head>
+<body>
+
+
+<select id="demosMenu">
+  <option selected>Choose Demo</option>
+  <option id="backgrounds">Background images</option>
+  <option id="backgroundVideo">Background video</option>
+  <option id="gradientBackgrounds">Gradient backgrounds</option>
+  <option id="backgroundsFixed">Fixed fullscreen backgrounds</option>
+  <option id="looping">Looping</option>
+  <option id="noAnchor">No anchor links</option>
+  <option id="scrollingSpeed">Scrolling speed</option>
+  <option id="easing">Easing</option>
+  <option id="callbacks">Callbacks</option>
+  <option id="css3">CSS3</option>
+  <option id="continuous">Continuous scrolling</option>
+  <option id="normalScroll">Normal scrolling</option>
+  <option id="scrollBar">Scroll bar enabled</option>
+  <option id="scrolling">Scroll inside sections and slides</option>
+  <option id="navigationV">Vertical navigation dots</option>
+  <option id="navigationH">Horizontal navigation dots</option>
+  <option id="fixedHeaders">Fixed headers</option>
+  <option id="apple">Apple iPhone demo (animations)</option>
+  <option id="oneSection">One single section</option>
+  <option id="responsiveHeight">Responsive Height</option>
+  <option id="responsiveWidth">Responsive Width</option>
+  <option id="methods">Methods</option>
+</select>
+
+
+<ul id="menu">
+	<li data-menuanchor="firstPage"><a href="#firstPage">ING/ESP</a></li>
+	<li data-menuanchor="5page"><a href="#5page">CONTACTO</a></li>
+	<li data-menuanchor="4thpage"><a href="#4thpage">CLIENTES</a></li>
+	<li data-menuanchor="3rdPage"><a href="#3rdPage">PROYECTOS</a></li>
+	<li data-menuanchor="secondPage"><a href="#secondPage">SERVICIOS</a></li>
+	<li data-menuanchor="firstPage"><a href="#firstPage">INICIO</a></li>
+</ul>
+
+<div id="fullpage">
+	<div class="section " id="section0">
+		<div id="contenedorSlogan">
+			<h1>GLOBAL INTEGRAL SERVICES</h1>
+			<p id="slogan">"Haciendo que el mundo siga evolucionando"</p>
+		</div>
+		<div id="contenedorInformacion">
+			<h3>MAS INFORMACION</h3>
+		</div>
+	</div>
+	<div class="section" id="section1">
+		<div class="intro">
+			
+		</div>
+	</div>
+	<div class="section" id="section2">
+		<div class="intro">
+			
+		</div>
+	</div>
+	<div class="section" id="section3">
+		<div class="intro">
+			
+		</div>
+	</div>
+	<div class="section" id="section4">
+		<div class="intro">
+			
+		</div>
+	</div>
+</div>
+
+
+</body>
+</html>
