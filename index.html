@@ -115,47 +115,47 @@
 		
 		#page { width: 585px; margin: 30px auto; }
 
-		#thumbs { padding-top: 10px; overflow: hidden; }
+		/*#thumbs { padding-top: 10px; overflow: hidden; }*/
 		#thumbs img, #largeImage { border: 1px solid gray; padding: 4px; background-color: white; cursor: pointer; }
 		#thumbs img { float: left; margin-right: 6px; }
 		#description { background: black; color: white; position: absolute; bottom: 0; padding: 10px 20px; width: 525px; margin: 5px; }
 		#panel { position: relative; }
 
-		#hexagono { 
-		   width: 100px; 
-		   height: 55px; 
-		   background: #c0392b; 
-		   position: relative; } 
-		 
-		#hexagono:before { 
-		   width: 0; 
-		   height: 0; 
-		   content: ""; 
-		   position: absolute; 
-		   top: -25px; 
-		   left: 0; 
-		   border-left: 50px solid transparent; 
-		   border-right: 50px solid transparent; 
-		   border-bottom: 25px solid #c0392b;
-		} 
-		 
-		#hexagono:after { 
-		   width: 0; 
-		   height: 0; 
-		   content: ""; 
-		   position: absolute; 
-		   bottom: -25px; 
-		   left: 0; 
-		   border-left: 50px solid transparent; 
-		   border-right: 50px solid transparent; 
-		   border-top: 25px solid #c0392b;
+		#hexagono {
+			position: relative;
+			display: inline-block;
+			width: 205px;
+			height: 233px;
+			overflow: hidden;
+			color: #fff;
+			-webkit-mask-image: url('http://i40.tinypic.com/kajqg.jpg');
+			text-align: center;
+			
+		}
+		#hexagono .content{
+			height: 186px;
+			width: 186px;
+			margin: auto;
+			margin-top: 16px;
+			
 		}
 		/*h1, h2 { font-size: 30px; color: #333; text-shadow: 0px 2px 3px #c5c5c5; text-align: center;  }
 		h2 { font-size: 20px; line-height: 30px; }
 		h2 a { background-color: #F5FF4C; color: #333; text-decoration: none; padding: 5px;}
 		h2 a:hover { background-color: #d5dd42; }*/
-
-
+		/*.forma{
+		  display: inline-block;
+		  margin: 16px;
+		}
+		.hexagonoFila1{
+			top: -55px;
+		}
+		.hexagonoFila2{
+			top: 0px;
+		}
+		.hexagonoFila3{
+			top: 60px;
+		}*/
 	</style>
 
 </head>
@@ -211,21 +211,62 @@
 	<div class="section" id="section1">
 		<div class="intro">
 			<div id="gallery">
-				<div id="panel">
+				<!-- <div id="panel">
 					<img id="largeImage" src="images/image_01_large.jpg" />
 					<div id="description">1st image description</div>
-				</div>
+				</div> -->
 
 				<div id="thumbs">
-					<div id="hexagono"> 
-						<img style="left: -1069px;top: -128px;" src="img/servicios/1-Dise-CAD.jpg" alt="1st image description" />
+					<div id="hexagono" class="forma hexagonoFila1" > 
+						
 					</div>
+					<div id="hexagono" class="forma hexagonoFila1"> 
+						<!-- <img style="left: -1069px;top: -128px;" src="img/servicios/1-Dise-CAD-min.jpg" alt="1st image description" /> -->
+					</div>
+					<div id="hexagono" class="forma hexagonoFila1"> 
+						<!-- <img style="left: -1069px;top: -128px;" src="img/servicios/1-Dise-CAD-min.jpg" alt="1st image description" /> -->
+					</div>
+				
 			        
-			        <img src="images/image_02_thumb.jpg" alt="2nd image description" />
+			        <!-- <img src="images/image_02_thumb.jpg" alt="2nd image description" />
 			        <img src="images/image_03_thumb.jpg" alt="3rd image description" />
 			        <img src="images/image_04_thumb.jpg" alt="4th image description" />
-			        <img src="images/image_05_thumb.jpg" alt="5th image description" />
+			        <img src="images/image_05_thumb.jpg" alt="5th image description" /> -->
 				</div>
+				<div id="thumbs">
+					<div id="hexagono" class="forma hexagonoFila2"> 
+						<!-- <img style="left: -1069px;top: -128px;" src="img/servicios/1-Dise-CAD-min.jpg" alt="1st image description" /> -->
+					</div>
+					<div id="hexagono" class="forma hexagonoFila2"> 
+						<!-- <img style="left: -1069px;top: -128px;" src="img/servicios/1-Dise-CAD-min.jpg" alt="1st image description" /> -->
+					</div>
+				
+				
+			        
+			        <!-- <img src="images/image_02_thumb.jpg" alt="2nd image description" />
+			        <img src="images/image_03_thumb.jpg" alt="3rd image description" />
+			        <img src="images/image_04_thumb.jpg" alt="4th image description" />
+			        <img src="images/image_05_thumb.jpg" alt="5th image description" /> -->
+				</div>
+				<div id="thumbs">
+					<div id="hexagono" class="forma hexagonoFila3"> 
+						<!-- <img style="left: -1069px;top: -128px;" src="img/servicios/1-Dise-CAD-min.jpg" alt="1st image description" /> -->
+					</div>
+					<div id="hexagono" class="forma hexagonoFila3"> 
+						<!-- <img style="left: -1069px;top: -128px;" src="img/servicios/1-Dise-CAD-min.jpg" alt="1st image description" /> -->
+					</div>
+					<div id="hexagono" class="forma hexagonoFila3"> 
+						<!-- <img style="left: -1069px;top: -128px;" src="img/servicios/1-Dise-CAD-min.jpg" alt="1st image description" /> -->
+					</div>
+				
+				
+			        
+			        <!-- <img src="images/image_02_thumb.jpg" alt="2nd image description" />
+			        <img src="images/image_03_thumb.jpg" alt="3rd image description" />
+			        <img src="images/image_04_thumb.jpg" alt="4th image description" />
+			        <img src="images/image_05_thumb.jpg" alt="5th image description" /> -->
+				</div>
+
 			</div>
 		</div>
 	</div>
