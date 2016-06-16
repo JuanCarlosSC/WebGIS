@@ -27,7 +27,7 @@
 	<script type="text/javascript">
 		$(document).ready(function() {
 			$('#fullpage').fullpage({
-				sectionsColor: ['#1bbc9b', '#4BBFC3', '#7BAABE', 'whitesmoke', '#ccddff'],
+				sectionsColor: ['#1bbc9b', '#1C3D65', '#7BAABE', 'whitesmoke', '#ccddff'],
 				anchors: ['firstPage', 'secondPage', '3rdPage', '4thpage', '5page'],
 				menu: '#menu',
 				afterLoad: function(anchorLink, index){
@@ -77,6 +77,12 @@
 			left: -130%;
 			position:relative;
 		}
+		.intro{
+			background-image: url(img/servicios/baja-california-best-manufacturing-nearshore-location.jpg);
+		    background-size: cover;
+		    background-repeat: no-repeat !important;
+		    background-position: bottom center;
+		}
 		#menu{
 			background: rgba(0, 0, 0, 0.6);
 			height: 59px;
@@ -115,29 +121,111 @@
 		
 		#page { width: 585px; margin: 30px auto; }
 
-		/*#thumbs { padding-top: 10px; overflow: hidden; }*/
+		#thumbs { 
+			width: 53%;
+		    margin-left: auto;
+		    margin-right: auto; 
+		}
 		#thumbs img, #largeImage { border: 1px solid gray; padding: 4px; background-color: white; cursor: pointer; }
 		#thumbs img { float: left; margin-right: 6px; }
 		#description { background: black; color: white; position: absolute; bottom: 0; padding: 10px 20px; width: 525px; margin: 5px; }
 		#panel { position: relative; }
 
-		#hexagono {
-			position: relative;
-			display: inline-block;
-			width: 205px;
-			height: 233px;
-			overflow: hidden;
-			color: #fff;
-			-webkit-mask-image: url('http://i40.tinypic.com/kajqg.jpg');
-			text-align: center;
-			
+		.hexagon {
+		  position: relative;
+		  width: 300px; 
+		  height: 173.21px;
+		  margin: 51.6px 16px;
+		  background-size: auto 346.4102px;
+		  background-position: center;
+		  display: inline-block;
+    	border-left: solid 2px #ffffff;
+ 		 border-right: solid 2px #ffffff;
 		}
-		#hexagono .content{
-			height: 186px;
-			width: 186px;
-			margin: auto;
-			margin-top: 16px;
-			
+		.disenioCAT{
+			background-image: url(img/servicios/1-Dise-CAD-min.jpg);
+		}
+		.disenioMaquinados{
+			background-image: url(img/servicios/2-Maquinados.min.jpg);
+		}
+		.disenioProgramacionCAT{
+			background-image: url(img/servicios/3-ProgramacionCAM.min.jpg);
+		}
+		.disenioSoftware{
+			background-image: url(img/servicios/4-Software-min.jpg);
+		}
+		.disenioReparacion{
+			background-image: url(img/servicios/5-Reparacion.min.jpg);
+		}
+		.disenioDisElectrico{
+			background-image: url(img/servicios/6-DisElectrico-min.jpg);
+		}
+		.disenioPrototipos{
+			background-image: url(img/servicios/7-Prototipos-min.jpg);
+		}
+		.disenioIntegracion{
+			background-image: url(img/servicios/8-Integracion.min.jpg);
+		}
+
+		.hexTop,
+		.hexBottom {
+		  position: absolute;
+		  z-index: 1;
+		  width: 212.13px;
+		  height: 212.13px;
+		  overflow: hidden;
+		  -webkit-transform: scaleY(0.5774) rotate(-45deg);
+		  -ms-transform: scaleY(0.5774) rotate(-45deg);
+		  transform: scaleY(0.5774) rotate(-45deg);
+		  background: inherit;
+		  left: 43.93px;
+		}
+
+		/*counter transform the bg image on the caps*/
+		.hexTop:after,
+		.hexBottom:after {
+		  content: "";
+		  position: absolute;
+		  width: 300.0000px;
+		  height: 173.20508075688775px;
+		  -webkit-transform:  rotate(45deg) scaleY(1.7321) translateY(-86.6025px);
+		  -ms-transform:      rotate(45deg) scaleY(1.7321) translateY(-86.6025px);
+		  transform:          rotate(45deg) scaleY(1.7321) translateY(-86.6025px);
+		  -webkit-transform-origin: 0 0;
+		  -ms-transform-origin: 0 0;
+		  transform-origin: 0 0;
+		  background: inherit;
+		}
+
+		.hexTop {
+		  top: -106.0660px;
+		  border-top: solid 2.8284px #ffffff;
+  			border-right: solid 2.8284px #ffffff;
+		}
+
+		.hexTop:after {
+		  background-position: center top;
+		}
+
+		.hexBottom {
+		  bottom: -106.0660px;
+		    border-bottom: solid 2.8284px #ffffff;
+  border-left: solid 2.8284px #ffffff;
+		}
+
+		.hexBottom:after {
+		  background-position: center bottom;
+		}
+
+		.hexagon:after {
+		  content: "";
+		  position: absolute;
+		  top: 0.0000px;
+		  left: 0;
+		  width: 300.0000px;
+		  height: 173.2051px;
+		  z-index: 2;
+		  background: inherit;
 		}
 		/*h1, h2 { font-size: 30px; color: #333; text-shadow: 0px 2px 3px #c5c5c5; text-align: center;  }
 		h2 { font-size: 20px; line-height: 30px; }
@@ -149,13 +237,45 @@
 		}
 		.hexagonoFila1{
 			top: -55px;
-		}
+		}*/
 		.hexagonoFila2{
-			top: 0px;
+			width: 36%!important;
 		}
-		.hexagonoFila3{
+	/*	.hexagonoFila3{
 			top: 60px;
 		}*/
+		#gallery{
+			margin-top: 35px;
+		}
+		.etiquetaImagen{
+			position: absolute;
+		    z-index: 10000;
+		    color: white;
+		    font-weight: 700;
+		    font-size: xx-large;
+		    top: 137px;
+		    background: rgba(0, 0, 0, 0.7);
+		    width: 300px;
+		    text-align: center;
+		}
+		.etiquetaDisElectrico{
+			font-size: x-large!important;
+			    height: 37px;
+		}
+		.etiquetaProgramacionCAM{
+			font-size: x-large!important;
+			height: 37px;
+		}
+		#servicios{
+			position: absolute;
+		    right: 0px;
+		    font-size: 65px;
+		    color: white;
+		    width: 400px;
+		    text-align: center;
+		    background: #042a95;
+		    top: 59px;
+		}
 	</style>
 
 </head>
@@ -209,6 +329,7 @@
 		</div>
 	</div>
 	<div class="section" id="section1">
+		<h1 id="servicios">SERVICIOS</h1>
 		<div class="intro">
 			<div id="gallery">
 				<!-- <div id="panel">
@@ -217,14 +338,20 @@
 				</div> -->
 
 				<div id="thumbs">
-					<div id="hexagono" class="forma hexagonoFila1" > 
-						
+					<div class="hexagon disenioCAT">
+					  <div class="hexTop"></div>
+					  <div class="hexBottom"></div>
+					  <div class="etiquetaImagen">DISEÑO CAD</div>
 					</div>
-					<div id="hexagono" class="forma hexagonoFila1"> 
-						<!-- <img style="left: -1069px;top: -128px;" src="img/servicios/1-Dise-CAD-min.jpg" alt="1st image description" /> -->
+					<div class="hexagon disenioMaquinados">
+					  <div class="hexTop"></div>
+					  <div class="hexBottom"></div>
+					  <div class="etiquetaImagen">MAQUINADOS</div>
 					</div>
-					<div id="hexagono" class="forma hexagonoFila1"> 
-						<!-- <img style="left: -1069px;top: -128px;" src="img/servicios/1-Dise-CAD-min.jpg" alt="1st image description" /> -->
+					<div class="hexagon disenioProgramacionCAT">
+					  <div class="hexTop"></div>
+					  <div class="hexBottom"></div>
+					  <div class="etiquetaImagen etiquetaProgramacionCAM">PROGRAMACION CAM</div>
 					</div>
 				
 			        
@@ -233,12 +360,16 @@
 			        <img src="images/image_04_thumb.jpg" alt="4th image description" />
 			        <img src="images/image_05_thumb.jpg" alt="5th image description" /> -->
 				</div>
-				<div id="thumbs">
-					<div id="hexagono" class="forma hexagonoFila2"> 
-						<!-- <img style="left: -1069px;top: -128px;" src="img/servicios/1-Dise-CAD-min.jpg" alt="1st image description" /> -->
+				<div id="thumbs" class="hexagonoFila2">
+					<div class="hexagon disenioSoftware">
+					  <div class="hexTop"></div>
+					  <div class="hexBottom"></div>
+					   <div class="etiquetaImagen">SOFTWARE</div>
 					</div>
-					<div id="hexagono" class="forma hexagonoFila2"> 
-						<!-- <img style="left: -1069px;top: -128px;" src="img/servicios/1-Dise-CAD-min.jpg" alt="1st image description" /> -->
+					<div class="hexagon disenioReparacion">
+					  <div class="hexTop"></div>
+					  <div class="hexBottom"></div>
+					   <div class="etiquetaImagen">REPARACION</div>
 					</div>
 				
 				
@@ -249,16 +380,21 @@
 			        <img src="images/image_05_thumb.jpg" alt="5th image description" /> -->
 				</div>
 				<div id="thumbs">
-					<div id="hexagono" class="forma hexagonoFila3"> 
-						<!-- <img style="left: -1069px;top: -128px;" src="img/servicios/1-Dise-CAD-min.jpg" alt="1st image description" /> -->
+					<div class="hexagon disenioDisElectrico">
+					  <div class="hexTop"></div>
+					  <div class="hexBottom"></div>
+					  <div class="etiquetaImagen etiquetaDisElectrico">DISEÑO ELECTRICO</div>
 					</div>
-					<div id="hexagono" class="forma hexagonoFila3"> 
-						<!-- <img style="left: -1069px;top: -128px;" src="img/servicios/1-Dise-CAD-min.jpg" alt="1st image description" /> -->
+					<div class="hexagon disenioPrototipos">
+					  <div class="hexTop"></div>
+					  <div class="hexBottom"></div>
+					  <div class="etiquetaImagen">PROTOTIPOS</div>
 					</div>
-					<div id="hexagono" class="forma hexagonoFila3"> 
-						<!-- <img style="left: -1069px;top: -128px;" src="img/servicios/1-Dise-CAD-min.jpg" alt="1st image description" /> -->
+					<div class="hexagon disenioIntegracion">
+					  <div class="hexTop"></div>
+					  <div class="hexBottom"></div>
+					  <div class="etiquetaImagen">INTEGRACION</div>
 					</div>
-				
 				
 			        
 			        <!-- <img src="images/image_02_thumb.jpg" alt="2nd image description" />
