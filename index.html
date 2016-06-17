@@ -9,7 +9,7 @@
 	<meta name="keywords"  content="fullpage,jquery,demo,callbac,function,event" />
 	<meta name="Resource-type" content="Document" />
 
-
+	<link rel="stylesheet" type="text/css" href="css/bootstrap.min.css" />
 	<link rel="stylesheet" type="text/css" href="css/jquery.fullPage.css" />
 	<link rel="stylesheet" type="text/css" href="css/examples.css" />
 
@@ -21,13 +21,14 @@
 
 	<script src="js/jquery-1.10.2.min.js"></script>
 	<script src="http://ajax.googleapis.com/ajax/libs/jqueryui/1.9.1/jquery-ui.min.js"></script>
-
+	
+	<script src="js/bootstrap.min.js"></script>
 	<script type="text/javascript" src="js/jquery.fullPage.js"></script>
 	<script type="text/javascript" src="js/examples.js"></script>
 	<script type="text/javascript">
 		$(document).ready(function() {
 			$('#fullpage').fullpage({
-				sectionsColor: ['#1bbc9b', '#1C3D65', '#7BAABE', 'whitesmoke', '#ccddff'],
+				sectionsColor: ['#1bbc9b', '#1C3D65', '#fff', 'whitesmoke', '#ccddff'],
 				anchors: ['firstPage', 'secondPage', '3rdPage', '4thpage', '5page'],
 				menu: '#menu',
 				afterLoad: function(anchorLink, index){
@@ -46,12 +47,12 @@
 					}
 
 					//section 3
-					if(anchorLink == '3rdPage'){
-						//moving the image
-						$('#section2').find('.intro').delay(500).animate({
-							left: '0%'
-						}, 1500, 'easeOutExpo');
-					}
+					// if(anchorLink == '3rdPage'){
+					// 	//moving the image
+					// 	$('#section2').find('.intro').delay(500).animate({
+					// 		left: '0%'
+					// 	}, 1500, 'easeOutExpo');
+					// }
 				}
 			});
 
@@ -73,10 +74,10 @@
 		#section1 p{
 			display:none;
 		}*/
-		#section2 .intro{
+	/*	#section2 .intro{
 			left: -130%;
 			position:relative;
-		}
+		}*/
 		.intro{
 			background-image: url(img/servicios/baja-california-best-manufacturing-nearshore-location.jpg);
 		    background-size: cover;
@@ -138,9 +139,9 @@
 		  margin: 51.6px 16px;
 		  background-size: auto 346.4102px;
 		  background-position: center;
-		  display: inline-block;
-    	border-left: solid 2px #ffffff;
- 		 border-right: solid 2px #ffffff;
+		  		display: inline-block;
+    	/*border-left: solid 2px #ffffff;
+ 		 border-right: solid 2px #ffffff;*/
 		}
 		.disenioCAT{
 			background-image: url(img/servicios/1-Dise-CAD-min.jpg);
@@ -199,8 +200,8 @@
 
 		.hexTop {
 		  top: -106.0660px;
-		  border-top: solid 2.8284px #ffffff;
-  			border-right: solid 2.8284px #ffffff;
+		/*  border-top: solid 2.8284px #ffffff;
+  			border-right: solid 2.8284px #ffffff;*/
 		}
 
 		.hexTop:after {
@@ -209,8 +210,8 @@
 
 		.hexBottom {
 		  bottom: -106.0660px;
-		    border-bottom: solid 2.8284px #ffffff;
-  border-left: solid 2.8284px #ffffff;
+/*		    border-bottom: solid 2.8284px #ffffff;
+  border-left: solid 2.8284px #ffffff;*/
 		}
 
 		.hexBottom:after {
@@ -253,7 +254,7 @@
 		    color: white;
 		    font-weight: 700;
 		    font-size: xx-large;
-		    top: 137px;
+		    top:129px;
 		    background: rgba(0, 0, 0, 0.7);
 		    width: 300px;
 		    text-align: center;
@@ -273,8 +274,40 @@
 		    color: white;
 		    width: 400px;
 		    text-align: center;
-		    background: #042a95;
-		    top: 59px;
+		    
+		    top: 86px;
+		}
+		.modal-body{
+			padding: 0px;
+		}
+		.tituloModalImagenServicios{
+			font-size: x-large;
+		    padding-top: 36px;
+		    padding-left: 36px;
+		    color: grey;
+		}
+		.divicionModalImagenServicios{
+			margin-left: 36px;
+		    margin-top: 4px;
+		    margin-right: 36px;
+		    margin-bottom: 16px;
+		}
+		.parrafoModalImagenServicios{
+			font-size: 18px;
+		    padding: 36px;
+		    padding-top: 0;
+		}
+		.modal-dialog{
+			width:850px;
+		}
+		.mpv{
+			    font-size: -webkit-xxx-large;
+		    text-align: center;
+		    height: 104px;
+		        background: rgb(0, 0, 148);
+		}
+		.parrafoMPV{
+		
 		}
 	</style>
 
@@ -330,6 +363,9 @@
 	</div>
 	<div class="section" id="section1">
 		<h1 id="servicios">SERVICIOS</h1>
+
+
+	
 		<div class="intro">
 			<div id="gallery">
 				<!-- <div id="panel">
@@ -338,17 +374,17 @@
 				</div> -->
 
 				<div id="thumbs">
-					<div class="hexagon disenioCAT">
+					<div class="hexagon disenioCAT" data-toggle="modal" data-target="#modalDisenioCAD">
 					  <div class="hexTop"></div>
 					  <div class="hexBottom"></div>
 					  <div class="etiquetaImagen">DISEÑO CAD</div>
 					</div>
-					<div class="hexagon disenioMaquinados">
+					<div class="hexagon disenioMaquinados" data-toggle="modal" data-target="#modalMaquinados">
 					  <div class="hexTop"></div>
 					  <div class="hexBottom"></div>
 					  <div class="etiquetaImagen">MAQUINADOS</div>
 					</div>
-					<div class="hexagon disenioProgramacionCAT">
+					<div class="hexagon disenioProgramacionCAT" data-toggle="modal" data-target="#modalPogramacionCAM">
 					  <div class="hexTop"></div>
 					  <div class="hexBottom"></div>
 					  <div class="etiquetaImagen etiquetaProgramacionCAM">PROGRAMACION CAM</div>
@@ -361,12 +397,12 @@
 			        <img src="images/image_05_thumb.jpg" alt="5th image description" /> -->
 				</div>
 				<div id="thumbs" class="hexagonoFila2">
-					<div class="hexagon disenioSoftware">
+					<div class="hexagon disenioSoftware" data-toggle="modal" data-target="#modalSoftware">
 					  <div class="hexTop"></div>
 					  <div class="hexBottom"></div>
 					   <div class="etiquetaImagen">SOFTWARE</div>
 					</div>
-					<div class="hexagon disenioReparacion">
+					<div class="hexagon disenioReparacion" data-toggle="modal" data-target="#modalReparacion">
 					  <div class="hexTop"></div>
 					  <div class="hexBottom"></div>
 					   <div class="etiquetaImagen">REPARACION</div>
@@ -380,17 +416,17 @@
 			        <img src="images/image_05_thumb.jpg" alt="5th image description" /> -->
 				</div>
 				<div id="thumbs">
-					<div class="hexagon disenioDisElectrico">
+					<div class="hexagon disenioDisElectrico" data-toggle="modal" data-target="#modalDisenioElectrico">
 					  <div class="hexTop"></div>
 					  <div class="hexBottom"></div>
 					  <div class="etiquetaImagen etiquetaDisElectrico">DISEÑO ELECTRICO</div>
 					</div>
-					<div class="hexagon disenioPrototipos">
+					<div class="hexagon disenioPrototipos" data-toggle="modal" data-target="#modalPrototipos">
 					  <div class="hexTop"></div>
 					  <div class="hexBottom"></div>
 					  <div class="etiquetaImagen">PROTOTIPOS</div>
 					</div>
-					<div class="hexagon disenioIntegracion">
+					<div class="hexagon disenioIntegracion" data-toggle="modal" data-target="#modalIntegracion">
 					  <div class="hexTop"></div>
 					  <div class="hexBottom"></div>
 					  <div class="etiquetaImagen">INTEGRACION</div>
@@ -407,13 +443,45 @@
 		</div>
 	</div>
 	<div class="section" id="section2">
-		<div class="intro">
-			
+		<h1 id="servicios" style="background: rgb(0, 0, 202);margin-top: -27px;z-index: 100;">ACERCA DE</h1>
+		<div class="intros">
+			<div class="row">
+				<div class="col-lg-12" style="text-align: center;">	
+					<img src="img/acerca_de.jpg" style="width: 64%;">
+				</div>
+			</div>
+			<div class="row">
+				<div class="col-lg-2">
+					<img src="img/logo_web14.png" style="margin-top: 359px; width: 252px; margin-left: 18px;">
+				</div>
+				<div class="col-lg-2">
+					<h1 class="mpv" style=" color: white;">MISIÓN</h1>
+					<p class="parrafoMPV" style="font-size: 24px;">
+						Proveer nuestros productos y servicios con la más alta calidad, basados en los requerimientos del cliente, mejora continua de nuestros métodos y procesos para llevar a nuestros clientes a cumplir con sus metas
+					</p>
+				</div>
+				<div class="col-lg-3" >
+					<h1 class="mpv"  style="color: white;">POLITICA DE CALIDAD</h1>
+					<p style="font-size: 24px;">
+						En Global Integral Services buscamos constantemente la mejora continua y satisfacción total de nuestros clientes, utilizando el personal capacitado, la materia prima de más alta calidad, los métodos correctos y el arte de la tecnología en un marco productivo donde se respete el medio ambiente, seguridad y salud de nuestros empleados, siguiendo las normas en el sistema de calidad ISO 9001-2008
+					</p style="font-size: 24px;">
+				</div>
+				<div class="col-lg-3">
+					<h1 class="mpv"  style="color: white;">VISIÓN</h1>
+					<p class="parrafoMPV">
+						Posicionar y mantener nuestra empresa como líderes en el diseño e innovación, fabricacíon y ensamble de productos, participando en el mercado internacional siempre apregado estrictamente a las normas de calidad, ambientales y de seguridad.
+					</p>
+				</div>
+
+			</div>
 		</div>
 	</div>
 	<div class="section" id="section3">
-		<div class="intro">
-			
+		<h1 id="servicios" style="background: rgb(0, 0, 202);margin-top: -27px;z-index: 100;">PROYECTOS</h1>
+		<div class="intros">
+			<div class="row" style="text-align: center;">
+				<img src="img/LOGO.png" >
+			</div>
 		</div>
 	</div>
 	<div class="section" id="section4">
@@ -423,6 +491,190 @@
 	</div>
 </div>
 
+	<!-- Modal -->
+		<div class="modal fade bs-example-modal-lg" id="modalDisenioCAD" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+		  <div class="modal-dialog  modal-lg" role="document">
+		    <div class="modal-content">
+		   
+		      <div class="modal-body">
+		       	<img src="img/servicios/1-Dise-CAD.jpg" alt="2nd image description" width="100%"/>
+		       	<div>
+		       		<h1 class="tituloModalImagenServicios">DISEÑO CAD</h1>
+		       		<hr class="divicionModalImagenServicios">
+		       		<p class="parrafoModalImagenServicios">“Servicio de diseño de soluciones en
+sistema CAD, así mismo, simulación de mecanismos, estudio de propiedades de materiales,
+funcionalidad de componentes, estudios CAE, Ingeniería Inversa, etc.”</p>
+
+		       	</div>
+		       	
+		      </div>
+		    </div>
+		  </div>
+		</div>
+
+			<!-- Modal -->
+		<div class="modal fade bs-example-modal-lg" id="modalMaquinados" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+		  <div class="modal-dialog  modal-lg" role="document">
+		    <div class="modal-content">
+		   
+		      <div class="modal-body">
+		       	<img src="img/servicios/2 - Maquinados.jpg" alt="2nd image description" width="100%"/>
+		       	<div>
+		       		<h1 class="tituloModalImagenServicios">MAQUINADOS</h1>
+		       		<hr class="divicionModalImagenServicios">
+		       		<p class="parrafoModalImagenServicios">“Fabricación de partes en Fresadora
+
+CNC, Torno CNC, Fresadora Convencional, Torno Convencional, Rectificadora, Dobladora Hidráulica,
+
+etc.”</p>
+
+		       	</div>
+		       	
+		      </div>
+		    </div>
+		  </div>
+		</div>
+
+			<!-- Modal -->
+		<div class="modal fade bs-example-modal-lg" id="modalPogramacionCAM" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+		  <div class="modal-dialog  modal-lg" role="document">
+		    <div class="modal-content">
+		   
+		      <div class="modal-body">
+		       	<img src="img/servicios/3-ProgramacionCAM.min.jpg" alt="2nd image description" width="100%" style="height: 730px;"/>
+		       	<div>
+		       		<h1 class="tituloModalImagenServicios">PROGRAMACION CAM</h1>
+		       		<hr class="divicionModalImagenServicios">
+		       		<p class="parrafoModalImagenServicios">“Creación de todo tipo
+
+de programación bajo la plataforma de MasterCAM”</p>
+
+		       	</div>
+		       	
+		      </div>
+		    </div>
+		  </div>
+		</div>
+
+
+				<!-- Modal -->
+		<div class="modal fade bs-example-modal-lg" id="modalSoftware" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+		  <div class="modal-dialog  modal-lg" role="document">
+		    <div class="modal-content">
+		   
+		      <div class="modal-body">
+		       	<img src="img/servicios/4 - Software.jpg" alt="2nd image description" width="100%"/>
+		       	<div>
+		       		<h1 class="tituloModalImagenServicios">SOFTWARE</h1>
+		       		<hr class="divicionModalImagenServicios">
+		       		<p class="parrafoModalImagenServicios">“Servicio de diseño y desarrollo de
+
+software para automatizar estaciones de prueba funcional, prueba eléctrica, manejo y proceso de
+
+tableros electrónicos, utilizando plataforma en base PC o PLC. Contamos con amplia experiencia en
+
+automatización de sistemas de inspección.”</p>
+
+		       	</div>
+		       	
+		      </div>
+		    </div>
+		  </div>
+		</div>
+
+
+
+					<!-- Modal -->
+		<div class="modal fade bs-example-modal-lg" id="modalReparacion" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+		  <div class="modal-dialog  modal-lg" role="document">
+		    <div class="modal-content">
+		   
+		      <div class="modal-body">
+		       	<img src="img/servicios/5 - Reparacion.jpg" alt="2nd image description" width="100%"/>
+		       	<div>
+		       		<h1 class="tituloModalImagenServicios">REPARACIÓN</h1>
+		       		<hr class="divicionModalImagenServicios">
+		       		<p class="parrafoModalImagenServicios">“Servicio de reparación y/o
+
+reconstrucción de estaciones de prueba o estaciones de procesos automatizados”</p>
+
+		       	</div>
+		       	
+		      </div>
+		    </div>
+		  </div>
+		</div>
+
+
+
+
+					<!-- Modal -->
+		<div class="modal fade bs-example-modal-lg" id="modalDisenioElectrico" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+		  <div class="modal-dialog  modal-lg" role="document">
+		    <div class="modal-content">
+		   
+		      <div class="modal-body">
+		       	<img src="img/servicios/6 - Diseño Electrico.jpg" alt="2nd image description" width="100%"/>
+		       	<div>
+		       		<h1 class="tituloModalImagenServicios">DISEÑO ELECTRICO</h1>
+		       		<hr class="divicionModalImagenServicios">
+		       		<p class="parrafoModalImagenServicios">“Servicio de
+
+diseño y fabricación de prototipos como sistemas embebidos, tarjetas de interfaz de
+
+comunicación”</p>
+
+		       	</div>
+		       	
+		      </div>
+		    </div>
+		  </div>
+		</div>
+
+
+
+					<!-- Modal -->
+		<div class="modal fade bs-example-modal-lg" id="modalPrototipos" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+		  <div class="modal-dialog  modal-lg" role="document">
+		    <div class="modal-content">
+		   
+		      <div class="modal-body">
+		       	<img src="img/servicios/7 - Prototipos.jpg" alt="2nd image description" width="100%"/>
+		       	<div>
+		       		<h1 class="tituloModalImagenServicios">PROTOTIPOS</h1>
+		       		<hr class="divicionModalImagenServicios">
+		       		<p class="parrafoModalImagenServicios">“Desarrollo y creación de prototipos
+
+en fase de diseño y producto finalizado.”</p>
+
+		       	</div>
+		       	
+		      </div>
+		    </div>
+		  </div>
+		</div>
+
+
+					<!-- Modal -->
+		<div class="modal fade bs-example-modal-lg" id="modalIntegracion" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+		  <div class="modal-dialog  modal-lg" role="document">
+		    <div class="modal-content">
+		   
+		      <div class="modal-body">
+		       	<img src="img/servicios/8 - Integracion.jpg" alt="2nd image description" width="100%"/>
+		       	<div>
+		       		<h1 class="tituloModalImagenServicios">INTEGRACIÓN</h1>
+		       		<hr class="divicionModalImagenServicios">
+		       		<p class="parrafoModalImagenServicios">“Integración e instalación de todo
+
+tipo de equipos bajo los más altos estándares de calidad.”</p>
+
+		       	</div>
+		       	
+		      </div>
+		    </div>
+		  </div>
+		</div>
 
 </body>
 </html>
