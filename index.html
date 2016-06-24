@@ -28,8 +28,8 @@
 	<script type="text/javascript">
 		$(document).ready(function() {
 			$('#fullpage').fullpage({
-				sectionsColor: ['#1bbc9b', '#1C3D65', '#fff', '#fff', '#fff'],
-				anchors: ['firstPage', 'secondPage', '3rdPage', '4thpage', '5page'],
+				sectionsColor: ['#1bbc9b', '#1C3D65', '#fff', '#fff', '#fff', '#fff'],
+				anchors: ['firstPage', 'secondPage', '3rdPage', '4thpage', '5page', '6page'],
 				menu: '#menu',
 				afterLoad: function(anchorLink, index){
 
@@ -66,6 +66,9 @@
 	<style>
 		#section0{
 			background-image: url(1.jpg);
+		}
+		#section5{
+			background-image: url(img/contacto/contactoBackground.jpg);
 		}
 	/*	#section1 img{
 			left: 130%;
@@ -516,11 +519,37 @@
 		</div>
 	</div>
 	<div class="section" id="section4">
-		<div class="intro">
+		<h1 id="servicios" style="background: rgb(0, 0, 202);margin-top: -27px;z-index: 100;">CLIENTES</h1>
+		<div class="intros">
+			<img src="img/clientes/clientes-business.png" style="width: 100%;">
+
+			<img src="img/clientes/clientes.png">
+		
 			
 		</div>
 	</div>
-</div>
+	<div class="section " id="section5">
+			<div>
+
+			  <!-- Nav tabs -->
+			  <ul class="nav nav-tabs" role="tablist">
+			    <li role="presentation" class="active"><a href="#home" aria-controls="home" role="tab" data-toggle="tab">Home</a></li>
+			    <li role="presentation"><a href="#profile" aria-controls="profile" role="tab" data-toggle="tab">Profile</a></li>
+			    <li role="presentation"><a href="#messages" aria-controls="messages" role="tab" data-toggle="tab">Messages</a></li>
+			    <li role="presentation"><a href="#settings" aria-controls="settings" role="tab" data-toggle="tab">Settings</a></li>
+			  </ul>
+
+			  <!-- Tab panes -->
+			  <div class="tab-content">
+			    <div role="tabpanel" class="tab-pane active" id="home">...</div>
+			    <div role="tabpanel" class="tab-pane" id="profile">...</div>
+			    <div role="tabpanel" class="tab-pane" id="messages">...</div>
+			    <div role="tabpanel" class="tab-pane" id="settings">...</div>
+			  </div>
+
+			</div>
+		</div>
+	</div>
 
 	<!-- Modal -->
 		<div class="modal fade bs-example-modal-lg" id="modalDisenioCAD" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
