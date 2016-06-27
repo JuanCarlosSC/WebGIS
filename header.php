@@ -86,10 +86,10 @@
 
 	<style>
 		#section0{
-			background-image: url(1.jpg);
+			background-image: url("gis/wp-content/themes/WebGIS/1.jpg");
 		}
 		#section5{
-			background-image: url(img/contacto/contactoBackground.jpg);
+			background-image: url("gis/wp-content/themes/WebGIS/img/contacto/contactoBackground.jpg");
 		}
 	/*	#section1 img{
 			left: 130%;
@@ -103,7 +103,7 @@
 			position:relative;
 		}*/
 		.intro{
-			background-image: url(img/servicios/baja-california-best-manufacturing-nearshore-location.jpg);
+			background-image: url(gis/wp-content/themes/WebGIS/img/servicios/baja-california-best-manufacturing-nearshore-location.jpg);
 		    background-size: cover;
 		    background-repeat: no-repeat !important;
 		    background-position: bottom center;
@@ -168,28 +168,28 @@
  		 border-right: solid 2px #ffffff;*/
 		}
 		.disenioCAT{
-			background-image: url(img/servicios/1-Dise-CAD-min.jpg);
+			background-image: url(gis/wp-content/themes/WebGIS/img/servicios/1-Dise-CAD-min.jpg);
 		}
 		.disenioMaquinados{
-			background-image: url(img/servicios/2-Maquinados.min.jpg);
+			background-image: url(gis/wp-content/themes/WebGIS/img/servicios/2-Maquinados.min.jpg);
 		}
 		.disenioProgramacionCAT{
-			background-image: url(img/servicios/3-ProgramacionCAM.min.jpg);
+			background-image: url(gis/wp-content/themes/WebGIS/img/servicios/3-ProgramacionCAM.min.jpg);
 		}
 		.disenioSoftware{
-			background-image: url(img/servicios/4-Software-min.jpg);
+			background-image: url(gis/wp-content/themes/WebGIS/img/servicios/4-Software-min.jpg);
 		}
 		.disenioReparacion{
-			background-image: url(img/servicios/5-Reparacion.min.jpg);
+			background-image: url(gis/wp-content/themes/WebGIS/img/servicios/5-Reparacion.min.jpg);
 		}
 		.disenioDisElectrico{
-			background-image: url(img/servicios/6-DisElectrico-min.jpg);
+			background-image: url(gis/wp-content/themes/WebGIS/img/servicios/6-DisElectrico-min.jpg);
 		}
 		.disenioPrototipos{
-			background-image: url(img/servicios/7-Prototipos-min.jpg);
+			background-image: url(gis/wp-content/themes/WebGIS/img/servicios/7-Prototipos-min.jpg);
 		}
 		.disenioIntegracion{
-			background-image: url(img/servicios/8-Integracion.min.jpg);
+			background-image: url(gis/wp-content/themes/WebGIS/img/servicios/8-Integracion.min.jpg);
 		}
 
 		.hexTop,
