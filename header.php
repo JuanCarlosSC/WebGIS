@@ -31,31 +31,16 @@
 	<script type="text/javascript">
 		$(document).ready(function() {
 			$('#fullpage').fullpage({
-				sectionsColor: ['#1bbc9b', '#1C3D65', '#fff', '#fff', '#fff', '#fff'],
+				sectionsColor: ['#1bbc9b', '#fff', '#fff', '#fff', '#fff', '#fff'],
 				anchors: ['firstPage', 'secondPage', '3rdPage', '4thpage', '5page', '6page'],
 				menu: '#menu',
 				afterLoad: function(anchorLink, index){
 
 					//section 2
 					if(index == 2){
-						//moving the image
-						// $('#section1').find('img').delay(500).animate({
-						// 	left: '0%'
-						// }, 1500, 'easeOutExpo');
-
-						// $('#section1').find('p').first().fadeIn(1800, function(){
-						// 	$('#section1').find('p').last().fadeIn(1800);
-						// });;
 
 					}
 
-					//section 3
-					// if(anchorLink == '3rdPage'){
-					// 	//moving the image
-					// 	$('#section2').find('.intro').delay(500).animate({
-					// 		left: '0%'
-					// 	}, 1500, 'easeOutExpo');
-					// }
 				}
 			});
 
@@ -91,23 +76,7 @@
 		#section5{
 			background-image: url("gis/wp-content/themes/WebGIS/img/contacto/contactoBackground.jpg");
 		}
-	/*	#section1 img{
-			left: 130%;
-			position:relative;
-		}
-		#section1 p{
-			display:none;
-		}*/
-	/*	#section2 .intro{
-			left: -130%;
-			position:relative;
-		}*/
-		.intro{
-			background-image: url(gis/wp-content/themes/WebGIS/img/servicios/baja-california-best-manufacturing-nearshore-location.jpg);
-		    background-size: cover;
-		    background-repeat: no-repeat !important;
-		    background-position: bottom center;
-		}
+	
 		#menu{
 			background: rgba(0, 0, 0, 0.6);
 			height: 59px;
@@ -117,12 +86,12 @@
 		}
 		#slogan{
 			color: white;
-		    margin-left: 723px;
+		    margin-left: 540px;
 		    font-size: 35px;
 		    font-style: italic;
 		}
 		#contenedorSlogan{
-			width: 1442px;
+			width: 1260px;
 		    margin-left: auto;
 		    margin-right: auto;
 		    background: rgba(0, 0, 0, 0.6);
@@ -136,6 +105,7 @@
 		    margin-left: auto;
 		    margin-right: auto;
 		    border: 4px solid #d47630;
+		    text-align: center;
 		}
 
 
@@ -163,7 +133,8 @@
 		  margin: 51.6px 16px;
 		  background-size: auto 346.4102px;
 		  background-position: center;
-		  		display: inline-block;
+			display: inline-block;
+			cursor: pointer;
     	/*border-left: solid 2px #ffffff;
  		 border-right: solid 2px #ffffff;*/
 		}
@@ -252,23 +223,11 @@
 		  z-index: 2;
 		  background: inherit;
 		}
-		/*h1, h2 { font-size: 30px; color: #333; text-shadow: 0px 2px 3px #c5c5c5; text-align: center;  }
-		h2 { font-size: 20px; line-height: 30px; }
-		h2 a { background-color: #F5FF4C; color: #333; text-decoration: none; padding: 5px;}
-		h2 a:hover { background-color: #d5dd42; }*/
-		/*.forma{
-		  display: inline-block;
-		  margin: 16px;
-		}
-		.hexagonoFila1{
-			top: -55px;
-		}*/
+
 		.hexagonoFila2{
 			width: 36%!important;
 		}
-	/*	.hexagonoFila3{
-			top: 60px;
-		}*/
+
 		#gallery{
 			margin-top: 35px;
 		}

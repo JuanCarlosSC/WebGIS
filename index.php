@@ -2,32 +2,6 @@
 <body>
 
 
-<select id="demosMenu">
-  <option selected>Choose Demo</option>
-  <option id="backgrounds">Background images</option>
-  <option id="backgroundVideo">Background video</option>
-  <option id="gradientBackgrounds">Gradient backgrounds</option>
-  <option id="backgroundsFixed">Fixed fullscreen backgrounds</option>
-  <option id="looping">Looping</option>
-  <option id="noAnchor">No anchor links</option>
-  <option id="scrollingSpeed">Scrolling speed</option>
-  <option id="easing">Easing</option>
-  <option id="callbacks">Callbacks</option>
-  <option id="css3">CSS3</option>
-  <option id="continuous">Continuous scrolling</option>
-  <option id="normalScroll">Normal scrolling</option>
-  <option id="scrollBar">Scroll bar enabled</option>
-  <option id="scrolling">Scroll inside sections and slides</option>
-  <option id="navigationV">Vertical navigation dots</option>
-  <option id="navigationH">Horizontal navigation dots</option>
-  <option id="fixedHeaders">Fixed headers</option>
-  <option id="apple">Apple iPhone demo (animations)</option>
-  <option id="oneSection">One single section</option>
-  <option id="responsiveHeight">Responsive Height</option>
-  <option id="responsiveWidth">Responsive Width</option>
-  <option id="methods">Methods</option>
-</select>
-
 
 <ul id="menu">
 	<li data-menuanchor="firstPage"><a href="#firstPage">ING/ESP</a></li>
@@ -45,20 +19,14 @@
 			<p id="slogan">"Haciendo que el mundo siga evolucionando"</p>
 		</div>
 		<div id="contenedorInformacion">
-			<h3>MAS INFORMACION</h3>
+			<h3>MÁS INFORMACIÓN</h3>
 		</div>
 	</div>
 	<div class="section" id="section1">
-		<h1 id="servicios">SERVICIOS</h1>
+		<h1 id="servicios" style="background: rgb(0, 0, 148);margin-top: -27px;z-index: 100;">SERVICIOS</h1>
 
-
-	
 		<div class="intro">
 			<div id="gallery">
-				<!-- <div id="panel">
-					<img id="largeImage" src="images/image_01_large.jpg" />
-					<div id="description">1st image description</div>
-				</div> -->
 
 				<div id="thumbs">
 					<div class="hexagon disenioCAT" data-toggle="modal" data-target="#modalDisenioCAD">
@@ -77,11 +45,6 @@
 					  <div class="etiquetaImagen etiquetaProgramacionCAM">PROGRAMACION CAM</div>
 					</div>
 				
-			        
-			        <!-- <img src="images/image_02_thumb.jpg" alt="2nd image description" />
-			        <img src="images/image_03_thumb.jpg" alt="3rd image description" />
-			        <img src="images/image_04_thumb.jpg" alt="4th image description" />
-			        <img src="images/image_05_thumb.jpg" alt="5th image description" /> -->
 				</div>
 				<div id="thumbs" class="hexagonoFila2">
 					<div class="hexagon disenioSoftware" data-toggle="modal" data-target="#modalSoftware">
@@ -95,12 +58,6 @@
 					   <div class="etiquetaImagen">REPARACION</div>
 					</div>
 				
-				
-			        
-			        <!-- <img src="images/image_02_thumb.jpg" alt="2nd image description" />
-			        <img src="images/image_03_thumb.jpg" alt="3rd image description" />
-			        <img src="images/image_04_thumb.jpg" alt="4th image description" />
-			        <img src="images/image_05_thumb.jpg" alt="5th image description" /> -->
 				</div>
 				<div id="thumbs">
 					<div class="hexagon disenioDisElectrico" data-toggle="modal" data-target="#modalDisenioElectrico">
@@ -119,18 +76,12 @@
 					  <div class="etiquetaImagen">INTEGRACION</div>
 					</div>
 				
-			        
-			        <!-- <img src="images/image_02_thumb.jpg" alt="2nd image description" />
-			        <img src="images/image_03_thumb.jpg" alt="3rd image description" />
-			        <img src="images/image_04_thumb.jpg" alt="4th image description" />
-			        <img src="images/image_05_thumb.jpg" alt="5th image description" /> -->
 				</div>
-
 			</div>
 		</div>
 	</div>
 	<div class="section" id="section2">
-		<h1 id="servicios" style="background: rgb(0, 0, 202);margin-top: -27px;z-index: 100;">ACERCA DE</h1>
+		<h1 id="servicios" style="background: rgb(0, 0, 148);margin-top: -27px;z-index: 100;">ACERCA DE</h1>
 		<div class="intros">
 			<div class="row">
 				<div class="col-lg-12" style="text-align: center;">	
@@ -164,7 +115,7 @@
 		</div>
 	</div>
 	<div class="section" id="section3">
-		<h1 id="servicios" style="background: rgb(0, 0, 202);margin-top: -27px;z-index: 100;">PROYECTOS</h1>
+		<h1 id="servicios" style="background: rgb(0, 0, 148);margin-top: -27px;z-index: 100;">PROYECTOS</h1>
 		<div class="intros">
 			<div class="row" style="text-align: center;">
 				<img src="<?php echo bloginfo('template_url'); ?>/img/LOGO.png" style="width: 30%;" >
@@ -182,7 +133,7 @@
 				  		<img style="position: relative;top: -709px;left: -39px;width: 1000px;" src="<?php echo bloginfo('template_url'); ?>/img/proyectos/20160525_151131 2.jpg">
 				  	</div>
 				  	<div data-toggle="modal" data-target="#proyecto5" style="width: 610px;height: 400px;overflow: hidden;margin: 13px;border: 3px solid black;">
-				  		<img style="position: relative;top: 0;left: 0;width: 701px;" src="<?php echo bloginfo('template_url'); ?>/img/proyectos/2.jpg">
+				  		<img style="position: relative;top: 0;left: 0;width: 701px;" src="<?php echo bloginfo('template_url'); ?>/img/proyectos/2.JPG">
 				  	</div>
 				  	<div data-toggle="modal" data-target="#proyecto6" style="width: 610px;height: 400px;overflow: hidden;margin: 13px;border: 3px solid black;">
 				  		<img style="position: relative;width: 702px;" src="<?php echo bloginfo('template_url'); ?>/img/proyectos/4.JPG">
@@ -190,20 +141,10 @@
 				</div>
 				
 			</div>
-<!-- 			<div class="row" style="text-align: center;">
-				<div class="center">
-				  <div><h3>1</h3></div>
-				  <div><h3>2</h3></div>
-				  <div><h3>3</h3></div>
-				  <div><h3>4</h3></div>
-				  <div><h3>5</h3></div>
-				  <div><h3>6</h3></div>
-				</div>
-			</div> -->
 		</div>
 	</div>
 	<div class="section" id="section4">
-		<h1 id="servicios" style="background: rgb(0, 0, 202);margin-top: -27px;z-index: 100;">CLIENTES</h1>
+		<h1 id="servicios" style="background: rgb(0, 0, 148);margin-top: -27px;z-index: 100;">CLIENTES</h1>
 		<div class="intros">
 			<img src="<?php echo bloginfo('template_url'); ?>/img/clientes/clientes-business.png" style="width: 100%;">
 
@@ -276,39 +217,42 @@
 			    </div>
 			    <div role="tabpanel" class="tab-pane" id="redesSociales">...</div>
 			    <div role="tabpanel" class="tab-pane" id="formulario">
-			    	<form>
-			    		<h1 class="titulosContact">MAIL</h1>
-					  <div class="form-group">
-					    <label for="exampleInputEmail1">Nombre:</label>
-					    <input type="text" class="form-control" id="exampleInputEmail1" placeholder="Email">
-					  </div>
-					  <div class="form-group">
-					    <label for="exampleInputPassword1">Compañía:</label>
-					    <input type="text" class="form-control" id="exampleInputPassword1" placeholder="Password">
-					  </div>
-					  <div class="form-group">
-					    <label for="exampleInputPassword1">Teléfono:</label>
-					    <input type="text" class="form-control" id="exampleInputPassword1" placeholder="Password">
-					  </div>
-					  <div class="form-group">
-					    <label for="exampleInputPassword1">Extensión:</label>
-					    <input type="text" class="form-control" id="exampleInputPassword1" placeholder="Password">
-					  </div>
-					  <div class="form-group">
-					    <label for="exampleInputPassword1">Ubicación de la Cita:</label>
-					    <input type="date" class="form-control" id="exampleInputPassword1" placeholder="Password">
-					  </div>
-					  <div class="form-group">
-					    <label for="exampleInputPassword1">Compañía:</label>
-					    <input type="text" class="form-control" id="exampleInputPassword1" placeholder="Password">
-					  </div>
-					  <div class="form-group">
-					    <label for="exampleInputPassword1">Compañía:</label>
-					    <input type="text" class="form-control" id="exampleInputPassword1" placeholder="Password">
-					  </div>
-					  <button type="submit" class="btn btn-default">Submit</button>
-					  <p>La cita será revisada y se confirmará</p>
-					</form>
+				<form>
+					<div class="row">
+					<div class="col-lg-12"><h1 class="titulosContact">MAIL</h1></div>
+					<div class="col-lg-6">
+						<div class="form-group">
+							<label for="exampleInputEmail1">Nombre:</label>
+							<input type="text" class="form-control" id="exampleInputEmail1" placeholder="Email">
+						</div>
+
+						<div class="form-group">
+							<label for="exampleInputPassword1">Compañía:</label>
+							<input type="text" class="form-control" id="exampleInputPassword1" placeholder="Password">
+						</div>
+						<div class="form-group">
+							<label for="exampleInputPassword1">Teléfono:</label>
+							<input type="text" class="form-control" id="exampleInputPassword1" placeholder="Password">
+						</div>
+					</div>
+					<div class="col-lg-6">
+						<div class="form-group">
+							<label for="exampleInputPassword1">Extensión:</label>
+							<input type="text" class="form-control" id="exampleInputPassword1" placeholder="Password">
+						</div>
+						<div class="form-group">
+							<label for="exampleInputPassword1">Ubicación de la Cita:</label>
+							<input type="date" class="form-control" id="exampleInputPassword1" placeholder="Password">
+						</div>
+
+
+						<div class="form-group" style="">
+							<button type="submit" class="btn btn-primary" style="margin-top: 25px; float: left; ">Enviar</button>
+							<p style="margin-top: 28px; float: left; margin-left: 20px; ">La cita será revisada y se confirmará</p> 
+						</div>
+					</div>
+					</div>	  
+				</form>
 			    </div>
 			  </div>
 
@@ -439,7 +383,7 @@ reconstrucción de estaciones de prueba o estaciones de procesos automatizados�
 		    <div class="modal-content">
 		   
 		      <div class="modal-body">
-		       	<img src="<?php echo bloginfo('template_url'); ?>/img/servicios/6 - Diseño Electrico.jpg" alt="2nd image description" width="100%"/>
+		       	<img src="<?php echo bloginfo('template_url'); ?>/img/servicios/6 - Dis Electrico.jpg" alt="2nd image description" width="100%"/>
 		       	<div>
 		       		<h1 class="tituloModalImagenServicios">DISEÑO ELECTRICO</h1>
 		       		<hr class="divicionModalImagenServicios">
