@@ -16,7 +16,7 @@
 	<link rel="stylesheet" type="text/css" href="css/slick.css"/>
 	<!-- Add the slick-theme.css if you want default styling -->
 	<link rel="stylesheet" type="text/css" href="css/slick-theme.css"/>
-
+	<link rel="stylesheet" href="css/font-awesome.min.css">
 
 
 	<script src="js/jquery-1.10.2.min.js"></script>
@@ -60,7 +60,25 @@
 				$('#largeImage').attr('src',$(this).attr('src').replace('thumb','large'));
 				$('#description').html($(this).attr('alt'));
 			});
+			var map;
+			$(document).on('shown.bs.tab', 'a#linkMapa', function (e) {
+				 var myLatLng = {lat: 31.291860, lng: -110.922827};
+
+
+			    map = new google.maps.Map(document.getElementById('map'), {
+				    center: {lat: 31.291860, lng: -110.922827},
+				    zoom: 19
+			  	});
+
+			  	 var marker = new google.maps.Marker({
+				    position: myLatLng,
+				    map: map,
+				    title: 'GLOBAL INTEGRAL SERVICES'
+				  });
+			})
+			
 		});
+
 	</script>
 
 	<style>
@@ -312,6 +330,23 @@
 		.parrafoMPV{
 		
 		}
+		.estiloContacto{
+			padding-top: 14px;
+		    color: #555;
+		    cursor: default;
+		    background-color: #fff;
+		    border: 1px solid #ddd;
+		    border-bottom-color: transparent;
+		}
+		#map {
+			height: 100%;
+		}
+		#mail{
+			height: 100%;
+		}
+		#mapa{
+			height: 100%;
+		}
 	</style>
 
 </head>
@@ -529,22 +564,103 @@
 		</div>
 	</div>
 	<div class="section " id="section5">
-			<div>
+			<div >
 
 			  <!-- Nav tabs -->
-			  <ul class="nav nav-tabs" role="tablist">
-			    <li role="presentation" class="active"><a href="#home" aria-controls="home" role="tab" data-toggle="tab">Home</a></li>
-			    <li role="presentation"><a href="#profile" aria-controls="profile" role="tab" data-toggle="tab">Profile</a></li>
-			    <li role="presentation"><a href="#messages" aria-controls="messages" role="tab" data-toggle="tab">Messages</a></li>
-			    <li role="presentation"><a href="#settings" aria-controls="settings" role="tab" data-toggle="tab">Settings</a></li>
+			  <ul class="nav nav-tabs" role="tablist" style="width: 80%; margin-left: auto; margin-right: auto; position: relative; ">
+				<li style="margin-bottom: 20px; margin-left: 40px; " role="presentation" class="active">
+					<a class="estiloContacto" style="border-radius: 60px; " href="#mail" aria-controls="mail" role="tab" data-toggle="tab">
+						<span style="font-size: 70px; " class="glyphicon glyphicon-envelope"></span>
+					</a>
+					<a href="#mail" style="width: 50px; height: 34px; position: absolute; top: 90px; left: 25px; border: 0px; "></a> 
+				</li>
+
+				<li style="margin-bottom: 20px; margin-left: 40px; " role="presentation" class="">
+					<a class="estiloContacto" style="border-radius: 60px; " href="#telefono" aria-controls="telefono" role="tab" data-toggle="tab">
+						<span style="font-size: 70px; " class="glyphicon glyphicon-earphone"></span>
+					</a>
+					<a href="#telefono" style="width: 50px; height: 34px; position: absolute; top: 90px; left: 25px; border: 0px; "></a> 
+				</li>
+				<li style="margin-bottom: 20px; margin-left: 40px;" role="presentation" class="">
+					<a id="linkMapa" class="estiloContacto" style="border-radius: 60px;text-align: center;height: 103px;padding-top: 14px;" href="#mapa" aria-controls="mapa" role="tab" data-toggle="tab">
+						<span style="font-size: 60px;width: 70px;padding: 5px;" class="fa fa-map" aria-hidden="true"></span>
+					</a>
+					<a href="#mapa" style="width: 50px; height: 34px; position: absolute; top: 90px; left: 25px; border: 0px; "></a> 
+				</li>
+				<li style="margin-bottom: 20px; margin-left: 40px;" role="presentation" class="">
+					<a class="estiloContacto" style="border-radius: 60px; text-align: center; " href="#redesSociales" aria-controls="redesSociales" role="tab" data-toggle="tab">
+						<span style="font-size: 81px; width: 70px; " class="fa fa-facebook" aria-hidden="true"></span>
+					</a>
+					<a href="#redesSociales" style="width: 50px; height: 34px; position: absolute; top: 90px; left: 25px; border: 0px; "></a> 
+				</li>
+				<li style="margin-bottom: 20px; margin-left: 40px;" role="presentation" class="">
+					<a class="estiloContacto" style="border-radius: 60px; " href="#formulario" aria-controls="formulario" role="tab" data-toggle="tab">
+						<span style="font-size: 70px; " class="glyphicon glyphicon-map-marker"></span>
+					</a>
+					<a href="#formulario" style="width: 50px; height: 34px; position: absolute; top: 90px; left: 25px; border: 0px; "></a> 
+				</li>
+			
 			  </ul>
 
 			  <!-- Tab panes -->
-			  <div class="tab-content">
-			    <div role="tabpanel" class="tab-pane active" id="home">...</div>
-			    <div role="tabpanel" class="tab-pane" id="profile">...</div>
-			    <div role="tabpanel" class="tab-pane" id="messages">...</div>
-			    <div role="tabpanel" class="tab-pane" id="settings">...</div>
+			  <div class="tab-content" style="width: 80%;margin-left: auto;margin-right: auto;background: white;padding: 30px; height: 650px;">
+			    <div role="tabpanel" class="tab-pane active" id="mail">
+			    	
+			    	<h1 class="titulosContact">MAIL</h1>
+			    	<hr>
+			    	<p>ventas@globalintegralservices.com</p>
+			    	<hr>
+					<p>servicioalcliente@globalintegralservices.com</p>
+					<hr>
+					<p>compras@globalintegralservices.com</p>
+				</div>
+			    <div role="tabpanel" class="tab-pane" id="telefono">
+			    	<h1 class="titulosContact">TELÉFONO</h1>
+			    	<hr>
+			    	<p>Teléfono de Oficina:  01 631 35 201 49</p>
+			    	<hr>
+					<p>Fax: 01 631 35 201 49</p>
+			
+			    </div>
+			    <div role="tabpanel" class="tab-pane" id="mapa">
+			    	<div id="map"></div>
+			    </div>
+			    <div role="tabpanel" class="tab-pane" id="redesSociales">...</div>
+			    <div role="tabpanel" class="tab-pane" id="formulario">
+			    	<form>
+			    		<h1 class="titulosContact">MAIL</h1>
+					  <div class="form-group">
+					    <label for="exampleInputEmail1">Nombre:</label>
+					    <input type="text" class="form-control" id="exampleInputEmail1" placeholder="Email">
+					  </div>
+					  <div class="form-group">
+					    <label for="exampleInputPassword1">Compañía:</label>
+					    <input type="text" class="form-control" id="exampleInputPassword1" placeholder="Password">
+					  </div>
+					  <div class="form-group">
+					    <label for="exampleInputPassword1">Teléfono:</label>
+					    <input type="text" class="form-control" id="exampleInputPassword1" placeholder="Password">
+					  </div>
+					  <div class="form-group">
+					    <label for="exampleInputPassword1">Extensión:</label>
+					    <input type="text" class="form-control" id="exampleInputPassword1" placeholder="Password">
+					  </div>
+					  <div class="form-group">
+					    <label for="exampleInputPassword1">Ubicación de la Cita:</label>
+					    <input type="date" class="form-control" id="exampleInputPassword1" placeholder="Password">
+					  </div>
+					  <div class="form-group">
+					    <label for="exampleInputPassword1">Compañía:</label>
+					    <input type="text" class="form-control" id="exampleInputPassword1" placeholder="Password">
+					  </div>
+					  <div class="form-group">
+					    <label for="exampleInputPassword1">Compañía:</label>
+					    <input type="text" class="form-control" id="exampleInputPassword1" placeholder="Password">
+					  </div>
+					  <button type="submit" class="btn btn-default">Submit</button>
+					  <p>La cita será revisada y se confirmará</p>
+					</form>
+			    </div>
 			  </div>
 
 			</div>
@@ -831,5 +947,6 @@ tipo de equipos bajo los más altos estándares de calidad.”</p>
 
 <script type="text/javascript" src="js/slick.min.js"></script>
 <script type="text/javascript" src="js/controller_GIS.js"></script>
+<script type="text/javascript" src="http://maps.google.com/maps/api/js?sensor=false"></script>
 </body>
 </html>
