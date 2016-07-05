@@ -137,135 +137,246 @@
 
 
 
-		@CHARSET "UTF-8";
+
+		* {
+    margin: 0;
+    padding: 0;
+}
+body {
+    background: rgb(123, 158, 158);
+}
+#hexGrid {
+    overflow: hidden;
+    width: 80%;
+    margin: 0 auto;
+    margin-top: 50px;
+    padding:0.866% 0;
+    font-family: 'Raleway', sans-serif;
+    font-size: 15px;
+}
+#hexGrid:after {
+    content: "";
+    display: block;
+    clear: both;
+}
+.hex {
+    position: relative;
+    list-style-type: none;
+    float: left;
+    overflow: hidden;
+    visibility: hidden;
+    outline:1px solid transparent; /* fix for jagged edges in FF on hover transition */
+    -webkit-transform: rotate(-60deg) skewY(30deg) translatez(-1px);
+        -ms-transform: rotate(-60deg) skewY(30deg) translatez(-1px);
+            transform: rotate(-60deg) skewY(30deg) translatez(-1px);
+}
+.hex * {
+    position: absolute;
+    visibility: visible;
+    outline:1px solid transparent; /* fix for jagged edges in FF on hover transition */
+}
+.hexIn {
+    display:block;
+    width: 100%;
+    height: 100%;
+    text-align: center;
+    color: #fff;
+    overflow: hidden;
+    -webkit-transform: skewY(-30deg) rotate(60deg);
+        -ms-transform: skewY(-30deg) rotate(60deg);
+            transform: skewY(-30deg) rotate(60deg);
+}
+
+/*** HEX CONTENT **********************************************************************/
+.hex img {
+    left: -100%;
+    right: -100%;
+    width: auto;
+    height: 100%;
+    margin: 0 auto;
+}
+
+.hex h1, .hex p {
+    width: 102%;
+    left:-1%; /* prevent line on the right where background doesn't cover image */
+    padding: 5%;
+    box-sizing:border-box;
+    background-color: rgba(255,255,255,0.7);
+    font-weight: 300;
+    -webkit-transition:  -webkit-transform .2s ease-out, opacity .3s ease-out;
+            transition:          transform .2s ease-out, opacity .3s ease-out;
+}
+.hex h1 {
+    bottom: 50%;
+    padding-top:60%;
+    font-size: 1.5em;
+    z-index: 1;
+    -webkit-transform:translateY(-100%) translatez(-1px);
+        -ms-transform:translateY(-100%) translatez(-1px);
+            transform:translateY(-100%) translatez(-1px);
+}
+.hex h1:after {
+    content: '';
+    position: absolute;
+    bottom: 0;
+    left: 45%;
+    width: 10%;
+    text-align: center;
+    border-bottom: 1px solid #fff;
+}
+.hex p {
+    top: 50%;
+    padding-bottom:60%;
+    -webkit-transform:translateY(100%) translatez(-1px);
+        -ms-transform:translateY(100%) translatez(-1px);
+            transform:translateY(100%) translatez(-1px);
+}
 
 
-		
-		#page { width: 585px; margin: 30px auto; }
+/*** HOVER EFFECT  **********************************************************************/
+.hexIn:hover h1, .hexIn:focus h1,
+.hexIn:hover p, .hexIn:focus p{
+    -webkit-transform:translateY(0%) translatez(-1px);
+        -ms-transform:translateY(0%) translatez(-1px);
+            transform:translateY(0%) translatez(-1px);
+}
 
-		#thumbs { 
-			width: 53%;
-		    margin-left: auto;
-		    margin-right: auto; 
-		}
-		#thumbs img, #largeImage { border: 1px solid gray; padding: 4px; background-color: white; cursor: pointer; }
-		#thumbs img { float: left; margin-right: 6px; }
-		#description { background: black; color: white; position: absolute; bottom: 0; padding: 10px 20px; width: 525px; margin: 5px; }
-		#panel { position: relative; }
+/*** SPACING AND SIZING *****************************************************************/
+@media (min-width:1201px) { /* <- 5-4  hexagons per row */
+    .hex {
+        width: 19.2%; /* = (100-4) / 5 */
+        padding-bottom: 22.170%; /* =  width / sin(60deg) */
+    }
+    .hex:nth-child(9n+6),
+    .hex:nth-child(9n+7),
+    .hex:nth-child(9n+8),
+    .hex:nth-child(9n+9) {
+        margin-top: -4.676%;
+        margin-bottom: -4.676%;
+        -webkit-transform: translateX(50%) rotate(-60deg) skewY(30deg);
+            -ms-transform: translateX(50%) rotate(-60deg) skewY(30deg);
+                transform: translateX(50%) rotate(-60deg) skewY(30deg);
+    }
+    .hex:nth-child(9n+6):last-child,
+    .hex:nth-child(9n+7):last-child,
+    .hex:nth-child(9n+8):last-child,
+    .hex:nth-child(9n+9):last-child {
+        margin-bottom: 0;
+    }
+    .hex:nth-child(9n+6) {
+        margin-left: 0.5%;
+        clear: left;
+    }
+    .hex:nth-child(9n+10) {
+        clear: left;
+    }
+    .hex:nth-child(9n+2),
+    .hex:nth-child(9n+ 7) {
+        margin-left: 1%;
+        margin-right: 1%;
+    }
+    .hex:nth-child(9n+3),
+    .hex:nth-child(9n+4),
+    .hex:nth-child(9n+8) {
+        margin-right: 1%;
+    }
+}
+@media (max-width: 1200px) and (min-width:901px) {/* <- 4-3  hexagons per row */
+    .hex {
+        width: 24.25%; /* = (100-3) / 4 */
+        padding-bottom: 28.001%; /* =  width / sin(60deg) */
+    }
+    .hex:nth-child(7n+5),
+    .hex:nth-child(7n+6),
+    .hex:nth-child(7n+7) {
+        margin-top: -6.134%;
+        margin-bottom: -6.134%;
+        -webkit-transform: translateX(50%) rotate(-60deg) skewY(30deg);
+            -ms-transform: translateX(50%) rotate(-60deg) skewY(30deg);
+                transform: translateX(50%) rotate(-60deg) skewY(30deg);
+    }
+    .hex:nth-child(7n+5):last-child,
+    .hex:nth-child(7n+6):last-child,
+    .hex:nth-child(7n+7):last-child {
+        margin-bottom: 0;
+    }
+    .hex:nth-child(7n+2),
+    .hex:nth-child(7n+6) {
+        margin-left: 1%;
+        margin-right: 1%;
+    }
+    .hex:nth-child(7n+3) {
+        margin-right: 1%;
+    }
+    .hex:nth-child(7n+8) {
+        clear: left;
+    }
+    .hex:nth-child(7n+5) {
+        clear: left;
+        margin-left: 0.5%;
+    }
+}
+@media (max-width: 900px) and (min-width:601px) { /* <- 3-2  hexagons per row */
+    .hex {
+        width: 32.666%; /* = (100-2) / 3 */
+        padding-bottom: 37.720%; /* =  width / sin(60) */
+    }
+    .hex:nth-child(5n+4),
+    .hex:nth-child(5n+5) {
+        margin-top: -8.564%;
+        margin-bottom: -8.564%;
+        -webkit-transform: translateX(50%) rotate(-60deg) skewY(30deg);
+            -ms-transform: translateX(50%) rotate(-60deg) skewY(30deg);
+                transform: translateX(50%) rotate(-60deg) skewY(30deg);
+    }
+    .hex:nth-child(5n+4):last-child,
+    .hex:nth-child(5n+5):last-child {
+        margin-bottom: 0;
+    }
+    .hex:nth-child(5n+4) {
+        margin-right: 1%;
+        margin-left: 0.5%;
+    }
+    .hex:nth-child(5n+2) {
+        margin-left: 1%;
+        margin-right: 1%;
+    }
+    .hex:nth-child(5n+6) {
+        clear: left;
+    }
+}
+@media (max-width: 600px) { /* <- 2-1  hexagons per row */
+    .hex {
+        width: 49.5%; /* = (100-1) / 2 */
+        padding-bottom: 57.158%; /* =  width / sin(60) */
+    }
+    .hex:nth-child(3n+3) {
+        margin-top: -13.423%;
+        margin-bottom: -13.423%;
+        -webkit-transform: translateX(50%) rotate(-60deg) skewY(30deg);
+            -ms-transform: translateX(50%) rotate(-60deg) skewY(30deg);
+                transform: translateX(50%) rotate(-60deg) skewY(30deg);
+    }
+    .hex:nth-child(3n+3):last-child {
+        margin-bottom: 0;
+    }
+    .hex:nth-child(3n+3) {
+        margin-left: 0.5%;
+    }
+    .hex:nth-child(3n+2) {
+        margin-left: 1%;
+    }
+    .hex:nth-child(3n+4) {
+        clear: left;
+    }
+}
+@media (max-width: 400px) {
+    #hexGrid {
+        font-size: 13px;
+    }
+}
 
-		.hexagon {
-		  position: relative;
-		  width: 300px; 
-		  height: 173.21px;
-		  margin: 51.6px 16px;
-		  background-size: auto 346.4102px;
-		  background-position: center;
-		  		display: inline-block;
-    	/*border-left: solid 2px #ffffff;
- 		 border-right: solid 2px #ffffff;*/
-		}
-		.disenioCAT{
-			background-image: url(img/servicios/1-Dise-CAD-min.jpg);
-		}
-		.disenioMaquinados{
-			background-image: url(img/servicios/2-Maquinados.min.jpg);
-		}
-		.disenioProgramacionCAT{
-			background-image: url(img/servicios/3-ProgramacionCAM.min.jpg);
-		}
-		.disenioSoftware{
-			background-image: url(img/servicios/4-Software-min.jpg);
-		}
-		.disenioReparacion{
-			background-image: url(img/servicios/5-Reparacion.min.jpg);
-		}
-		.disenioDisElectrico{
-			background-image: url(img/servicios/6-DisElectrico-min.jpg);
-		}
-		.disenioPrototipos{
-			background-image: url(img/servicios/7-Prototipos-min.jpg);
-		}
-		.disenioIntegracion{
-			background-image: url(img/servicios/8-Integracion.min.jpg);
-		}
-
-		.hexTop,
-		.hexBottom {
-		  position: absolute;
-		  z-index: 1;
-		  width: 212.13px;
-		  height: 212.13px;
-		  overflow: hidden;
-		  -webkit-transform: scaleY(0.5774) rotate(-45deg);
-		  -ms-transform: scaleY(0.5774) rotate(-45deg);
-		  transform: scaleY(0.5774) rotate(-45deg);
-		  background: inherit;
-		  left: 43.93px;
-		}
-
-		/*counter transform the bg image on the caps*/
-		.hexTop:after,
-		.hexBottom:after {
-		  content: "";
-		  position: absolute;
-		  width: 300.0000px;
-		  height: 173.20508075688775px;
-		  -webkit-transform:  rotate(45deg) scaleY(1.7321) translateY(-86.6025px);
-		  -ms-transform:      rotate(45deg) scaleY(1.7321) translateY(-86.6025px);
-		  transform:          rotate(45deg) scaleY(1.7321) translateY(-86.6025px);
-		  -webkit-transform-origin: 0 0;
-		  -ms-transform-origin: 0 0;
-		  transform-origin: 0 0;
-		  background: inherit;
-		}
-
-		.hexTop {
-		  top: -106.0660px;
-		/*  border-top: solid 2.8284px #ffffff;
-  			border-right: solid 2.8284px #ffffff;*/
-		}
-
-		.hexTop:after {
-		  background-position: center top;
-		}
-
-		.hexBottom {
-		  bottom: -106.0660px;
-/*		    border-bottom: solid 2.8284px #ffffff;
-  border-left: solid 2.8284px #ffffff;*/
-		}
-
-		.hexBottom:after {
-		  background-position: center bottom;
-		}
-
-		.hexagon:after {
-		  content: "";
-		  position: absolute;
-		  top: 0.0000px;
-		  left: 0;
-		  width: 300.0000px;
-		  height: 173.2051px;
-		  z-index: 2;
-		  background: inherit;
-		}
-		/*h1, h2 { font-size: 30px; color: #333; text-shadow: 0px 2px 3px #c5c5c5; text-align: center;  }
-		h2 { font-size: 20px; line-height: 30px; }
-		h2 a { background-color: #F5FF4C; color: #333; text-decoration: none; padding: 5px;}
-		h2 a:hover { background-color: #d5dd42; }*/
-		/*.forma{
-		  display: inline-block;
-		  margin: 16px;
-		}
-		.hexagonoFila1{
-			top: -55px;
-		}*/
-		.hexagonoFila2{
-			width: 36%!important;
-		}
-	/*	.hexagonoFila3{
-			top: 60px;
-		}*/
+		/*==============================================================================*/
 		#gallery{
 			margin-top: 35px;
 		}
@@ -275,9 +386,9 @@
 		    color: white;
 		    font-weight: 700;
 		    font-size: xx-large;
-		    top:129px;
+		    bottom: 85px;
 		    background: rgba(0, 0, 0, 0.7);
-		    width: 300px;
+		    width: 100%;
 		    text-align: center;
 		}
 		.etiquetaDisElectrico{
@@ -402,83 +513,104 @@
 	<div class="section" id="section1">
 		<h1 id="servicios">SERVICIOS</h1>
 
+		 <ul id="hexGrid">
+			 <li class="hex">
+                <a class="hexIn" href="#">
+                    
+                </a>
+            </li>
+ 			<li class="hex" data-toggle="modal" data-target="#modalDisenioCAD" >
+                <a class="hexIn" href="#">
+                    <img src="img/servicios/1-Dise-CAD-min.jpg" alt="" />
+                    <h1></h1>
+                    <p></p>
+					  <div class="etiquetaImagen">DISEﾃ前 CAD</div>
+                    
+                </a>
+            </li>
+            <li class="hex" data-toggle="modal" data-target="#modalMaquinados">
+                <a class="hexIn" href="#">
+                    <img src="img/servicios/2-Maquinados.min.jpg" alt="" />
+                    <h1></h1>
+                    <p></p>
+					  <div class="etiquetaImagen">MAQUINADOS</div>
+
+                </a>
+            </li>
+            <li class="hex" data-toggle="modal" data-target="#modalPogramacionCAM">
+                <a class="hexIn" href="#">
+                    <img src="img/servicios/3-ProgramacionCAM.min.jpg" alt="" />
+                    <h1></h1>
+                    <p></p>
+					  <div class="etiquetaImagen etiquetaProgramacionCAM">PROGRAMACION CAM</div>
+
+                </a>
+            </li>
+            <li class="hex">
+                <a class="hexIn" href="#">
+                    
+                </a>
+            </li>
+
+            <li class="hex">
+                <a class="hexIn" href="#">
+                    
+                </a>
+            </li>
+            <li class="hex" data-toggle="modal" data-target="#modalSoftware">
+                <a class="hexIn" href="#">
+                    <img src="img/servicios/4-Software-min.jpg" alt="" />
+                    <h1></h1>
+                    <p></p>
+					   <div class="etiquetaImagen">SOFTWARE</div>
+                </a>
+            </li>
+             <li class="hex" data-toggle="modal" data-target="#modalReparacion">
+                <a class="hexIn" href="#">
+                    <img src="img/servicios/5-Reparacion.min.jpg" alt="" />
+                    <h1></h1>
+                    <p></p>
+					   <div class="etiquetaImagen">REPARACION</div>
+                </a>
+            </li>
+            <li class="hex">
+                <a class="hexIn" href="#">
+                    
+                </a>
+            </li>
+            <li class="hex">
+                <a class="hexIn" href="#">
+                    
+                </a>
+            </li>
+            <li class="hex" data-toggle="modal" data-target="#modalDisenioElectrico">
+                <a class="hexIn" href="#">
+                    <img src="img/servicios/6-DisElectrico-min.jpg" alt="" />
+                    <h1></h1>
+                    <p></p>
+					  <div class="etiquetaImagen etiquetaDisElectrico">DISEﾃ前 ELECTRICO</div>
+                </a>
+            </li>
+            <li class="hex" data-toggle="modal" data-target="#modalPrototipos">
+                <a class="hexIn" href="#">
+                    <img src="img/servicios/7-Prototipos-min.jpg" alt="" />
+                    <h1></h1>
+                    <p></p>
+					  <div class="etiquetaImagen">PROTOTIPOS</div>
+                </a>
+            </li>
+            <li class="hex" data-toggle="modal" data-target="#modalIntegracion">
+                <a class="hexIn" href="#">
+                    <img src="img/servicios/8-Integracion.min.jpg" alt="" />
+                    <h1></h1>
+                    <p></p>
+					  <div class="etiquetaImagen">INTEGRACION</div>
+                </a>
+            </li>
+</ul>
 
 	
-		<div class="intro">
-			<div id="gallery">
-				<!-- <div id="panel">
-					<img id="largeImage" src="images/image_01_large.jpg" />
-					<div id="description">1st image description</div>
-				</div> -->
 
-				<div id="thumbs">
-					<div class="hexagon disenioCAT" data-toggle="modal" data-target="#modalDisenioCAD">
-					  <div class="hexTop"></div>
-					  <div class="hexBottom"></div>
-					  <div class="etiquetaImagen">DISEﾃ前 CAD</div>
-					</div>
-					<div class="hexagon disenioMaquinados" data-toggle="modal" data-target="#modalMaquinados">
-					  <div class="hexTop"></div>
-					  <div class="hexBottom"></div>
-					  <div class="etiquetaImagen">MAQUINADOS</div>
-					</div>
-					<div class="hexagon disenioProgramacionCAT" data-toggle="modal" data-target="#modalPogramacionCAM">
-					  <div class="hexTop"></div>
-					  <div class="hexBottom"></div>
-					  <div class="etiquetaImagen etiquetaProgramacionCAM">PROGRAMACION CAM</div>
-					</div>
-				
-			        
-			        <!-- <img src="images/image_02_thumb.jpg" alt="2nd image description" />
-			        <img src="images/image_03_thumb.jpg" alt="3rd image description" />
-			        <img src="images/image_04_thumb.jpg" alt="4th image description" />
-			        <img src="images/image_05_thumb.jpg" alt="5th image description" /> -->
-				</div>
-				<div id="thumbs" class="hexagonoFila2">
-					<div class="hexagon disenioSoftware" data-toggle="modal" data-target="#modalSoftware">
-					  <div class="hexTop"></div>
-					  <div class="hexBottom"></div>
-					   <div class="etiquetaImagen">SOFTWARE</div>
-					</div>
-					<div class="hexagon disenioReparacion" data-toggle="modal" data-target="#modalReparacion">
-					  <div class="hexTop"></div>
-					  <div class="hexBottom"></div>
-					   <div class="etiquetaImagen">REPARACION</div>
-					</div>
-				
-				
-			        
-			        <!-- <img src="images/image_02_thumb.jpg" alt="2nd image description" />
-			        <img src="images/image_03_thumb.jpg" alt="3rd image description" />
-			        <img src="images/image_04_thumb.jpg" alt="4th image description" />
-			        <img src="images/image_05_thumb.jpg" alt="5th image description" /> -->
-				</div>
-				<div id="thumbs">
-					<div class="hexagon disenioDisElectrico" data-toggle="modal" data-target="#modalDisenioElectrico">
-					  <div class="hexTop"></div>
-					  <div class="hexBottom"></div>
-					  <div class="etiquetaImagen etiquetaDisElectrico">DISEﾃ前 ELECTRICO</div>
-					</div>
-					<div class="hexagon disenioPrototipos" data-toggle="modal" data-target="#modalPrototipos">
-					  <div class="hexTop"></div>
-					  <div class="hexBottom"></div>
-					  <div class="etiquetaImagen">PROTOTIPOS</div>
-					</div>
-					<div class="hexagon disenioIntegracion" data-toggle="modal" data-target="#modalIntegracion">
-					  <div class="hexTop"></div>
-					  <div class="hexBottom"></div>
-					  <div class="etiquetaImagen">INTEGRACION</div>
-					</div>
-				
-			        
-			        <!-- <img src="images/image_02_thumb.jpg" alt="2nd image description" />
-			        <img src="images/image_03_thumb.jpg" alt="3rd image description" />
-			        <img src="images/image_04_thumb.jpg" alt="4th image description" />
-			        <img src="images/image_05_thumb.jpg" alt="5th image description" /> -->
-				</div>
-
-			</div>
-		</div>
 	</div>
 	<div class="section" id="section2">
 		<h1 id="servicios" style="background: rgb(0, 0, 202);margin-top: -27px;z-index: 100;">ACERCA DE</h1>
@@ -790,7 +922,7 @@ reconstrucciﾃｳn de estaciones de prueba o estaciones de procesos automatizados窶
 		    <div class="modal-content">
 		   
 		      <div class="modal-body">
-		       	<img src="img/servicios/6 - Diseﾃｱo Electrico.jpg" alt="2nd image description" width="100%"/>
+		       	<img src="img/servicios/6 - Dis Electrico.jpg" alt="2nd image description" width="100%"/>
 		       	<div>
 		       		<h1 class="tituloModalImagenServicios">DISEﾃ前 ELECTRICO</h1>
 		       		<hr class="divicionModalImagenServicios">

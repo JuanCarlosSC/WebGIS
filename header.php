@@ -72,6 +72,7 @@
 	<style>
 		#section0{
 			background-image: url("gis/wp-content/themes/WebGIS/1.jpg");
+			background-size: cover;
 		}
 		#section5{
 			background-image: url("gis/wp-content/themes/WebGIS/img/contacto/contactoBackground.jpg");
@@ -86,15 +87,15 @@
 		}
 		#slogan{
 			color: white;
-		    margin-left: 540px;
 		    font-size: 35px;
 		    font-style: italic;
 		}
 		#contenedorSlogan{
-			width: 1260px;
+			text-align: center;
 		    margin-left: auto;
 		    margin-right: auto;
 		    background: rgba(0, 0, 0, 0.6);
+
 		}
 		#contenedorInformacion h3{
 			margin-top: 130px;
@@ -135,8 +136,7 @@
 		  background-position: center;
 			display: inline-block;
 			cursor: pointer;
-    	/*border-left: solid 2px #ffffff;
- 		 border-right: solid 2px #ffffff;*/
+
 		}
 		.disenioCAT{
 			background-image: url(gis/wp-content/themes/WebGIS/img/servicios/1-Dise-CAD-min.jpg);
@@ -195,8 +195,7 @@
 
 		.hexTop {
 		  top: -106.0660px;
-		/*  border-top: solid 2.8284px #ffffff;
-  			border-right: solid 2.8284px #ffffff;*/
+
 		}
 
 		.hexTop:after {
@@ -205,8 +204,7 @@
 
 		.hexBottom {
 		  bottom: -106.0660px;
-/*		    border-bottom: solid 2.8284px #ffffff;
-  border-left: solid 2.8284px #ffffff;*/
+
 		}
 
 		.hexBottom:after {
