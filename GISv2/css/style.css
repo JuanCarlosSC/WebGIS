@@ -51,7 +51,7 @@ h2, .h2 {
     letter-spacing: -1px;
     font-family: 'Raleway', sans-serif;
     font-weight: 900;
-    margin: 0;
+
     text-transform: uppercase;
 }
 
@@ -69,7 +69,10 @@ a {
 	color: black;
     text-decoration: none;
 }
-
+a:hover {
+    text-decoration: none;
+}
+    
 .contenedor_central{
     padding-left: 15px;
     padding-right: 15px;
@@ -99,14 +102,16 @@ a {
 }
 
 .thumbnail{
-     position: relative;
-     padding: 0px !important;
-    -moz-transition: 0.3s;
-    -webkit-transition: 0.3s;
-    -o-transition: 0.3s;
-    transition: 0.3s;
-    width: 360px;
-    height: 360px;
+	position: relative;
+/*	padding: 0px !important;
+	-moz-transition: 0.3s;*/
+	-webkit-transition: 0.3s;
+/*	-o-transition: 0.3s;
+	transition: 0.3s;*/
+/*	width: 360px;
+	height: 360px;*/
+	padding: 0;
+    border: 0;
 }
 
 .thumb_shadow:hover{
@@ -114,32 +119,79 @@ a {
 }
 
 .thumbnail .caption{
-    padding: 14px 21px 21px 18px;
+    padding: 23px 21px 21px 22px;
     position: absolute;
     bottom: 0;
-    left: 0;
-    right: 0;
+    background: rgba(33,194,248,0.8);
+    color: white;
+    height: 192px
 }
-
+.caption h3{
+	font-family: 'Raleway', sans-serif;
+    font-size: 30px;
+    font-weight: 900;
+}
+.titulo_chicos{
+	font-size: 28px!important;
+}
+.img-servicios{
+	height: 321px!important;
+}
+.servicio_blanco{
+	background: rgba(255,255,255,0.8)!important;
+    color: #353535!important;
+}
+.servicio_negro{
+	background:rgba(23, 24, 24, 0.8)!important;
+    color: #ffffff!important;
+	
+}
+.servicio_blanco a{
+    color: #353535!important;
+}
 .capt_hover1{
     -moz-transition: 0.2s;
     -webkit-transition: 0.2s;
     -o-transition: 0.2s;
     transition: 0.2s;
 }
+.parrafo_servicios{
+	font-size: 15px;
+    line-height: 1.4;
+}
+.parrafo_servicios a.glyphicon-menu-right{
+ 	top: -4px;
+    text-decoration: none;
+    margin-top: 0px;
+    float: right;
+ }
+ .wrap_servicios{
+ 	height: 85px;
+    position: relative;
+ }
+.wrap_servicios a{
+	font-size: 25px;
+    left: 5px;
+    color: #ffffff;
+	position: absolute;
+    top: 100%;
+    margin-top: -22px;
+    left: 100%;
+    margin-left: -22px;
+}
 
 .bg3{
     background: rgba(255, 255, 255, 0.8);
     /*color: #222533;*/
 }
-
+/*
 .capt_hover1:hover {
     background: rgba(33, 194, 248, 0.8);
 }
 
 .capt_hover1:hover * {
     color: #ffffff;
-}
+}*/
 
 .titulos_tipservicios{
     font-size: 34px;
