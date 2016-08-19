@@ -265,8 +265,8 @@ a:hover {
     background-color: #01a7de;
 }
 
-/*//-------------------------------------------------08/15/2016 Alan-----------------------------------------------------------------------*/
-.wrap_servicios{
+/*//-------------------------------------------------08/15/2016 Alan "CONTACTO"-----------------------------------------------------------------------*/
+.wrap_contacto{
     margin-top: 30%;
     padding: 15px 0px 35px 10px;
 }
@@ -537,4 +537,304 @@ address {
     list-style: none;
     display: block;
     margin-left: -41px;
+}
+/*//-----------------------------------17/08/2016||18/08/2016 Alan "QUIENES SOMOS"---------------------------------------------------------------------//*/
+.margen_auto{
+    margin: 80px auto;
+}
+
+@media (min-width: 1200px){
+    .valores{
+        margin: 30% auto;
+    }
+
+    .titulos_principalesQS{
+        font-size: 350%;
+        text-align: center;
+    }
+
+    .titulos_secundariosQS{
+        font-size: 250%;
+        font-weight: 900;
+        text-transform: uppercase;
+        text-align: center;
+    }
+
+    .rangeQS{
+         position: relative;
+         width: 86%;
+         max-width: 1200px;
+         margin: 0 auto;
+         text-align: center;
+         margin-left: 21%;
+         margin-top: 75px;
+    }
+
+    .logoQS {
+        width: 135%;
+        height: auto;
+        margin-top: 9%;
+    }
+
+    .todo_gis{
+        width: 96%;
+        height: auto;
+    }
+
+    .texto_eleccion{
+        padding: 4% 11% 6% 10%;
+    }
+
+    .txt_base{
+        padding: 0.1% 6.7% 5px 9.1%;
+    }
+
+    .h5{
+        line-height: 1.15385;
+        font-size: 26px;
+    }
+
+    .contenedor_QS{
+        max-width: 1760px; 
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .contenedor_valores{
+        margin-left: -1.875rem;
+        margin-right: -1.875rem;
+        /*display: flex;*/
+        flex-wrap: wrap;
+        margin-top: 4%;
+    } 
+
+    .tm_pb_blurb {
+        padding: 36px 44px 20px;
+        max-width: 497px;
+    }
+
+    .contenedor_iconosQS{
+        
+    }
+
+    .seccion_iconos{
+        background: #21c2f8;
+        width: 100%;
+        height: auto;
+        margin-top: 54%;
+    }  
+}
+
+@media (max-width: 1199px){
+.valores{
+        margin: 30% auto;
+    }
+
+.titulos_principalesQS{
+        font-size: 200%;
+        text-align: center;
+    }
+
+.titulos_secundariosQS{
+        font-size: 180%;
+        font-weight: 900;
+        text-transform: uppercase;
+        text-align: center;
+    }
+
+.rangeQS {
+        position: relative;
+        width: 81%;
+        max-width: 1199px;
+        margin: 0 auto;
+        text-align: center;
+        margin-left: 7%;
+        margin-top: 50px;
+    }
+
+.logoQS {
+        width: 130%;
+        height: auto;
+        margin-top: 10%;
+    }
+
+.txt_base{
+        padding: 0.1% 6.7% 5px 9.1%;
+    }
+
+.h5{
+        line-height: 1.15385;
+        font-size: 20px;
+    }  
+}
+
+@media (max-width: 991px){
+.valores{
+        margin: 30% auto;
+    }
+
+.rangeQS{
+         position: relative;
+         width: 86%;
+         max-width: 991px;
+         margin: 0 auto;
+         text-align: center;
+    }
+
+/*.titulos_secundariosQS{
+        font-size: 250%;
+        font-weight: 900;
+        text-transform: uppercase;
+        text-align: center;
+    }*/
+
+.logoQS{
+        width: 95%;
+        height: auto;
+    }
+
+.txt_base{
+        padding: 0.1% 6.7% 5px 9.1%;
+    }
+
+.h5{
+        line-height: 1.15385;
+        font-size: 20px;
+    }  
+}
+
+@media (max-width: 720px){
+
+    /*.valores{
+        margin: 30% auto;
+    }*/
+
+    .titulos_principalesQS{
+        font-size: 200%;
+        text-align: center;
+    }
+
+    .titulos_secundariosQS{
+        font-size: 180%;
+        font-weight: 900;
+        text-transform: uppercase;
+        text-align: center;
+    }
+
+    .rangeQS{
+         position: relative;
+         width: 86%;
+         max-width: 720px;
+         margin: 0 auto;
+         text-align: center;
+         /*margin-left: 21%;*/
+         margin-top: 75px;
+    }
+
+    .logoQS {
+        width: 100%;
+        height: auto;
+        margin-top: 9%;
+    }
+
+    .txt_base{
+        padding: 0.1% 6.7% 5px 9.1%;
+    }
+
+    .h5{
+        line-height: 1.15385;
+        font-size: 26px;
+    }  
+}
+
+/*A LOS 881PX EL MENU SE SOLAPA SOLO PARA QUE 
+NO TAPE EL CONTENIDO DE TEXTO*/
+/*@media (max-width: 861px){
+    .offsetQS {
+        padding-top: 128px;
+        padding-bottom: 38px;
+    }
+}
+@media (max-width: 768px){
+    .offsetQS {
+        padding-top: 168px;
+        padding-bottom: 38px;
+    }
+}
+@media (max-width: 846px){
+    .offsetQS {
+        padding-top: 58px;
+        padding-bottom: 38px;
+    }
+}*/
+
+/*//---------------------------------Contenido total de la pagina Quienes Somos-------------------------------------------//*/
+.divider {
+    position: relative;
+}
+
+.divider:before {
+    position: absolute;
+    bottom: -6px;
+    left: 50%;
+    -webkit-transform: translateX(-50%);
+    transform: translateX(-50%);
+    content: '';
+    display: inline-block;
+    height: 1px;
+    width: calc(60% - 30px);
+    background-color: #21c2f8;
+}
+
+.divider:after {
+    position: absolute;
+    left: 50%;
+    bottom: -8px;
+    -webkit-transform: translateX(-50%);
+    transform: translateX(-50%);
+    content: '';
+    display: inline-block;
+    height: 3px;
+    width: 80px;
+    background-color: #21c2f8;
+}
+
+.tm_pb_blurb {
+    border: 1px solid #e0e0e8;
+    border-radius: 3px;
+    padding: 24px 15px 8px;
+    transition: .3s all ease;
+}
+
+.tm_pb_blurb_0.tm_pb_blurb {
+    border: 1px solid #ebebeb;
+}
+
+.tm_pb_text_align_center {
+    text-align: center;
+    margin: auto;
+    padding: 8px 10px 13px 10px;
+}
+
+.tm_pb_blurb:hover {
+    border-color: transparent;
+    border-radius: 0px;
+    transform: translateY(-10px);
+}
+
+.tm_pb_blurb:hover {
+    box-shadow: 6px 8px 24px 0 rgba(32,47,57,0.2);
+}
+
+.textos_valores{
+    margin: 9% 5%;
+    font-size: 16px;
+    line-height: 1.2 !important;
+}
+
+.subtitulo_valores{
+    font-weight: 900;
+    color: #21c2f8;
+    font-size: 40px;
+    text-transform: uppercase;
 }
