@@ -83,7 +83,7 @@ a:hover {
 .row{
     margin-left: -15px;
     margin-right: -15px;
-    margin-top: 150px;
+    /*margin-top: 150px;*/
 }
 
 .margensup_servicios{
@@ -92,7 +92,7 @@ a:hover {
 
 .seccion_servicios{
     padding-bottom: 52px;
-    padding-top: 100px;
+    padding-top: 50px;
 }
 
 .contenedor_servicios{
@@ -101,7 +101,9 @@ a:hover {
     padding-left: 280px;
     padding-right: 280px;
 }
-
+.mensaje_servicios{
+    margin-bottom: 20px;
+}
 .thumbnail{
 	position: relative;
 	-webkit-transition: 0.3s;
@@ -112,6 +114,9 @@ a:hover {
 .thumb_shadow:hover{
     box-shadow: 9px 13px 26px -8px #222533;
 }
+.servicio_vertical{
+    margin-bottom: 15px!important;
+}
 
 .thumbnail .caption{
     padding: 23px 21px 21px 22px;
@@ -119,7 +124,8 @@ a:hover {
     bottom: 0;
     background: rgba(33,194,248,0.8);
     color: white;
-    height: 192px
+    height: 192px;
+    width:100%;
 }
 .caption h3{
 	font-family: 'Raleway', sans-serif;
@@ -130,7 +136,11 @@ a:hover {
 	font-size: 28px!important;
 }
 .img-servicios{
-	height: 321px!important;
+	/*height: 321px!important;*/
+}
+.thumbnail>img{
+    width: 100%;
+    height: 100%;
 }
 .servicio_blanco{
 	background: rgba(255,255,255,0.8)!important;
@@ -877,4 +887,21 @@ opacity: 1;
     color: white;
     /*font-family: Raleway;*/
     font-weight: 400;
+}
+/*==========================================================================*/
+.footer{
+    background: #2d2d2d;
+    height: 100px;
+}
+.footer p{
+    font-family: 'Raleway', sans-serif;
+    font-weight: 900;
+    color: #bdbdbd;
+    margin-top: 65px;
+    font-size: 16px;
+}
+.footer p a{
+    font-family: inherit;
+    font-size: 14px;
+    color: #ffffff;
 }
