@@ -558,6 +558,7 @@ address {
         font-weight: 900;
         text-transform: uppercase;
         text-align: center;
+        color: #777;
     }
 
     .rangeQS{
@@ -565,7 +566,7 @@ address {
          width: 86%;
          max-width: 1200px;
          margin: 0 auto;
-         text-align: center;
+         text-align: justify;
          margin-left: 21%;
          margin-top: 75px;
     }
@@ -583,6 +584,7 @@ address {
 
     .texto_eleccion{
         padding: 4% 11% 6% 10%;
+        text-align: justify;
     }
 
     .txt_base{
@@ -613,10 +615,6 @@ address {
         max-width: 497px;
     }
 
-    .contenedor_iconosQS{
-        
-    }
-
     .seccion_iconos{
         background: #21c2f8;
         width: 100%;
@@ -641,6 +639,7 @@ address {
         font-weight: 900;
         text-transform: uppercase;
         text-align: center;
+        color: #777;
     }
 
 .rangeQS {
@@ -648,7 +647,7 @@ address {
         width: 81%;
         max-width: 1199px;
         margin: 0 auto;
-        text-align: center;
+        text-align: justify;
         margin-left: 7%;
         margin-top: 50px;
     }
@@ -679,7 +678,7 @@ address {
          width: 86%;
          max-width: 991px;
          margin: 0 auto;
-         text-align: center;
+         text-align: justify;
     }
 
 /*.titulos_secundariosQS{
@@ -720,6 +719,7 @@ address {
         font-weight: 900;
         text-transform: uppercase;
         text-align: center;
+        color: #777;
     }
 
     .rangeQS{
@@ -727,7 +727,7 @@ address {
          width: 86%;
          max-width: 720px;
          margin: 0 auto;
-         text-align: center;
+         text-align: justify;
          /*margin-left: 21%;*/
          margin-top: 75px;
     }
@@ -747,27 +747,6 @@ address {
         font-size: 26px;
     }  
 }
-
-/*A LOS 881PX EL MENU SE SOLAPA SOLO PARA QUE 
-NO TAPE EL CONTENIDO DE TEXTO*/
-/*@media (max-width: 861px){
-    .offsetQS {
-        padding-top: 128px;
-        padding-bottom: 38px;
-    }
-}
-@media (max-width: 768px){
-    .offsetQS {
-        padding-top: 168px;
-        padding-bottom: 38px;
-    }
-}
-@media (max-width: 846px){
-    .offsetQS {
-        padding-top: 58px;
-        padding-bottom: 38px;
-    }
-}*/
 
 /*//---------------------------------Contenido total de la pagina Quienes Somos-------------------------------------------//*/
 .divider {
@@ -828,6 +807,11 @@ NO TAPE EL CONTENIDO DE TEXTO*/
 }
 
 /*Checar si se va a reacomodar en los @media*/
+.contenedor_iconosQS{
+    width: 99%;   
+    height: auto;     
+}
+
 .textos_valores{
     margin: 9% 5%;
     font-size: 16px;
@@ -844,10 +828,11 @@ NO TAPE EL CONTENIDO DE TEXTO*/
 .iconos_QS{
     display: inline-block;
     list-style: none;
-    padding: 6% 4% 1% 5%;
+    /*padding: 6% 4% 1% 5%;*/
+    padding: 8% 4% 0% 8%;
 }
 
-.icono_entrega:hover, .icono_atencion:hover, .icono_calidad:hover, .icono_garantia:hover, .icono_instalacion:hover, .icono_ISO:hover{
+.icono_entrega:hover, .icono_atencion:hover, .icono_calidad:hover, .icono_garantia:hover, .icono_instalacion:hover{
     opacity: 0.6; 
 }
 
@@ -859,22 +844,242 @@ opacity: 1;
     display: inline-block;
     list-style: none;
     color: white;
-    padding: 0% 6.856% 0% 5.1%;
+    /*padding: 0% 6.856% 0% 5.1%;*/
+    padding: 0% 6.856% 0% 8.1%;
     font-size: 18px;
     font-weight: 900;
 }
 
-.contenedorTexto{
+.contenedor_textoEntrega{
     position: absolute;
-    background: black;
     width: 15%;
-    margin-top: -248px;
-    margin-left: 50px;
-    opacity: 0;
+    margin-top: -340px;
+    margin-left: -14px;
 }
 
-.par_entrega{
+.contenedor_textoAtencion{
+    position: absolute;
+    width: 15%;
+    margin-top: -340px;
+    margin-left: 324px;
+}
+
+.contenedor_textoCalidad{
+    position: absolute;
+    width: 15%;
+    margin-top: -340px;
+    margin-left: 665px;
+}
+
+.contenedor_textoGarantia{
+    position: absolute;
+    width: 15%;
+    margin-top: -340px;
+    margin-left: 1012px;
+}
+
+.contenedor_textoInstalacion{
+    position: absolute;
+    width: 15%;
+    margin-top: -340px;
+    margin-left: 1356px;
+}
+
+.palomita_eleccion{
     color: white;
-    /*font-family: Raleway;*/
+    font-weight: 100;
+    color: #777;
+}
+
+.parrafo_eleccion{
+    display: inline-block;
     font-weight: 400;
+    font-family: Raleway;
+    color: white;
+}
+
+.textocalidad{
+    font-size: 16px;
+}
+
+.contenedor_parrafoseleccion{
+    margin-left: 10%;
+}
+
+/*//---------------------------------22/08/2016 Alan "CLIENTES"-------------------------------------------------//*/
+.Titulo_Clientes{
+    font-size: 54px;
+    line-height: 1.11111111;
+    letter-spacing: -1px;
+    font-family: 'Raleway', sans-serif;
+    font-weight: 900;
+    text-transform: uppercase;
+}
+
+.Contenedor_TituloClientes{
+    padding: 5% 5% 0% 16%;
+}
+
+.seccionsup_clientes{
+    padding: 1% 15% 4% 16%;
+}
+
+.seccioninf_clientes{
+    padding: 1% 15% 1% 16%;
+    margin-top: 5%;
+}
+
+.wrap_Clientes{
+    font-size: 21px;
+    text-align: justify;
+    line-height: 1.25;
+}
+
+.Seccion_LogosClietes{
+    margin-top: 25px;
+}
+.Contenedor_ClientesIconos{
+    width: 100%;
+    height: 100px;
+    position: absolute;
+    margin-top: -58px;
+    padding: 0% 0% 0% 7%;
+}
+
+.link_continental{
+    text-decoration: none;
+    position: absolute;
+    margin: -0.7% 0% 0% 0%;
+}
+.link_continental:hover{
+    opacity: 0.5;
+    zoom: 1.2;
+    margin: -1.45% 0% 0% -0.6%;
+}
+
+.link_tyco{
+    text-decoration: none;
+    position: absolute;
+    margin: 0.7% 0% 0% 16%;
+    zoom: 0.55;
+}
+.link_tyco:hover{
+    opacity: 0.5;
+    zoom: 0.7;
+    margin: 0.3% 0% 0% 15%;
+}
+
+.link_chamberlain{
+    text-decoration: none;
+    position: absolute;
+    zoom: 0.55;
+    margin: 0.5% 0% 0% 26.5%;
+}
+.link_chamberlain:hover{
+    opacity: 0.5;
+    zoom: 0.65;
+    margin: 0.3% 0% 0% 25.5%;
+}
+
+.link_medtronic{
+    text-decoration: none;
+    position: absolute;
+    zoom: 0.55;
+    margin: 0.5% 0% 0% 37%;
+}
+.link_medtronic:hover{
+    opacity: 0.5;
+    zoom: 0.66;
+    margin: 0.15% 0% 0% 36%;
+}
+
+.link_tetakawi{
+    text-decoration: none;
+    position: absolute;
+    zoom: 0.55;
+    margin: 0.5% 0% 0% 47%;
+}
+.link_tetakawi:hover{
+    opacity: 0.5;
+    zoom: 0.65;
+    margin: 0.2% 0% 0% 46%;
+}
+
+.link_molex{
+    text-decoration: none;
+    position: absolute;
+    zoom: 0.55;
+    margin: 0.5% 0% 0% 56.5%;
+}
+.link_molex:hover{
+    opacity: 0.5;
+    zoom: 0.65;
+    margin: 0.3% 0% 0% 55.5%;
+}
+
+.link_amphenol{
+    text-decoration: none;
+    position: absolute;
+    zoom: 0.55;
+    margin: 0.55% 0% 0% 66.5%;
+}
+.link_amphenol:hover{
+    opacity: 0.5;
+    zoom: 0.7;
+    margin: 0.3% 0% 0% 65.5%;
+}
+
+.link_bd{
+    text-decoration: none;
+    position: absolute;
+    zoom: 0.55;
+    margin: 0.55% 0% 0% 77%;
+}
+.link_bd:hover{
+    opacity: 0.5;
+    zoom: 0.7;
+    margin: 0.25% 0% 0% 76%;
+}
+
+.seccioninf_clientes{
+
+}
+
+.contenedorinf_clientes{
+
+}
+
+/*.bx-wraper{
+    position: relative;
+    margin: 0 auto 60px;
+    padding: 0;
+}
+
+.bx-wrapper .bx-viewport {
+    -moz-box-shadow: 0 0 5px #ccc;
+    -webkit-box-shadow: 0 0 5px #ccc;
+    box-shadow: 0 0 5px #ccc;
+    border: 5px solid #fff;
+    left: -5px;
+    background: #fff;
+    -webkit-transform: translatez(0);
+    -moz-transform: translatez(0);
+    -ms-transform: translatez(0);
+    -o-transform: translatez(0);
+    transform: translatez(0);
+}
+
+.bxslider{
+    list-style: none;
+}
+
+.icons{
+    float: left; 
+    list-style: none; 
+    position: relative; 
+    width: 170px; 
+    margin-right: 10px;
+}*/
+.footer{
+    margin-top: 5%;
 }
