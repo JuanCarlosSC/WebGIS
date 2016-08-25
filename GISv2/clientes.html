@@ -5,9 +5,10 @@
     <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">   
     <link rel="stylesheet" type="text/css" href="./servicios_files/bootstrap.min.css">
     <link rel="stylesheet" type="text/css" href="css/style.css">
+    <link rel="stylesheet" type="text/css" href="css/jquery.bxslider.css">
     <link href="https://fonts.googleapis.com/css?family=Raleway:900" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Raleway:300,900" rel="stylesheet">
-    <link rel="stylesheet" type="text/css" href="./css/jquery.bxslider.css">
+    <script type="text/javascript" src="js/jquery-1.10.2.min.js"></script>
 </head>
 
 <body>
@@ -78,48 +79,50 @@
         });
     </script>
     <section class="Seccion_LogosClietes">
+        <script type="text/javascript">
+              $(document).ready(function(){
+                
+            $('.bxslider').bxSlider({
+              minSlides: 4,
+              maxSlides: 4,
+              slideWidth: 250,
+              slideMargin: 100,
+              ticker: true,
+              speed: 90000
+            });
+              });
+        </script>
+
         <div class="slider">
-            <div class="bx-wraper" style="max-width:710px;">
-                <div class="bx-viewport" style="width: 100%;overflow: hidden;position: relative;height: 200px;">
-                    <ul class="bxslider" style="width: 1015%; position: relative; transition-duration: 6s; transform: translate3d(-1440px, 0px, 0px); transition-timing-function: linear;">
-                      <li class="icons"><a href="#"><img src="./img/clientes/continental.png" /></a></li>
-                      <li class="icons"><a href="#"><img src="./img/clientes/TE_Connectivity.png" /></a></li>
-                      <li class="icons"><a href="#"><img src="./img/clientes/chamberlain.png" /></a></li>
-                      <li class="icons"><a href="#"><img src="./img/clientes/medtronic.png" /></a></li>
-                      <li class="icons"><a href="#"><img src="./img/clientes/tetakawi.png" /></a></li>
-                      <li class="icons"><a href="#"><img src="./img/clientes/molex.png" /></a></li>
-                      <li class="icons"><a href="#"><img src="./img/clientes/Amphenol.png" /></a></li>
-                      <li class="icons"><a href="#"><img src="./img/clientes/bd.png" /></a></li>
+            <div class="container_slide">
+                <div class="bx-viewport contenedor_separador_slide">
+                    <ul class="bxslider contenido_slide">
+                          <li class="lista_clientes"><img class="continental_img" src="./img/clientes/continental.png" ></li>
+                          <li class="lista_clientes"><img class="tyco_img" src="./img/clientes/TE_Connectivity.png"></li>
+                          <li class="lista_clientes"><img class="chamberlain_img" src="./img/clientes/chamberlain.png" ></li>
+                          <li class="lista_clientes"><img class="medtronic_img" src="./img/clientes/medtronic.png" ></li>
+                          <li class="lista_clientes"><img class="tetakawi_img" src="./img/clientes/tetakawi.png" ></li>
+                          <li class="lista_clientes"><img class="amphenol_img" src="./img/clientes/Amphenol.png" ></li>
+                          <li class="lista_clientes"><img class="molex_img" src="./img/clientes/molex.png" ></li>
+                          <li class="lista_clientes"><img class="becton_img" src="./img/clientes/bd.png" ></li>
+                          <li class="lista_clientes"><img class="m3_img" src="./img/clientes/M3.png" ></li>
+                          <li class="lista_clientes"><img class="curtiss_img" src="./img/clientes/curtiss.png" ></li>
+                          <li class="lista_clientes"><img class="master_img" src="./img/clientes/master.png" ></li>
+                        <li class="bx-clone"><img class="continental_img" src="./img/clientes/continental.png"></li>
+                        <li class="bx-clone"><img class="tyco_img" src="./img/clientes/TE_Connectivity.png"></li>
+                        <li class="bx-clone"><img class="chamberlain_img" src="./img/clientes/chamberlain.png"></li>
+                        <li class="bx-clone"><img class="medtronic_img" src="./img/clientes/medtronic.png"></li>
+                        <li class="bx-clone"><img class="tetakawi_img" src="./img/clientes/tetakawi.png"></li>
+                        <li class="bx-clone"><img class="amphenol_img" src="./img/clientes/Amphenol.png"></li>
+                        <li class="bx-clone"><img class="molex_img" src="./img/clientes/molex.png"></li>
+                        <li class="bx-clone"><img class="becton_img" src="./img/clientes/bd.png"></li>
+                        <li class="bx-clone"><img class="m3_img" src="./img/clientes/M3.png"></li>
+                        <li class="bx-clone"><img class="curtiss_img" src="./img/clientes/curtiss.png"></li>
+                        <li class="bx-clone"><img class="master_img" src="./img/clientes/master.png"></li>
                     </ul>
                 </div>
-            </div>    
+            </div>
         </div>
-        <!--<div class="Contenedor_ClientesIconos">
-            <div class="continental_icono">
-                <a href="#" class="link_continental"><img src="./img/clientes/continental.png" height="128" width="256"></a>
-            </div>
-            <div class="tyco_icono">
-                <a href="#" class="link_tyco"><img src="./img/clientes/TE_Connectivity.png" height="128" width="256"></a>
-            </div>
-            <div class="chamberlain_icono">
-                <a href="#" class="link_chamberlain"><img src="./img/clientes/chamberlain.png" height="128" width="256"></a>
-            </div>
-            <div class="medtronic_icono">
-                <a href="#" class="link_medtronic"><img src="./img/clientes/medtronic.png" height="128" width="256"></a>
-            </div>
-            <div class="tetakawi_icono">
-                <a href="#" class="link_tetakawi"><img src="./img/clientes/tetakawi.png" height="128" width="256"></a>
-            </div>
-            <div class="molex_icono">
-                <a href="#" class="link_molex"><img src="./img/clientes/molex.png" height="128" width="256"></a>
-            </div>
-            <div class="amphenol_icono">
-                <a href="#" class="link_amphenol"><img src="./img/clientes/Amphenol.png" height="128" width="256"></a>
-            </div>
-            <div class="bd_icono">
-                <a href="#" class="link_bd"><img src="./img/clientes/bd.png" height="128" width="256"></a>
-            </div>
-        </div>-->
     </section>
 
     <section class="seccioninf_clientes">
@@ -139,7 +142,6 @@
     </section>
     <!--<script type="text/javascript" src="js/sec.js"></script>-->
     <script type="text/javascript" src="js/jquery.bxslider.min.js"></script>
-    <script type="text/javascript" src="js/jquery-1.10.2.min.js"></script>
     <script type="text/javascript" src="./servicios_files/bootstrap.min.js"></script>
   <!--   <script type="text/javascript">
         debugger;

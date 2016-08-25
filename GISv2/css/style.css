@@ -533,7 +533,7 @@ label {
     line-height: 0;
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale;
-    color: #21c2f8;
+    color: #white;
 }
 
 address {
@@ -904,7 +904,6 @@ opacity: 1;
 .parrafo_eleccion{
     display: inline-block;
     font-weight: 400;
-<<<<<<< HEAD
     font-family: Raleway;
     color: white;
 }
@@ -936,8 +935,8 @@ opacity: 1;
 }
 
 .seccioninf_clientes{
-    padding: 1% 15% 1% 16%;
-    margin-top: 5%;
+    padding: 1% 15% 0% 16%;
+    margin-top: 40%;
 }
 
 .wrap_Clientes{
@@ -949,153 +948,36 @@ opacity: 1;
 .Seccion_LogosClietes{
     margin-top: 25px;
 }
-.Contenedor_ClientesIconos{
+
+.contenedor_fila1{
+    display: inline-block;
     width: 100%;
-    height: 100px;
-    position: absolute;
-    margin-top: -58px;
-    padding: 0% 0% 0% 7%;
+        background-color: #efecec;
 }
 
-.link_continental{
-    text-decoration: none;
-    position: absolute;
-    margin: -0.7% 0% 0% 0%;
-}
-.link_continental:hover{
-    opacity: 0.5;
-    zoom: 1.2;
-    margin: -1.45% 0% 0% -0.6%;
+.contenedor_img{
+    padding-left: 17%;
+    margin-bottom: 3%;
+    display: inline-block;
 }
 
-.link_tyco{
-    text-decoration: none;
-    position: absolute;
-    margin: 0.7% 0% 0% 16%;
-    zoom: 0.55;
-}
-.link_tyco:hover{
-    opacity: 0.5;
-    zoom: 0.7;
-    margin: 0.3% 0% 0% 15%;
+body{
+    background-color: #f5f5f5;
 }
 
-.link_chamberlain{
-    text-decoration: none;
-    position: absolute;
-    zoom: 0.55;
-    margin: 0.5% 0% 0% 26.5%;
-}
-.link_chamberlain:hover{
-    opacity: 0.5;
-    zoom: 0.65;
-    margin: 0.3% 0% 0% 25.5%;
+.contenedor_img_clientes{
+    width: 70%;
 }
 
-.link_medtronic{
-    text-decoration: none;
-    position: absolute;
-    zoom: 0.55;
-    margin: 0.5% 0% 0% 37%;
-}
-.link_medtronic:hover{
-    opacity: 0.5;
-    zoom: 0.66;
-    margin: 0.15% 0% 0% 36%;
+.img_clientes{
+    width: 100%;
+    margin-left: 22%;
 }
 
-.link_tetakawi{
-    text-decoration: none;
-    position: absolute;
-    zoom: 0.55;
-    margin: 0.5% 0% 0% 47%;
-}
-.link_tetakawi:hover{
-    opacity: 0.5;
-    zoom: 0.65;
-    margin: 0.2% 0% 0% 46%;
-}
-
-.link_molex{
-    text-decoration: none;
-    position: absolute;
-    zoom: 0.55;
-    margin: 0.5% 0% 0% 56.5%;
-}
-.link_molex:hover{
-    opacity: 0.5;
-    zoom: 0.65;
-    margin: 0.3% 0% 0% 55.5%;
-}
-
-.link_amphenol{
-    text-decoration: none;
-    position: absolute;
-    zoom: 0.55;
-    margin: 0.55% 0% 0% 66.5%;
-}
-.link_amphenol:hover{
-    opacity: 0.5;
-    zoom: 0.7;
-    margin: 0.3% 0% 0% 65.5%;
-}
-
-.link_bd{
-    text-decoration: none;
-    position: absolute;
-    zoom: 0.55;
-    margin: 0.55% 0% 0% 77%;
-}
-.link_bd:hover{
-    opacity: 0.5;
-    zoom: 0.7;
-    margin: 0.25% 0% 0% 76%;
-}
-
-.seccioninf_clientes{
-
-}
-
-.contenedorinf_clientes{
-
-}
-
-/*.bx-wraper{
-    position: relative;
-    margin: 0 auto 60px;
-    padding: 0;
-}
-
-.bx-wrapper .bx-viewport {
-    -moz-box-shadow: 0 0 5px #ccc;
-    -webkit-box-shadow: 0 0 5px #ccc;
-    box-shadow: 0 0 5px #ccc;
-    border: 5px solid #fff;
-    left: -5px;
-    background: #fff;
-    -webkit-transform: translatez(0);
-    -moz-transform: translatez(0);
-    -ms-transform: translatez(0);
-    -o-transform: translatez(0);
-    transform: translatez(0);
-}
-
-.bxslider{
-    list-style: none;
-}
-
-.icons{
-    float: left; 
-    list-style: none; 
-    position: relative; 
-    width: 170px; 
-    margin-right: 10px;
-}*/
 .footer{
     margin-top: 5%;
 }
-=======
-}
+
 /*==========================================================================*/
 .footer{
     background: #2d2d2d;
@@ -1113,4 +995,3 @@ opacity: 1;
     font-size: 14px;
     color: #ffffff;
 }
->>>>>>> fca48dee32ffdd6ae7bf5e5003c662bf88916091
