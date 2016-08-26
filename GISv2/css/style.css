@@ -924,6 +924,7 @@ opacity: 1;
     font-family: 'Raleway', sans-serif;
     font-weight: 900;
     text-transform: uppercase;
+    margin-bottom: 2%;
 }
 
 .Contenedor_TituloClientes{
@@ -935,8 +936,8 @@ opacity: 1;
 }
 
 .seccioninf_clientes{
-    padding: 1% 15% 0% 16%;
-    margin-top: 40%;
+    margin-top: 46%;
+    padding: 1% 15% 4% 16%;
 }
 
 .wrap_Clientes{
@@ -945,28 +946,27 @@ opacity: 1;
     line-height: 1.25;
 }
 
-.Seccion_LogosClietes{
-    margin-top: 25px;
-}
-
 .contenedor_fila1{
     display: inline-block;
-    width: 100%;
-        background-color: #efecec;
+    width: 80.5%;
+    /*background-color: #fdfdfd;*/
+    /*border: 1px solid #21c2f8;*/
+    border-radius: 45px 45px 45px 45px;
 }
 
 .contenedor_img{
-    padding-left: 17%;
-    margin-bottom: 3%;
+    padding-left: 2%;
+    margin: 3% 7% 3% 1%;
     display: inline-block;
-}
-
-body{
-    background-color: #f5f5f5;
+    width: 25%;
 }
 
 .contenedor_img_clientes{
     width: 70%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 1%;
 }
 
 .img_clientes{
@@ -974,8 +974,170 @@ body{
     margin-left: 22%;
 }
 
+.contenedor_img_clientes .img_clientes{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 100%;
+-webkit-border-radius: 10px;
+  -moz-border-radius: 10px;
+  border-radius: 10px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 100%;
+  transform: scale(1);
+  -ms-transform: scale(1);
+  -moz-transform: scale(1);
+  -webkit-transform: scale(1);
+  -o-transform: scale(1);
+  -webkit-transition: all 500ms ease-in-out;
+  -moz-transition: all 500ms ease-in-out;
+  -ms-transition: all 500ms ease-in-out;
+  -o-transition: all 500ms ease-in-out;
+}
+
+.contenedor_img_clientes:hover .img_clientes{
+    transform: scale(1.2);
+  -ms-transform: scale(1.2);
+  -moz-transform: scale(1.2);
+  -webkit-transform: scale(1.2);
+  -o-transform: scale(1.2);
+}
+
+.contenedorsup_clientes{
+    width: 101%;
+    margin-left: -1.2%;
+}
+
+.Seccion_LogosClietes{
+    margin-left: 17%;
+    margin-right: -1%;
+}
+
+.brd_mainclientes{
+    background-color: #f5f5f5;
+}
+
+.marco_clientes{
+    width: 85%;
+    padding-left: 1%;
+    margin-left: 7%;
+    background-color: white;
+}
+
 .footer{
     margin-top: 5%;
+}
+
+.continental{
+    width: 100%;
+    height: auto;
+    opacity: 0.6;
+}
+.continental:hover{
+    transform: scale(1.2);
+    opacity: 1;
+}
+
+.tyco{
+width: 100%;
+height:  auto;
+opacity: 0.6;
+}
+.tyco:hover{
+transform: scale(1.2);
+opacity: 1;
+}
+
+.chamberlain{
+width: 100%;
+height:  auto;
+opacity: 0.6;
+}
+.chamberlain:hover{
+transform: scale(1.2);
+opacity: 1;
+}
+
+.medtronic{
+width: 100%;
+height:  auto;
+opacity: 0.6;
+}
+.medtronic:hover{
+transform: scale(1.2);
+opacity: 1;
+}
+
+.tetakawi{
+width: 100%;
+height:  auto;
+opacity: 0.6;
+}
+.tetakawi:hover{
+transform: scale(1.2);
+opacity: 1;
+}
+
+.amphenol{
+width: 100%;
+height:  auto;
+opacity: 0.6;
+}
+.amphenol:hover{
+transform: scale(1.2);
+opacity: 1;
+}
+
+.molex{
+width: 100%;
+height:  auto;
+opacity: 0.6;
+}
+.molex:hover{
+transform: scale(1.2);
+opacity: 1;
+}
+
+.becton{
+width: 100%;
+height:  auto;
+opacity: 0.6;
+}
+.becton:hover{
+transform: scale(1.2);
+opacity: 1;
+}
+
+.m3{
+width: 100%;
+height:  auto;
+opacity: 0.6;
+}
+.m3:hover{
+transform: scale(1.2);
+opacity: 1;
+}
+
+.curtiss{
+width: 100%;
+height:  auto;
+opacity: 0.6;
+}
+.curtiss:hover{
+transform: scale(1.2);
+opacity: 1;
+}
+
+.master{
+width: 100%;
+height:  auto;
+opacity: 0.6;
+}
+.master:hover{
+   transform: scale(1.2); 
+   opacity: 1;
 }
 
 /*==========================================================================*/
