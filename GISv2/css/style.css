@@ -916,6 +916,10 @@ opacity: 1;
     margin-left: 10%;
 }
 
+.iconos_contacto{
+    color: #21c2f8;
+}
+
 /*//---------------------------------22/08/2016 Alan "CLIENTES"-------------------------------------------------//*/
 .Titulo_Clientes{
     font-size: 54px;
@@ -936,7 +940,6 @@ opacity: 1;
 }
 
 .seccioninf_clientes{
-    margin-top: 46%;
     padding: 1% 15% 4% 16%;
 }
 
@@ -998,7 +1001,7 @@ opacity: 1;
 }
 
 .contenedor_img_clientes:hover .img_clientes{
-    transform: scale(1.2);
+   transform: scale(1.2);
   -ms-transform: scale(1.2);
   -moz-transform: scale(1.2);
   -webkit-transform: scale(1.2);
