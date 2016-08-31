@@ -555,12 +555,14 @@ address {
 
 @media (min-width: 1200px){
     .valores{
-        margin: 30% auto;
+        margin: 38% auto;
+        margin-bottom: 25% !important;
     }
 
     .titulos_principalesQS{
         font-size: 350%;
         text-align: center;
+        color: #777777;
     }
 
     .titulos_secundariosQS{
@@ -578,7 +580,7 @@ address {
          margin: 0 auto;
          text-align: justify;
          margin-left: 21%;
-         margin-top: 75px;
+         margin-top: 55px;
     }
 
     .logoQS {
@@ -589,11 +591,12 @@ address {
 
     .todo_gis{
         width: 96%;
+        width: 100%;
         height: auto;
     }
 
     .texto_eleccion{
-        padding: 4% 11% 6% 10%;
+        padding: 4% 12% 0% 12%;
         text-align: justify;
     }
 
@@ -624,24 +627,18 @@ address {
         padding: 36px 44px 20px;
         max-width: 497px;
     }
-
-    .seccion_iconos{
-        background: #21c2f8;
-        width: 100%;
-        height: auto;
-        margin-top: 54%;
-        padding: 3% 0% 3% 0%;
-    }  
 }
 
 @media (max-width: 1199px){
 .valores{
         margin: 30% auto;
+        margin-bottom: 25% !important;
     }
 
 .titulos_principalesQS{
         font-size: 200%;
         text-align: center;
+        color: #777777;
     }
 
 .titulos_secundariosQS{
@@ -675,12 +672,22 @@ address {
 .h5{
         line-height: 1.15385;
         font-size: 20px;
-    }  
+    }
+
+.contenedor_iconosQS {
+    width: 99%;
+    height: auto;
+    }
+.list-inline-xxs {
+    margin-left: -3px;
+    margin-right: -3px;
+    }
 }
 
 @media (max-width: 991px){
 .valores{
         margin: 30% auto;
+        margin-bottom: 25% !important;
     }
 
 .rangeQS{
@@ -690,13 +697,6 @@ address {
          margin: 0 auto;
          text-align: justify;
     }
-
-/*.titulos_secundariosQS{
-        font-size: 250%;
-        font-weight: 900;
-        text-transform: uppercase;
-        text-align: center;
-    }*/
 
 .logoQS{
         width: 95%;
@@ -714,14 +714,10 @@ address {
 }
 
 @media (max-width: 720px){
-
-    /*.valores{
-        margin: 30% auto;
-    }*/
-
     .titulos_principalesQS{
         font-size: 200%;
         text-align: center;
+        color: #777777;
     }
 
     .titulos_secundariosQS{
@@ -816,12 +812,6 @@ address {
     box-shadow: 6px 8px 24px 0 rgba(32,47,57,0.2);
 }
 
-/*Checar si se va a reacomodar en los @media*/
-.contenedor_iconosQS{
-    width: 99%;   
-    height: auto;     
-}
-
 .textos_valores{
     margin: 9% 5%;
     font-size: 16px;
@@ -835,13 +825,6 @@ address {
     text-transform: uppercase;
 }
 
-.iconos_QS{
-    display: inline-block;
-    list-style: none;
-    /*padding: 6% 4% 1% 5%;*/
-    padding: 8% 4% 0% 8%;
-}
-
 .icono_entrega:hover, .icono_atencion:hover, .icono_calidad:hover, .icono_garantia:hover, .icono_instalacion:hover{
     opacity: 0.6; 
 }
@@ -850,74 +833,158 @@ address {
 opacity: 1;
 }
 
+.todo_gis{
+    width: 96%;
+    /*width: 100%;*/
+    height: auto;
+}
+
+
+/*//============================================================= NUEVO ESTILO "PORQUE ELEGIRNOS"============================================//*/
+.seccion_iconos{
+}
+
+.contenedor_iconosQS{
+    background-color: #21c2f8;
+    padding: 4% 0% 3% 2%;
+}
+
+.contenedor_entrega{
+    width: 15%;
+    position: absolute;
+}
+
+.iconos_QS{
+    margin-left: 20%;
+}
+
 .textos_iconosQS{
-    display: inline-block;
-    list-style: none;
-    color: white;
-    /*padding: 0% 6.856% 0% 5.1%;*/
-    padding: 0% 6.856% 0% 8.1%;
-    font-size: 18px;
-    font-weight: 900;
-}
-
-.contenedor_textoEntrega{
-    position: absolute;
-    width: 15%;
-    margin-top: -340px;
-    margin-left: -14px;
-}
-
-.contenedor_textoAtencion{
-    position: absolute;
-    width: 15%;
-    margin-top: -340px;
-    margin-left: 324px;
-}
-
-.contenedor_textoCalidad{
-    position: absolute;
-    width: 15%;
-    margin-top: -340px;
-    margin-left: 665px;
-}
-
-.contenedor_textoGarantia{
-    position: absolute;
-    width: 15%;
-    margin-top: -340px;
-    margin-left: 1012px;
-}
-
-.contenedor_textoInstalacion{
-    position: absolute;
-    width: 15%;
-    margin-top: -340px;
-    margin-left: 1356px;
-}
-
-.palomita_eleccion{
-    color: white;
-    font-weight: 100;
-    color: #777;
+    position: relative;
+    margin-left: 28%;
 }
 
 .parrafo_eleccion{
-    display: inline-block;
+    font-family: 'Raleway' !important;
     font-weight: 400;
-    font-family: Raleway;
-    color: white;
-}
-
-.textocalidad{
-    font-size: 16px;
-}
-
-.contenedor_parrafoseleccion{
+    font-size: 18px;
+    margin-top: -10%;
     margin-left: 10%;
+    width: 100%;
 }
 
-.iconos_contacto{
-    color: #21c2f8;
+.Sub_titulosQS{
+    color: white;
+    font-family: 'Raleway' !important;
+    font-weight: 900;
+    font-size: 19px;
+}
+
+.contenedor_textoEntrega{
+    color: white;
+    font-weight: 900;
+    margin-left: 16%;
+    margin-top: -14%;
+    margin-bottom: 16%;
+}
+
+.icono_entrega{
+
+}
+
+.contenedor_atencion{
+    position: relative;
+    width: 15%;
+    display: inline-block;
+    margin-left: 17%;
+    margin-top: 3.5%;
+}
+
+.contenedor_textoAtencion{
+    color: white;
+    font-weight: 900;
+    margin-left: 16%;
+    margin-top: -38%;
+    margin-bottom: 6%;
+}
+
+.contenedor_calidad{
+    position: relative;
+    width: 17%;
+    display: inline-block;
+    margin-left: 2.9%;
+}
+
+.contenedor_textoCalidad{
+    color: white;
+    font-weight: 900;
+    margin-left: 6%;
+    margin-top: -24%;
+    margin-bottom: 6%;
+}
+
+.parrafo_Calidad{
+    font-family: 'Raleway' !important;
+    font-weight: 400;
+    font-size: 16px;
+    margin-top: -7%;
+    margin-left: 10%;
+    width: 100%;
+}
+
+.contenedor_garantia{
+    position: relative;
+    width: 17%;
+    display: inline-block;
+    margin-left: 3.9%;
+}
+
+.contenedor_textoGarantia{
+    color: white;
+    font-weight: 900;
+    margin-top: -24%;
+    margin-bottom: 16%;
+}
+
+.parrafo_garantia{
+    font-family: 'Raleway' !important;
+    font-weight: 400;
+    margin-left: 10%;
+    width: 100%;
+    margin-top: -5%;
+    font-size: 17px;
+}
+
+.icono_garantia{
+
+}
+
+.contenedor_Instalacion{
+    position: relative;
+    width: 17%;
+    display: inline-block;
+    margin-left: 4.9%;
+}
+
+.contenedor_textoInstalacion{
+    color: white;
+    font-weight: 900;
+    margin-top: -24%;
+    margin-bottom: 6%;
+}
+
+.parrafo_instalacion{
+    font-family: 'Raleway' !important;
+    font-weight: 400;
+    /* font-size: 16px; */
+    margin-left: 10%;
+    width: 100%;
+    margin-top: -8%;
+}
+
+/*//================================================FIN NUEVO ESTILO "PORQUE ELEGIRNOS"===================================//*/
+
+.texto_baseAncho{
+    padding-right: 7%;
 }
 
 /*//---------------------------------22/08/2016 Alan "CLIENTES"-------------------------------------------------//*/
