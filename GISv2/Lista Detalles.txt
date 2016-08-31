@@ -1,15 +1,15 @@
 1.- Mapa: "Contacto" 		   	- Asignado: Juan Carlos
 2.- Index            	           	- Asignado: Juan Carlos
 3.- Logo, Slogan Todas las paginas 	- Asignado: Juan Carlos 
-4.- Carousel: "Index"              	- Asignado: Alan
+4.- Carousel: "Index"              	- Asignado: Juan Carlos
 5.- Textos, Todas las paginas      	- Asignado: Alan
 6.- Logos mas chicos: "Clientes"   	- Asignado: Alan
 7.- Redireccionamientos "Servicios" 	- Sin asignar
 8.- Modificaciones "Quienes somos" 	- Asignado: Juan Carlos, Alan
 9.- Cambio de posiciones img"Servicios" - Sin Asignar
 10.- Footer Todas las paginas		- Sin Asignar
-11.- Transicion de textos Carousel      - Asignado: Juan Carlos
-12.- Diseño de menu                     - Sin Asignar
-13.- Corregir Bug Formulario "Contacto" - Asignado: Juan Carlos
-14.- Pagina "Politica y privacidad"     - Sin asignar
-15.- Traduccion de la pagina            - Sin Asignar
+11.- Diseño de menu                     - Sin Asignar
+12.- Corregir Bug Formulario "Contacto" - Asignado: Juan Carlos
+13.- Pagina "Politica y privacidad"     - Sin asignar
+14.- Traduccion de la pagina            - Juan Carlos
+15.- Realizar Traducciones de texto     - Alan
