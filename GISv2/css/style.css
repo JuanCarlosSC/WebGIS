@@ -30,13 +30,18 @@ body{
     line-height: 1.42857143;
     color: #333;
 }
+
+.texto_bienvenida{
+    font-size: 21px;
+    text-align: justify;
+}
 /*=====================================================================================*/
 #galeria{
 	margin-top: 2.63%;
 }
 
 .titulo_index{
-	color: #21c2f8;
+	color: #222533;
 }
 
 h2 small {
@@ -555,7 +560,7 @@ address {
 
 @media (min-width: 1200px){
     .valores{
-        margin: 38% auto;
+        margin: 45% auto;
         margin-bottom: 25% !important;
     }
 
@@ -596,8 +601,10 @@ address {
     }
 
     .texto_eleccion{
-        padding: 4% 12% 0% 12%;
+        padding: 3% 13% 0% 12%;
         text-align: justify;
+        color: #7f7f7f;
+        font-size: 20px;
     }
 
     .txt_base{
@@ -607,6 +614,7 @@ address {
     .h5{
         line-height: 1.15385;
         font-size: 26px;
+        color: rgba(0,0,0,.5);
     }
 
     .contenedor_QS{
@@ -816,6 +824,7 @@ address {
     margin: 9% 5%;
     font-size: 16px;
     line-height: 1.2 !important;
+    color: #7f7f7f;
 }
 
 .subtitulo_valores{
@@ -837,6 +846,10 @@ opacity: 1;
     width: 96%;
     /*width: 100%;*/
     height: auto;
+}
+
+.body_color{
+    color: #f5f5f5;
 }
 
 
@@ -1083,6 +1096,9 @@ opacity: 1;
 .Seccion_LogosClietes{
     margin-left: 17%;
     margin-right: -1%;
+
+    /*     margin-left: 17%;
+    margin-right: -4%; */
 }
 
 .brd_mainclientes{
@@ -1096,10 +1112,6 @@ opacity: 1;
     background-color: white;
 }
 
-.footer{
-    margin-top: 5%;
-}
-
 .continental{
     width: 100%;
     height: auto;
@@ -1111,9 +1123,9 @@ opacity: 1;
 }
 
 .tyco{
-width: 100%;
-height:  auto;
-opacity: 0.6;
+    width: 80%;
+    height: auto;
+    opacity: 0.6;
 }
 .tyco:hover{
 transform: scale(1.2);
@@ -1131,7 +1143,7 @@ opacity: 1;
 }
 
 .medtronic{
-width: 100%;
+width: 82%;
 height:  auto;
 opacity: 0.6;
 }
@@ -1151,7 +1163,7 @@ opacity: 1;
 }
 
 .amphenol{
-width: 100%;
+width: 90%;
 height:  auto;
 opacity: 0.6;
 }
@@ -1161,7 +1173,7 @@ opacity: 1;
 }
 
 .molex{
-width: 100%;
+width: 89%;
 height:  auto;
 opacity: 0.6;
 }
@@ -1171,7 +1183,7 @@ opacity: 1;
 }
 
 .becton{
-width: 100%;
+width: 85%;
 height:  auto;
 opacity: 0.6;
 }
@@ -1181,7 +1193,7 @@ opacity: 1;
 }
 
 .m3{
-width: 100%;
+width: 81%;
 height:  auto;
 opacity: 0.6;
 }
@@ -1191,7 +1203,7 @@ opacity: 1;
 }
 
 .curtiss{
-width: 100%;
+width: 83%;
 height:  auto;
 opacity: 0.6;
 }
@@ -1201,7 +1213,7 @@ opacity: 1;
 }
 
 .master{
-width: 100%;
+width: 83%;
 height:  auto;
 opacity: 0.6;
 }
