@@ -1,0 +1,17 @@
+Nuestros Servicios
+Global Integral Services trabaja a diferentes empresas, organizaciones o instituciones de diferentes sectores, facilitando herramientas, software y equipos industriales que ayudan a la producción de productos o servicios. Nuestros servicios comprenden desde el diseño del equipo o herramienta, pasando por ingeniería, hasta salir de producción; manteniendo una estricta política de calidad de servicio. Finalmente, en los casos solicitados la capacitación para uso los proyectos realizados.
+Los servicios de GIS incluyen:
+	Contacto directo con agente de ventas
+	Evaluación técnica
+	Diseño y prototipo
+	Producción
+	Ensamble del equipo o el sistema completo
+	Instalación y configuración en sitio
+
+DISEÑO CAD: Servicio de diseño de soluciones en sistema CAD, simulación de mecanismos, entre otros.
+MAQUINADOS: Fabricación de partes en Fresadora CNC, Torno CNC, Fresadora Convencional, Torno Convencional, Rectificadora, Dobladora Hidráulica.
+PROGRAMACION CAM: Creación de todo tipo de programación bajo la plataforma de MasterCAM.
+SOFTWARE: Servicio de diseño y desarrollo de software, prueba eléctrica, manejo y proceso de tableros electrónicos.
+REPARACION: Servicio de reparación y/o reconstrucción de estaciones de prueba o estaciones de procesos automatizados.
+DISEÑO ELECTRICO: Servicio de diseño y fabricación de prototipos como sistemas embebidos, tarjetas de interfaz de comunicación.
+PROTOTIPOS: Desarrollo y creación de prototipos en fase de diseño y producto finalizado.
