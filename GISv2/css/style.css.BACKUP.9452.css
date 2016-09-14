@@ -1245,6 +1245,150 @@ opacity: 0.6;
     width: 100%;
     height: 500px;
 }
+<<<<<<< HEAD
+/*============================================================================*/
+
+/*========================================================================*/
+/*
+Fade content bs-carousel with hero headers
+Code snippet by maridlcrmn (Follow me on Twitter @maridlcrmn) for Bootsnipp.com
+Image credits: unsplash.com
+*/
+
+/********************************/
+/*       Fade Bs-carousel       */
+/********************************/
+.fade-carousel {
+    position: relative;
+    height: 65vh;
+}
+.fade-carousel .carousel-inner .item {
+    height: 65vh;
+}
+.fade-carousel .carousel-indicators > li {
+    margin: 0 2px;
+    background-color: #6d6d6d;
+    border-color: #6d6d6d;
+    opacity: .7;
+}
+.fade-carousel .carousel-indicators > li.active {
+  width: 10px;
+  height: 10px;
+  opacity: 1;
+}
+
+/********************************/
+/*          Hero Headers        */
+/********************************/
+.hero {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    z-index: 3;
+    color: #fff;
+    /*text-align: center;
+    text-transform: uppercase;*/
+    /*text-shadow: 1px 1px 0 rgba(0,0,0,.75);*/
+      -webkit-transform: translate3d(-50%,-25%,0);
+         -moz-transform: translate3d(-50%,-25%,0);
+          -ms-transform: translate3d(-50%,-25%,0);
+           -o-transform: translate3d(-50%,-25%,0);
+              transform: translate3d(-50%,-25%,0);
+}
+.hero h1 {
+    font-size: 6em;    
+    font-weight: bold;
+    margin: 0;
+    padding: 0;
+}
+
+.fade-carousel .carousel-inner .item .hero {
+    opacity: 0;
+    -webkit-transition: 2s all ease-in-out .1s;
+       -moz-transition: 2s all ease-in-out .1s; 
+        -ms-transition: 2s all ease-in-out .1s; 
+         -o-transition: 2s all ease-in-out .1s; 
+            transition: 2s all ease-in-out .1s; 
+}
+.fade-carousel .carousel-inner .item.active .hero {
+    opacity: 1;
+    -webkit-transition: 2s all ease-in-out .1s;
+       -moz-transition: 2s all ease-in-out .1s; 
+        -ms-transition: 2s all ease-in-out .1s; 
+         -o-transition: 2s all ease-in-out .1s; 
+            transition: 2s all ease-in-out .1s;    
+}
+
+/********************************/
+/*            Overlay           */
+/********************************/
+.overlay {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    z-index: 2;
+    background-color: #080d15;
+    opacity: .7;
+}
+
+/********************************/
+/*          Custom Buttons      */
+/********************************/
+.btn.btn-lg {padding: 10px 40px;}
+.btn.btn-hero,
+.btn.btn-hero:hover,
+.btn.btn-hero:focus {
+    color: #f5f5f5;
+    background-color: #1abc9c;
+    border-color: #1abc9c;
+    outline: none;
+    margin: 20px auto;
+}
+
+/********************************/
+/*       Slides backgrounds     */
+/********************************/
+.fade-carousel .slides .slide-1, 
+.fade-carousel .slides .slide-2,
+.fade-carousel .slides .slide-3,
+.fade-carousel .slides .slide-4,
+.fade-carousel .slides .slide-5 {
+  height: 100vh;
+  background-size: cover;
+  background-position: center center;
+  background-repeat: no-repeat;
+}
+.fade-carousel .slides .slide-1 {
+  background-image: url("../Images/Programacion CAM.JPG"); 
+}
+.fade-carousel .slides .slide-2 {
+  background-image: url("../Images/Diseño CAD.JPG");
+}
+.fade-carousel .slides .slide-3 {
+  background-image: url("../Images/Diseño Electrico.jpg");
+}
+.fade-carousel .slides .slide-4 {
+  background-image: url("../Images/Global Integral Services.jpg");
+}
+.fade-carousel .slides .slide-5 {
+  background-image: url("../Images/Software.jpg");
+}
+/*.fade-carousel .slides .slide-2 {
+  background-image: url(https://ununsplash.imgix.net/photo-1416339684178-3a239570f315?q=75&fm=jpg&s=c39d9a3bf66d6566b9608a9f1f3765af);
+}
+.fade-carousel .slides .slide-3 {
+  background-image: url(https://ununsplash.imgix.net/photo-1416339276121-ba1dfa199912?q=75&fm=jpg&s=9bf9f2ef5be5cb5eee5255e7765cb327);
+}*/
+
+/********************************/
+/*          Media Queries       */
+/********************************/
+@media screen and (min-width: 980px){
+    /*.hero { width: 980px; }    */
+}
+@media screen and (max-width: 640px){
+    /*.hero h1 { font-size: 4em; } */   
+=======
 /*//=========================================Servicios Separados ALAN ===============================================*/
 .marco_singServ{
     color: #f5f5f5;
@@ -1435,234 +1579,5 @@ opacity: 0.6;
 
 .seccion_otrosserv{
     padding: 0% 9% 2% 9%;
+>>>>>>> f61a7a519ddaf2a5d12a48e887beb6c224eab3a8
 }
-
-/*=================================Responsive Single Services=====================================================================*/
-@media (min-width: 292px){
-.informacion_sinserv {
-    margin-top: 710px;
-    color: black;
-    padding: 0% 15% 2% 15%;
-    }
-}
-
-@media(max-width: 388px){
-.contenedor_imgD {
-    position: absolute;
-    width: 75%;
-    top: 42%;
-    left: 13%;
-    }
-
-.imgsize{
-    width: 100%;
-    height: 250px;
-    }
-
-.informacion_sinserv {
-    margin-top: 696px;
-    color: black;
-    padding: 0% 15% 2% 15%;
-    }
-}
-
-@media(min-width: 389px) and (max-width: 569px){
-.contenedor_imgD {
-    position: absolute;
-    width: 69%;
-    top: 36%;
-    left: 15.5%;
-}
-
-.imgsize{
-    width: 100%;
-    height: 270px;
-    }
-
-.informacion_sinserv {
-    margin-top: 655px;
-    color: black;
-    padding: 0% 15% 2% 15%;
-}
-}
-
-@media(min-width: 570px) and (max-width: 635px){
-.contenedor_imgD {
-    position: absolute;
-    width: 62%;
-    top: 28.5%;
-    left: 19.5%;
-}
-
-.imgsize{
-    width: 100%;
-    height: 270px;
-    }
-
-.informacion_sinserv {
-    margin-top: 565px;
-    color: black;
-    padding: 0% 15% 2% 15%;
-}
-}
-
-@media(min-width: 636px) and (max-width: 989px){
-.informacion_sinserv {
-    margin-top: 627px;
-    color: black;
-    padding: 0% 15% 2% 15%;
-}
-
-.imgDiseno {
-    width: 60%;
-    height: 250px;
-}
-
-.informacion_sinserv {
-    margin-top: 533px;
-    color: black;
-    padding: 0% 15% 2% 15%;
-}
-}
-/*============================================================================*/
-
-/*========================================================================*/
-/*
-Fade content bs-carousel with hero headers
-Code snippet by maridlcrmn (Follow me on Twitter @maridlcrmn) for Bootsnipp.com
-Image credits: unsplash.com
-*/
-
-/********************************/
-/*       Fade Bs-carousel       */
-/********************************/
-.fade-carousel {
-    position: relative;
-    height: 65vh;
-}
-.fade-carousel .carousel-inner .item {
-    height: 65vh;
-}
-.fade-carousel .carousel-indicators > li {
-    margin: 0 2px;
-    background-color: #6d6d6d;
-    border-color: #6d6d6d;
-    opacity: .7;
-}
-.fade-carousel .carousel-indicators > li.active {
-  width: 10px;
-  height: 10px;
-  opacity: 1;
-}
-
-/********************************/
-/*          Hero Headers        */
-/********************************/
-.hero {
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    z-index: 3;
-    color: #fff;
-    /*text-align: center;
-    text-transform: uppercase;*/
-    /*text-shadow: 1px 1px 0 rgba(0,0,0,.75);*/
-      -webkit-transform: translate3d(-50%,-25%,0);
-         -moz-transform: translate3d(-50%,-25%,0);
-          -ms-transform: translate3d(-50%,-25%,0);
-           -o-transform: translate3d(-50%,-25%,0);
-              transform: translate3d(-50%,-25%,0);
-}
-.hero h1 {
-    font-size: 6em;    
-    font-weight: bold;
-    margin: 0;
-    padding: 0;
-}
-
-.fade-carousel .carousel-inner .item .hero {
-    opacity: 0;
-    -webkit-transition: 2s all ease-in-out .1s;
-       -moz-transition: 2s all ease-in-out .1s; 
-        -ms-transition: 2s all ease-in-out .1s; 
-         -o-transition: 2s all ease-in-out .1s; 
-            transition: 2s all ease-in-out .1s; 
-}
-.fade-carousel .carousel-inner .item.active .hero {
-    opacity: 1;
-    -webkit-transition: 2s all ease-in-out .1s;
-       -moz-transition: 2s all ease-in-out .1s; 
-        -ms-transition: 2s all ease-in-out .1s; 
-         -o-transition: 2s all ease-in-out .1s; 
-            transition: 2s all ease-in-out .1s;    
-}
-
-/********************************/
-/*            Overlay           */
-/********************************/
-.overlay {
-    position: absolute;
-    width: 100%;
-    height: 100%;
-    z-index: 2;
-    background-color: #080d15;
-    opacity: .7;
-}
-
-/********************************/
-/*          Custom Buttons      */
-/********************************/
-.btn.btn-lg {padding: 10px 40px;}
-.btn.btn-hero,
-.btn.btn-hero:hover,
-.btn.btn-hero:focus {
-    color: #f5f5f5;
-    background-color: #1abc9c;
-    border-color: #1abc9c;
-    outline: none;
-    margin: 20px auto;
-}
-
-/********************************/
-/*       Slides backgrounds     */
-/********************************/
-.fade-carousel .slides .slide-1, 
-.fade-carousel .slides .slide-2,
-.fade-carousel .slides .slide-3,
-.fade-carousel .slides .slide-4,
-.fade-carousel .slides .slide-5 {
-  height: 100vh;
-  background-size: cover;
-  background-position: center center;
-  background-repeat: no-repeat;
-}
-.fade-carousel .slides .slide-1 {
-  background-image: url("../Images/Programacion CAM.JPG"); 
-}
-.fade-carousel .slides .slide-2 {
-  background-image: url("../Images/Diseño CAD.JPG");
-}
-.fade-carousel .slides .slide-3 {
-  background-image: url("../Images/Diseño Electrico.jpg");
-}
-.fade-carousel .slides .slide-4 {
-  background-image: url("../Images/Global Integral Services.jpg");
-}
-.fade-carousel .slides .slide-5 {
-  background-image: url("../Images/Software.jpg");
-}
-/*.fade-carousel .slides .slide-2 {
-  background-image: url(https://ununsplash.imgix.net/photo-1416339684178-3a239570f315?q=75&fm=jpg&s=c39d9a3bf66d6566b9608a9f1f3765af);
-}
-.fade-carousel .slides .slide-3 {
-  background-image: url(https://ununsplash.imgix.net/photo-1416339276121-ba1dfa199912?q=75&fm=jpg&s=9bf9f2ef5be5cb5eee5255e7765cb327);
-}*/
-
-/********************************/
-/*          Media Queries       */
-/********************************/
-@media screen and (min-width: 980px){
-    /*.hero { width: 980px; }    */
-}
-@media screen and (max-width: 640px){
-    /*.hero h1 { font-size: 4em; } */   
