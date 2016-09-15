@@ -1272,16 +1272,10 @@ opacity: 0.6;
 /*//=========================================Servicios Individuales ALAN ===============================================*/
 .marco_singServ{
     color: #f5f5f5;
-    height: 850px;
+    height: auto;
 }
 
 .cont_sinservT{
-    /*top: 8%;
-    width: 100%;
-    position: absolute;
-    padding: 1% 5% 0% 5%;
-    margin-bottom: 5%;*/
-
     top: 8%;
     width: 100%;
     position: absolute;
@@ -1295,27 +1289,59 @@ opacity: 0.6;
     color: black;
     text-align: center;
     text-transform: uppercase;
+    font-family: 'Raleway';
+    font-weight: 900;
+    position: relative;
+    display: block;
+    margin-top: 104px;
+    font-size: -webkit-xxx-large;
 }
-.contenedor_imgD{
-    /*position: absolute;
-    width: 56%;
-    top: 28%;
-    left: 23%;*/
 
+.divider1 {
+    position: relative;
+}
+
+.divider1:before {
     position: absolute;
-    width: 58.5%;
-    top: 27%;
-    left: 20.9%;
+    bottom: -6px;
+    left: 50%;
+    -webkit-transform: translateX(-50%);
+    transform: translateX(-50%);
+    content: '';
+    display: inline-block;
+    height: 1px;
+    width: 100%;
+    background-color: #21c2f8;
+}
+
+.divider1:after {
+    position: absolute;
+    left: 50%;
+    bottom: -8px;
+    -webkit-transform: translateX(-50%);
+    transform: translateX(-50%);
+    content: '';
+    display: inline-block;
+    height: 3px;
+    width: 80px;
+    background-color: #21c2f8;
+}
+
+.contenedor_imgD{
+    position: relative;
+    display: block;
+    width: 98%;
+    top: 30px;
+    left: 10px;
 }
 
 .div_imgD{
     overflow: hidden;
-    /*display: block;*/
 }
 
 .imgDiseno{
     width: 60%;
-    height: 375px;
+    height: auto;
 }
 
 .div_imgD .hidden {
@@ -1362,9 +1388,8 @@ opacity: 0.6;
 }*/
 
 .informacion_sinserv{
-    margin-top: 40%;
+    margin-top: calc(6% + 10px);
     color: black;
-    padding: 0% 15% 2% 15%;
 }
 
 .product-information {
@@ -1474,94 +1499,27 @@ opacity: 0.6;
     padding: 0% 9% 2% 9%;
 }
 
+.titulos_otrosserv {
+    color: black;
+    text-align: center;
+    text-transform: uppercase;
+    font-family: 'Raleway';
+    font-weight: 900;
+    position: relative;
+    display: block;
+    margin-top: 54px;
+    font-size: -webkit-xxx-large;
+    margin-bottom: 45px;
+}
+
 /*=================================Responsive Single Services=====================================================================*/
-@media (min-width: 292px){
-.informacion_sinserv {
-    margin-top: 710px;
-    color: black;
-    padding: 0% 15% 2% 15%;
+@media only screen and (max-width: 767px){
+    .informacion_sinserv{
+        margin-top: calc(6% + 50px);
+        color: black;
+        /*padding: 0% 15% 2% 15%;*/
     }
 }
-
-@media(max-width: 388px){
-.contenedor_imgD {
-    position: absolute;
-    width: 75%;
-    top: 42%;
-    left: 13%;
-    }
-
-.imgsize{
-    width: 100%;
-    height: 250px;
-    }
-
-.informacion_sinserv {
-    margin-top: 696px;
-    color: black;
-    padding: 0% 15% 2% 15%;
-    }
-}
-
-@media(min-width: 389px) and (max-width: 569px){
-.contenedor_imgD {
-    position: absolute;
-    width: 69%;
-    top: 36%;
-    left: 15.5%;
-}
-
-.imgsize{
-    width: 100%;
-    height: 270px;
-    }
-
-.informacion_sinserv {
-    margin-top: 655px;
-    color: black;
-    padding: 0% 15% 2% 15%;
-}
-}
-
-@media(min-width: 570px) and (max-width: 635px){
-.contenedor_imgD {
-    position: absolute;
-    width: 62%;
-    top: 28.5%;
-    left: 19.5%;
-}
-
-.imgsize{
-    width: 100%;
-    height: 270px;
-    }
-
-.informacion_sinserv {
-    margin-top: 565px;
-    color: black;
-    padding: 0% 15% 2% 15%;
-}
-}
-
-@media(min-width: 636px) and (max-width: 989px){
-.informacion_sinserv {
-    margin-top: 627px;
-    color: black;
-    padding: 0% 15% 2% 15%;
-}
-
-.imgDiseno {
-    width: 60%;
-    height: 250px;
-}
-
-.informacion_sinserv {
-    margin-top: 533px;
-    color: black;
-    padding: 0% 15% 2% 15%;
-}
-}
-/*============================================================================*/
 
 /*========================================================================*/
 /*
