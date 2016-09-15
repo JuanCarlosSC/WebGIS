@@ -1223,6 +1223,15 @@ opacity: 0.6;
    transform: scale(1.2); 
    opacity: 1;
 }
+.atronix{
+    width: 83%;
+    height:  auto;
+    opacity: 0.6;
+}
+.atronix:hover{
+    transform: scale(1.2); 
+   opacity: 1;
+}
 
 /*==========================================================================*/
 .footer{
