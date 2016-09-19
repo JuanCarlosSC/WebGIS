@@ -6,8 +6,13 @@ X-6.- Logos mas chicos: "Clientes"   	- Asignado: Alan
 X-7.- Redireccionamientos "Servicios" 	- Asignado: Alan
 8.- Modificaciones "Quienes somos" 	- Asignado: Juan Carlos
 X-9.- Cambio de posiciones img"Servicios" - Sin Asignar
-10.- Footer Todas las paginas		- Asignado: Juan Carlos
-X-11.- Diseño de menu                     - Asignado: Ambos
-X-14.- Traduccion de la pagina            - Juan Carlos
-X-15.- Realizar Traducciones de texto     - Alan
-16.- Logo en todas las paginas            - Juan Carlos 
+X-10.- Footer Todas las paginas		- Asignado: Juan Carlos
+X-11.- Diseño de menu                   - Asignado: Ambos
+X-14.- Traduccion de la pagina          - Asignado: Juan Carlos
+X-15.- Realizar Traducciones de texto   - Asignado: Alan
+X-16.- Logo en todas las paginas        - Asignado: Alan
+17.- Modificacion del contenedor de ser-  -Asignado: Juan Carlos  
+     vicios en cada pagina de servicio
+     (Hacer mas chico el contenedor solo
+      para poner el nombre del servicio
+      y alinear las flechas)

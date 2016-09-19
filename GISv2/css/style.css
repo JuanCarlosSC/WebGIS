@@ -570,7 +570,8 @@ address {
 }
 /*//-----------------------------------17/08/2016||18/08/2016 Alan "QUIENES SOMOS"---------------------------------------------------------------------//*/
 .margen_auto{
-    margin: 80px auto;
+    /*margin: 80px auto;*/
+    margin: 146px auto;
 }
 
 @media (min-width: 1200px){
@@ -582,7 +583,8 @@ address {
     .titulos_principalesQS{
         font-size: 350%;
         text-align: center;
-        color: #777777;
+        /*color: #777777;*/
+        color: black;
     }
 
     .titulos_secundariosQS{
@@ -1027,7 +1029,8 @@ opacity: 1;
 }
 
 .Contenedor_TituloClientes{
-    padding: 5% 5% 0% 16%;
+    /*padding: 5% 5% 0% 16%;*/
+    padding: 14% 5% 0% 0%
 }
 
 .seccionsup_clientes{
@@ -1060,7 +1063,8 @@ opacity: 1;
 }
 
 .contenedor_img_clientes{
-    width: 70%;
+    /*width: 70%;*/
+    width: 100%;
     display: block;
     margin-left: auto;
     margin-right: auto;
@@ -1103,10 +1107,10 @@ opacity: 1;
   -o-transform: scale(1.2);
 }
 
-.contenedorsup_clientes{
-    width: 101%;
+/*.contenedorsup_clientes{
+    width: 100%;
     margin-left: -1.2%;
-}
+}*/
 
 .Seccion_LogosClietes{
     margin-left: 17%;
