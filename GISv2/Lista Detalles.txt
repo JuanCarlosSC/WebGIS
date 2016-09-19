@@ -1,5 +1,5 @@
 X-1.- Mapa: "Contacto" 		   	- Asignado: Juan Carlos
-3.- Logo, Slogan Todas las paginas 	- Asignado: Juan Carlos 
+X-3.- Logo, Slogan Todas las paginas 	- Asignado: Juan Carlos 
 X-4.- Carousel: "Index"              	- Asignado: Juan Carlos
 X-5.- Textos, Todas las paginas      	- Asignado: Alan
 X-6.- Logos mas chicos: "Clientes"   	- Asignado: Alan
@@ -8,5 +8,6 @@ X-7.- Redireccionamientos "Servicios" 	- Asignado: Alan
 X-9.- Cambio de posiciones img"Servicios" - Sin Asignar
 10.- Footer Todas las paginas		- Asignado: Juan Carlos
 X-11.- Diseño de menu                     - Asignado: Ambos
-14.- Traduccion de la pagina            - Juan Carlos
+X-14.- Traduccion de la pagina            - Juan Carlos
 X-15.- Realizar Traducciones de texto     - Alan
+16.- Logo en todas las paginas            - Juan Carlos 
