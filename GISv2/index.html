@@ -15,7 +15,7 @@
 
 <body>
     <nav class="navbar navbar-default navbar-fixed-top">
-        <div class="container-fluid">
+        <div class="container">
             <!-- Brand and toggle get grouped for better mobile display -->
             <div class="navbar-header">
                 <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
@@ -24,18 +24,23 @@
                     <span class="icon-bar"></span>
                     <span class="icon-bar"></span>
                 </button>
-                <!-- <a class="navbar-brand" href="#"><img src="img/logo/logo_web14.png"></a> -->
+                
+                <a class="navbar-brand" href="#"><img src="img/logo/logo-web3.png">
+                    <div class="triangulo-logo"></div>
+                </a>
+                
             </div>
             <!-- Collect the nav links, forms, and other content for toggling -->
             <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
                 <ul class="nav navbar-nav navbar-right">
-                    <li><a href="index.html">INICIO</a></li>
-                    <li><a href="servicios.html">SERVICIOS</a></li>
+                    <li><a href="index.html" data-translate="inicio">Inicio</a></li>
+                    
+                    <li><a href="servicios.html" data-translate="servicios">SERVICIOS</a></li>
                     <!--<li><a href="#">PROYECTOS</a></li>-->
-                    <li><a href="clientes.html">CLIENTES</a></li>
-                    <li><a href="contacto.html">CONTACTO</a></li>
-                    <li><a href="gis.html">QUIENES SOMOS?</a></li>
-                    <li><a href="#">ING/ESP <span class="glyphicon glyphicon-globe"></span></a></li>
+                    <li><a href="clientes.html" data-translate="clientes">CLIENTES</a></li>
+                    <li><a href="contacto.html" data-translate="contacto">CONTACTO</a></li>
+                    <li><a href="gis.html" data-translate="quienes_somos">QUIENES SOMOS?</a></li>
+                    <li><a id="idiomas" href="#">ING/ESP <span class="glyphicon glyphicon-globe"></span></a></li>
                 </ul>
             </div>
             <!-- /.navbar-collapse -->
@@ -46,8 +51,8 @@
         
         <div id="wowslider-container1">
             <div class="jumbotron_slider_servicios"> 
-            	<em class="titulo_slider_servicios">SUCCESS</em> 
-            	<div class="wrap">
+                <em class="titulo_slider_servicios">SUCCESS</em> 
+                <div class="wrap">
                     <p>
                         Lorem ipsum dolor sit amet conse ctetur adipisicing elit, sed do
                         <span> eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim</span>.
@@ -109,66 +114,76 @@
         <div class="carousel-inner">
             <div class="item slides active">
                 <div class="slide-1 "></div>
-                <div class="jumbotron_slider_servicios hero slide-servicio-black"> 
-                    <em class="titulo_slider_servicios">SUCCESS</em> 
-                    <div class="wrap">
-                        <p>
-                            Lorem ipsum dolor sit amet conse ctetur adipisicing elit, sed do
-                            <span> eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim</span>.
-                        </p>
-                        <a href="#" class="glyphicon glyphicon-menu-right"></a>
+                <div class="container container-absolute">
+                    <div class="jumbotron_slider_servicios hero slide-servicio-black"> 
+                        <em class="titulo_slider_servicios">SUCCESS</em> 
+                        <div class="wrap">
+                            <p>
+                                Lorem ipsum dolor sit amet conse ctetur adipisicing elit, sed do
+                                <span> eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim</span>.
+                            </p>
+                            <a href="#" class="glyphicon glyphicon-menu-right"></a>
+                        </div>
                     </div>
                 </div>
             </div>
             <div class="item slides ">
                 <div class="slide-2"></div>
-                <div class="jumbotron_slider_servicios hero"> 
-                    <em class="titulo_slider_servicios">Diseño CAD</em> 
-                    <div class="wrap">
-                        <p>
-                            Lorem ipsum dolor sit amet conse ctetur adipisicing elit, sed do
-                            <span> eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim</span>.
-                        </p>
-                        <a href="#" class="glyphicon glyphicon-menu-right"></a>
+                <div class="container container-absolute">
+                    <div class="jumbotron_slider_servicios hero"> 
+                        <em class="titulo_slider_servicios">Diseño CAD</em> 
+                        <div class="wrap">
+                            <p>
+                                Lorem ipsum dolor sit amet conse ctetur adipisicing elit, sed do
+                                <span> eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim</span>.
+                            </p>
+                            <a href="#" class="glyphicon glyphicon-menu-right"></a>
+                        </div>
                     </div>
                 </div>
             </div>
             <div class="item slides ">
                 <div class="slide-3"></div>
-                <div class="jumbotron_slider_servicios hero slide-servicio-white"> 
-                    <em class="titulo_slider_servicios">SUCCESS</em> 
-                    <div class="wrap">
-                        <p>
-                            Lorem ipsum dolor sit amet conse ctetur adipisicing elit, sed do
-                            <span> eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim</span>.
-                        </p>
-                        <a href="#" class="glyphicon glyphicon-menu-right"></a>
+                <div class="container container-absolute">
+                    <div class="jumbotron_slider_servicios hero slide-servicio-white"> 
+                        <em class="titulo_slider_servicios">SUCCESS</em> 
+                        <div class="wrap">
+                            <p>
+                                Lorem ipsum dolor sit amet conse ctetur adipisicing elit, sed do
+                                <span> eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim</span>.
+                            </p>
+                            <a href="#" class="glyphicon glyphicon-menu-right"></a>
+                        </div>
                     </div>
                 </div>
             </div>
             <div class="item slides ">
                 <div class="slide-4"></div>
-                <div class="jumbotron_slider_servicios hero slide-servicio-white"> 
-                    <em class="titulo_slider_servicios">SUCCESS</em> 
-                    <div class="wrap">
-                        <p>
-                            Lorem ipsum dolor sit amet conse ctetur adipisicing elit, sed do
-                            <span> eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim</span>.
-                        </p>
-                        <a href="#" class="glyphicon glyphicon-menu-right"></a>
+                <div class="container container-absolute">
+                    <div class="jumbotron_slider_servicios hero slide-servicio-white"> 
+                        <em class="titulo_slider_servicios">SUCCESS</em> 
+                        <div class="wrap">
+                            <p>
+                                Lorem ipsum dolor sit amet conse ctetur adipisicing elit, sed do
+                                <span> eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim</span>.
+                            </p>
+                            <a href="#" class="glyphicon glyphicon-menu-right"></a>
+                        </div>
                     </div>
                 </div>
             </div>
             <div class="item slides ">
                 <div class="slide-5"></div>
-                <div class="jumbotron_slider_servicios hero"> 
-                    <em class="titulo_slider_servicios">Software</em> 
-                    <div class="wrap">
-                        <p>
-                            Lorem ipsum dolor sit amet conse ctetur adipisicing elit, sed do
-                            <span> eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim</span>.
-                        </p>
-                        <a href="#" class="glyphicon glyphicon-menu-right"></a>
+                <div class="container container-absolute">
+                    <div class="jumbotron_slider_servicios hero"> 
+                        <em class="titulo_slider_servicios">Software</em> 
+                        <div class="wrap">
+                            <p>
+                                Lorem ipsum dolor sit amet conse ctetur adipisicing elit, sed do
+                                <span> eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim</span>.
+                            </p>
+                            <a href="#" class="glyphicon glyphicon-menu-right"></a>
+                        </div>
                     </div>
                 </div>
             </div>
@@ -199,12 +214,12 @@
 
     <section class="contenido-index" data-wow-duration="3s" style="visibility: visible; animation-duration: 3s; animation-name: fadeIn;">
         <div class="container">
-            <h2 class="titulo_index">
-	            Bienvenido <small> gracias por visitarnos!</small>
-	        </h2>
+            <h2 class="titulo_index" data-translate="bienvenido">
+                Bienvenido <small> gracias por visitarnos!</small>
+            </h2>
             <div class="row">
                 <div class="col-md-12 col-sm-12">
-                    <p class="texto_bienvenida">
+                    <p class="texto_bienvenida" data-translate="parrafo_1">
                         Global Integral Services les da la más cordial bienvenida a nuestro sitio web, en el cual esperamos que encuentren la información que buscan acerca de nuestros servicios y éstos sean de su agrado.<br><br>
                         El objetivo de nuestro sitio web, es dar a conocer quiénes somos y qué hacemos, así como la ideología e historia de GIS. Usted podrá encontrar de una forma sencilla y directa nuestros servicios y algunos de nuestros proyectos de hoy en día.
                         Usted podrá contactarnos y enviar preguntas o sugerencias relacionados con nuestros servicios o inquietudes que tenga; de tal forma que pueda antendérsele a la brevedad.<br><br> 
@@ -229,6 +244,38 @@
     </section>
     <script type="text/javascript" src="js/jquery-1.10.2.min.js"></script>
     <script type="text/javascript" src="js/bootstrap.min.js"></script>
+    <script type="text/javascript" src="js/jqueryTranslator.min.js"></script>
+    <script type="text/javascript">
+
+
+    $(function(){
+        $("[data-translate]").jqTranslate('json/index', {defaultLang:'en', forceLang:"es"});
+        var idiomas=false;
+        $("#idiomas").on("click", function(){
+            idiomas = !idiomas;
+            if(idiomas===true){
+                (function(){
+                    debugger;
+                    $("[data-translate]").jqTranslate('json/index', {defaultLang:'es', forceLang:"en"});
+                })();
+            }
+            else{
+                (function(){
+                    debugger;
+                    $("[data-translate]").jqTranslate('json/index', {defaultLang:'en', forceLang:"es"});
+                })();
+            }  
+        })
+        
+
+
+
+    });
+
+
+
+        
+    </script>
 </body>
 
 </html>

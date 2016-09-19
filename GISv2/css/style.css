@@ -245,7 +245,7 @@ a:hover {
 }
 /*=====================================================================================*/
 .jumbotron_slider_servicios{
-	z-index: 10000;
+	/*z-index: 10000;
 	background: rgba(33,194,248,0.8);
 	padding: 29px 49px 39px 45px;
 	position: absolute;
@@ -253,7 +253,20 @@ a:hover {
 	top: 50%;
 	color: white;
     transform: translate3d(-50%,-25%,0);
-    margin-left: -315px;
+    margin-left: -315px;*/
+    z-index: 10000;
+    background: rgba(33,194,248,0.8);
+    padding: 29px 49px 39px 45px;
+    position: absolute;
+    color: white;
+    top: 30px;
+}
+.container-absolute{
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate3d(-50%,-25%,0);
+    height: 336px;
 }
 .titulo_slider_servicios{
 	text-transform: uppercase;
@@ -1562,28 +1575,44 @@ Image credits: unsplash.com
 /********************************/
 /*          Hero Headers        */
 /********************************/
-.hero {
+/*.hero {
     position: absolute;
     top: 50%;
     left: 50%;
     z-index: 3;
     color: #fff;
-    /*text-align: center;
-    text-transform: uppercase;*/
-    /*text-shadow: 1px 1px 0 rgba(0,0,0,.75);*/
       -webkit-transform: translate3d(-50%,-25%,0);
          -moz-transform: translate3d(-50%,-25%,0);
           -ms-transform: translate3d(-50%,-25%,0);
            -o-transform: translate3d(-50%,-25%,0);
               transform: translate3d(-50%,-25%,0);
-}
+}*/
 .hero h1 {
     font-size: 6em;    
     font-weight: bold;
     margin: 0;
     padding: 0;
 }
-
+.navbar-brand{
+    position: absolute;
+    height: 115px;
+    margin-left: 0px!important;
+    background: rgba(255,255,255,1);
+    padding: 15px 15px 0 15px;
+}
+.navbar-default .navbar-brand:focus, .navbar-default .navbar-brand:hover{
+    background: rgba(255,255,255,1);
+}
+.triangulo-logo{
+    position: absolute;
+    top: -66px;
+    left: 180px;
+    transform: rotate(90deg);
+    border-right: 0 solid rgba(0, 0, 0, 0.96);
+    border-left: 50px solid #ffffff;
+    border-top: 206px solid rgba(80, 31, 31, 0);
+    border-bottom: 206px solid rgba(62, 0, 0, 0);
+}
 .fade-carousel .carousel-inner .item .hero {
     opacity: 0;
     -webkit-transition: 2s all ease-in-out .1s;
