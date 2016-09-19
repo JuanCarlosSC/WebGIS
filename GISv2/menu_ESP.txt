@@ -1,15 +1,6 @@
 INICIO
 SERVICIOS
-Diseño CAD
-Maquinados
-Programación CAM
-Software
-Reparación
-Diseño Eléctrico
-Prototipos
-Integración
-PROYECTOS
 CLIENTES
-CONTACTO
 QUIENES SOMOS?
+CONTACTO
 ING/ESP

@@ -3,8 +3,8 @@ body{
     font-size: 18px;
     line-height: 1.73333333;
     color: #222533;
-    background-color: #ffffff;
-    /*background-color: #f5f5f5;*/
+    /*background-color: #ffffff;*/
+    background-color: #f5f5f5;
     -webkit-text-size-adjust: none;
 }
 
@@ -97,7 +97,8 @@ a:hover {
 
 .seccion_servicios{
     padding-bottom: 52px;
-    padding-top: 50px;
+    /*padding-top: 50px;*/
+    padding-top: 145px;
 }
 
 .contenedor_servicios{
@@ -1450,7 +1451,8 @@ opacity: 0.6;
 
 @media only screen and (min-width: 767px){
     .product-information .product-info-tabs > li:hover, .product-information .product-info-tabs > li.active {
-        background: #fff;
+        /*background: #fff;*/
+        background: #f5f5f5;
         border-left-color: #21c2f8;
     }
 }

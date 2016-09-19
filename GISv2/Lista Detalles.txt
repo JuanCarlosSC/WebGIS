@@ -16,3 +16,15 @@ X-16.- Logo en todas las paginas        - Asignado: Alan
      (Hacer mas chico el contenedor solo
       para poner el nombre del servicio
       y alinear las flechas)
+18.- Mover de posicion el logo de GIS   -Asignado: Juan Carlos
+     (Modificar logo y colores)
+19.- Cambiar Nombres de servicios       -Asignado: Alan 
+20.- Aplicar divisores entre los        -Asignado: Alan
+     titulos 
+21.- Cambiar los nombres de los         -Asignado: Alan 
+     servicios Carousel
+22.- Modificar posiciones de servicios  -Asignado: Ambos 
+     y tamaños
+23.- Letra mas chica en banner          -Asignado: Juan Carlos
+24.- Letra mas grande en textos de      -Asignado: Ambos
+     titulos y texto en general

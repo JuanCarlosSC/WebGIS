@@ -9,9 +9,15 @@ Los servicios de GIS incluyen:
 	Instalación y configuración en sitio
 
 DISEÑO CAD: Servicio de diseño de soluciones en sistema CAD, simulación de mecanismos, entre otros.
-MAQUINADOS: Fabricación de partes en Fresadora CNC, Torno CNC, Fresadora Convencional, Torno Convencional, Rectificadora, Dobladora Hidráulica.
+
+PARTES MECANICAS: Fabricación de partes en Fresadora CNC, Torno CNC, Fresadora Convencional, Torno Convencional, Rectificadora, Dobladora Hidráulica.
+
 PROGRAMACION CAM: Creación de todo tipo de programación bajo la plataforma de MasterCAM.
+
 SOFTWARE: Servicio de diseño y desarrollo de software, prueba eléctrica, manejo y proceso de tableros electrónicos.
+
 REPARACION: Servicio de reparación y/o reconstrucción de estaciones de prueba o estaciones de procesos automatizados.
-DISEÑO ELECTRICO: Servicio de diseño y fabricación de prototipos como sistemas embebidos, tarjetas de interfaz de comunicación.
-PROTOTIPOS: Desarrollo y creación de prototipos en fase de diseño y producto finalizado.
+
+DISEÑO ELECTRICO Y PROTOTIPOS: Servicio de diseño y fabricación de prototipos como sistemas embebidos, tarjetas de interfaz de comunicación.
+
+INTEGRACION DE EQUIPOS: Integración e instalación de todo tipo de equipos bajo los más altos estándares de calidad.
