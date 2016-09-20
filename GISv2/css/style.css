@@ -110,7 +110,7 @@ a:hover {
 .seccion_servicios{
     padding-bottom: 52px;
     /*padding-top: 50px;*/
-    padding-top: 55px;
+    padding-top: 20px;
 }
 
 .contenedor_servicios{
@@ -1043,7 +1043,7 @@ opacity: 1;
 
 .Contenedor_TituloClientes{
     /*padding: 5% 5% 0% 16%;*/
-    padding: 3% 0% 0% 0%
+    padding: 2% 0% 0% 0%
 }
 
 .seccionsup_clientes{
