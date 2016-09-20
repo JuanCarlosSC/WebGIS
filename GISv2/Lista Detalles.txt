@@ -5,7 +5,7 @@ X-5.- Textos, Todas las paginas      	- Asignado: Alan
 X-6.- Logos mas chicos: "Clientes"   	- Asignado: Alan
 X-7.- Redireccionamientos "Servicios" 	- Asignado: Alan
 8.- Modificaciones "Quienes somos" 	- Asignado: Juan Carlos
-X-9.- Cambio de posiciones img"Servicios" - Sin Asignar
+X-9.- Cambio de posiciones img"Servicios" - Asignado: Alan
 X-10.- Footer Todas las paginas		- Asignado: Juan Carlos
 X-11.- Diseño de menu                   - Asignado: Ambos
 X-14.- Traduccion de la pagina          - Asignado: Juan Carlos
@@ -16,15 +16,16 @@ X-16.- Logo en todas las paginas        - Asignado: Alan
      (Hacer mas chico el contenedor solo
       para poner el nombre del servicio
       y alinear las flechas)
-18.- Mover de posicion el logo de GIS   -Asignado: Juan Carlos
+X-18.- Mover de posicion el logo de GIS   -Asignado: Juan Carlos
      (Modificar logo y colores)
-19.- Cambiar Nombres de servicios       -Asignado: Alan 
-20.- Aplicar divisores entre los        -Asignado: Alan
+X-19.- Cambiar Nombres de servicios       -Asignado: Alan 
+X-20.- Aplicar divisores entre los        -Asignado: Alan
      titulos 
 21.- Cambiar los nombres de los         -Asignado: Alan 
      servicios Carousel
-22.- Modificar posiciones de servicios  -Asignado: Ambos 
+X-22.- Modificar posiciones de servicios  -Asignado: Alan
      y tamaños
 23.- Letra mas chica en banner          -Asignado: Juan Carlos
-24.- Letra mas grande en textos de      -Asignado: Ambos
+*24.- Letra mas grande en textos de      -Asignado: Ambos
      titulos y texto en general
+25.- Ajustar Iconos empresas		-Asignado: Alan
