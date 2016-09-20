@@ -1060,19 +1060,18 @@ opacity: 1;
     line-height: 1.25;
 }
 
-.contenedor_fila1{
+/*.contenedor_fila1{
     display: inline-block;
     width: 80.5%;
     /*background-color: #fdfdfd;*/
-    /*border: 1px solid #21c2f8;*/
+    /*border: 1px solid #21c2f8;
     border-radius: 45px 45px 45px 45px;
-}
+}*/
 
 .contenedor_img{
     padding-left: 2%;
-    margin: 3% 7% 3% 1%;
-    display: inline-block;
-    width: 25%;
+    margin: 3% 0% 4% 12%;
+    width: 80%;
 }
 
 .contenedor_img_clientes{
@@ -1088,6 +1087,7 @@ opacity: 1;
     width: 100%;
     margin-left: 22%;
 }
+
 
 .contenedor_img_clientes .img_clientes{
   display: block;
@@ -1118,19 +1118,6 @@ opacity: 1;
   -moz-transform: scale(1.2);
   -webkit-transform: scale(1.2);
   -o-transform: scale(1.2);
-}
-
-/*.contenedorsup_clientes{
-    width: 100%;
-    margin-left: -1.2%;
-}*/
-
-.Seccion_LogosClietes{
-    margin-left: 17%;
-    margin-right: -1%;
-
-    /*     margin-left: 17%;
-    margin-right: -4%; */
 }
 
 .brd_mainclientes{
@@ -1332,7 +1319,7 @@ opacity: 0.6;
     font-weight: 900;
     position: relative;
     display: block;
-    margin-top: 104px;
+    margin-top: 46px;
     font-size: -webkit-xxx-large;
 }
 
@@ -1550,6 +1537,32 @@ opacity: 0.6;
     margin-top: 54px;
     font-size: -webkit-xxx-large;
     margin-bottom: 45px;
+}
+
+.thumbnail .caption1 {
+    padding: 0px 24px 16px 20px;
+    position: absolute;
+    bottom: 0;
+    background: rgba(33,194,248,0.8);
+    color: white;
+    height: 83px;
+    width: 100%;
+}
+
+.titulo_otserv{
+    font-family: 'Raleway';
+    font-weight: 900;
+}
+
+.wrap_otservicios a {
+    font-size: 25px;
+    left: 5px;
+    color: #ffffff;
+    position: absolute;
+    top: 100%;
+    margin-top: -22px;
+    left: 100%;
+    margin-left: -33px;
 }
 
 /*=================================Responsive Single Services=====================================================================*/
