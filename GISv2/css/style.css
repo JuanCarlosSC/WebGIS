@@ -120,7 +120,7 @@ a:hover {
     padding-right: 280px;
 }
 .mensaje_servicios{
-    margin-bottom: 20px;
+    margin-bottom: 5px;
 }
 .thumbnail{
 	position: relative;
@@ -1740,4 +1740,7 @@ Image credits: unsplash.com
 }
 .contenido-index{
     padding: 20px
+}
+.contenedorinf_clientes{
+    padding: 15px 0 40px 0;
 }

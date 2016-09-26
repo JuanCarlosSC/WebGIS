@@ -4,8 +4,47 @@
 	"clientes":"CLIENTES",
 	"contacto":"CONTACTO",
 	"quienes_somos":"QUIENES SOMOS?",
-
-
 	"bienvenido":"Bienvenido <small>Gracias por visitarnos!</small>" ,
-	"parrafo_1":"Global Integral Services les da la más cordial bienvenida a nuestro sitio web, en el cual esperamos que encuentren la información que buscan acerca de nuestros servicios y éstos sean de su agrado.<br><br> El objetivo de nuestro sitio web, es dar a conocer quiénes somos y qué hacemos, así como la ideología e historia de GIS. Usted podrá encontrar de una forma sencilla y directa nuestros servicios y algunos de nuestros proyectos de hoy en día. Usted podrá contactarnos y enviar preguntas o sugerencias relacionados con nuestros servicios o inquietudes que tenga; de tal forma que pueda antendérsele a la brevedad.<br><br> Un cordial saludo; <i>\"Esperamos poder cumplir sus espectativas de calidad y satisfacción.\"</i>"
-}
+	"parrafo_1":"Global Integral Services les da la más cordial bienvenida a nuestro sitio web, en el cual esperamos que encuentren la información que buscan acerca de nuestros servicios y éstos sean de su agrado.<br><br> El objetivo de nuestro sitio web, es dar a conocer quiénes somos y qué hacemos, así como la ideología e historia de GIS. Usted podrá encontrar de una forma sencilla y directa nuestros servicios y algunos de nuestros proyectos de hoy en día. Usted podrá contactarnos y enviar preguntas o sugerencias relacionados con nuestros servicios o inquietudes que tenga; de tal forma que pueda antendérsele a la brevedad.<br><br> Un cordial saludo; <i>\"Esperamos poder cumplir sus espectativas de calidad y satisfacción.\"</i>",
+
+	"SERVICIOS":"",
+	"nuestrosServicios":"Nuestros <small>Servicios</small>",
+	"parrafo1_servicios":"<p>Global Integral Services trabaja a diferentes empresas, organizaciones o instituciones de diferentes sectores, facilitando herramientas, software y equipos industriales que ayudan a la producción de productos o servicios. Nuestros servicios comprenden desde el diseño del equipo o herramienta, pasando por ingeniería, hasta salir de producción; manteniendo una estricta política de calidad de servicio. Finalmente en los casos solicitados la capacitación para uso los proyectos realizados.</p><br> Los servicios de GIS incluyen:", 
+	"lista_servicios":"<li>Contacto directo con agente de ventas</li> <li>Evaluación técnica</li> <li>Diseño y prototipo</li> <li>Producción</li> <li>Ensamble del equipo o el sistema completo</li> <li>Instalación y configuración en sitio</li>",
+	"servicio1":"Integración de equipos",
+	"descripcion_servicio1":"Integración e instalación de todo tipo de equipos bajo los más altos estándares de calidad.",
+	"servicio2":"Programación CAM",
+	"descripcion_servicio2":"Creación de todo tipo de programación bajo la plataforma de MasterCAM",
+	"servicio3":"Diseño eléctrico y prototipos",
+	"descripcion_servicio3":"Servicio de diseño y fabricación de prototipos como sistemas embebidos, tarjetas de interfaz de comunicación",
+	"servicio4":"Diseño CAD",
+	"descripcion_servicio4":"Servicio de diseño de soluciones en sistema CAD, simulación de mecanismos, entre otros.",
+	"servicio5":"Reparación",
+	"descripcion_servicio5":"Servicio de reparación y/o reconstrucción de estaciones de prueba o estaciones de procesos automatizados",
+	"servicio6":"Partes Mecánicas",
+	"descripcion_servicio6":"Fabricación de partes en Fresadora CNC, Torno CNC, Fresadora Convencional, Torno Convencional, Rectificadora, Dobladora Hidráulica",
+	"servicio7":"Software",
+	"descripcion_servicio7":"Servicio de diseño y desarrollo de software, prueba eléctrica, manejo y proceso de tableros electrónicos",
+
+	"CLIENTES":"",
+	"nuestrosClientes":"Nuestros <small>Clientes</small>",
+	"parrafo1_clientes":"Para Global Integral Services los clientes son muy importantes, son la gran apuesta de valor; el verdadero aval de la compañía y la mayor garantía de continuidad. Por este motivo, les agradecemos la confianza que nos han brindado durante toda nuestra trayectoria, un apoyo que ha permitido que seamos una empresa consolidada y con gran proyección de futuro y por ello; nos hemos dado a la tarea de dedicarles un espacio.",
+	"parrafo2_clientes":"Nuestra empresa ha trabajado con organizaciones de varios tamaños, sin importar su sector. Nuestros clientes tienen fuerzas laborales con características variadas, de niveles profesionistas y recién egresados, con contratación temporal o permanente y operando en una o varias ubicaciones o países. Estas organizaciones pertenecen a distintas industrias como la manufacturera, de salud, transporte, servicios profesionales y educativas.",
+	"parrafo3_clientes":"Dentro de Global Integral Services apostamos por productos que faciliten diversas funciones para nuestros clientes. Antes de desarrollar nuestros equipos o herramientas; nos centramos en los deseos y necesidades de nuestros clientes, para después ofrecer soluciones y llegar a los acuerdos que se establecerán.",
+	"parrafo4_clientes":"A continuación, algunas de las empresas que han formado parte de Global Integral Services.",
+	"parrafo5_clientes":"Si deseas obtener mayor información sobre nuestra experiencia en tu sector industrial o que sea relevante para tu organización o industria, <a href='contacto.html'>contáctanos</a>, o continúa leyendo más sobre <a href='gis.html'>quiénes somos</a>.",
+	
+	"CONTACTO":"", 
+	"titulo1_contacto":"¿Quieres tener contacto directo con un agente de ventas?",
+	"parrafo1_contacto":"Puedes contactarnos de la manera que tu creas conveniente para ti. Vía E-mail o vía telefónica; si deseas una atención personal deja tus datos en el formulario de abajo y un agente te contactará para agendar una cita e incluso puedes acudir tú mismo a nuestras oficinas.",
+	"parrafo2_contacto":"Nosotros estaremos felices y con gusto de atenderte y resolver todas tus dudas.",
+	"SIGUENOS":"SIGUENOS",
+	"TELEFONO":"TÉLEFONO",
+	"DIRECCION":"DIRECCIÓN",
+	"Nombre":"Nombre",
+	"requerido":"Es necesario ingresar éste dato",
+	"Company":"Compañía",
+	"Telefono_input":"Télefono",
+	"datos_adicionales":"Datos adicionales",
+	"ENVIAR":"ENVIAR"
+ }
