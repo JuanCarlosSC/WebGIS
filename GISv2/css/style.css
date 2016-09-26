@@ -582,452 +582,123 @@ address {
     margin-left: -41px;
 }
 /*//-----------------------------------17/08/2016||18/08/2016 Alan "QUIENES SOMOS"---------------------------------------------------------------------//*/
-.margen_auto{
-    margin: 80px auto;
-    /*margin: 146px auto;*/
-}
-
-@media (min-width: 1200px){
-    .valores{
-        margin: 45% auto;
-        margin-bottom: 25% !important;
-    }
-
-    .titulos_principalesQS{
-        font-size: 350%;
-        text-align: center;
-        /*color: #777777;*/
-        color: black;
-    }
-
-    .titulos_secundariosQS{
-        font-size: 250%;
-        font-weight: 900;
-        text-transform: uppercase;
-        text-align: center;
-        color: #777;
-    }
-
-    .rangeQS{
-         position: relative;
-         width: 86%;
-         max-width: 1200px;
-         margin: 0 auto;
-         text-align: justify;
-         margin-left: 21%;
-         margin-top: 55px;
-    }
-
-    .logoQS {
-        width: 135%;
-        height: auto;
-        margin-top: 9%;
-    }
-
-    .todo_gis{
-        width: 96%;
-        width: 100%;
-        height: auto;
-    }
-
-    .texto_eleccion{
-        padding: 3% 13% 0% 12%;
-        text-align: justify;
-        color: #7f7f7f;
-        font-size: 20px;
-    }
-
-    .txt_base{
-        padding: 0.1% 6.7% 5px 9.1%;
-    }
-
-    .h5{
-        line-height: 1.15385;
-        font-size: 26px;
-        color: rgba(0,0,0,.5);
-    }
-
-    .contenedor_QS{
-        max-width: 1760px; 
-        margin-left: auto;
-        margin-right: auto;
-    }
-
-    .contenedor_valores{
-        margin-left: -1.875rem;
-        margin-right: -1.875rem;
-        /*display: flex;*/
-        flex-wrap: wrap;
-        margin-top: 4%;
-    } 
-
-    .tm_pb_blurb {
-        padding: 36px 44px 20px;
-        max-width: 497px;
-    }
-}
-
-@media (max-width: 1199px){
-.valores{
-        margin: 30% auto;
-        margin-bottom: 25% !important;
-    }
-
-.titulos_principalesQS{
-        font-size: 200%;
-        text-align: center;
-        color: #777777;
-    }
-
-.titulos_secundariosQS{
-        font-size: 180%;
-        font-weight: 900;
-        text-transform: uppercase;
-        text-align: center;
-        color: #777;
-    }
-
-.rangeQS {
-        position: relative;
-        width: 81%;
-        max-width: 1199px;
-        margin: 0 auto;
-        text-align: justify;
-        margin-left: 7%;
-        margin-top: 50px;
-    }
-
-.logoQS {
-        width: 130%;
-        height: auto;
-        margin-top: 10%;
-    }
-
-.txt_base{
-        padding: 0.1% 6.7% 5px 9.1%;
-    }
-
-.h5{
-        line-height: 1.15385;
-        font-size: 20px;
-    }
-
-.contenedor_iconosQS {
-    width: 99%;
-    height: auto;
-    }
-.list-inline-xxs {
-    margin-left: -3px;
-    margin-right: -3px;
-    }
-}
-
-@media (max-width: 991px){
-.valores{
-        margin: 30% auto;
-        margin-bottom: 25% !important;
-    }
-
-.rangeQS{
-         position: relative;
-         width: 86%;
-         max-width: 991px;
-         margin: 0 auto;
-         text-align: justify;
-    }
-
-.logoQS{
-        width: 95%;
-        height: auto;
-    }
-
-.txt_base{
-        padding: 0.1% 6.7% 5px 9.1%;
-    }
-
-.h5{
-        line-height: 1.15385;
-        font-size: 20px;
-    }  
-}
-
-@media (max-width: 720px){
-    .titulos_principalesQS{
-        font-size: 200%;
-        text-align: center;
-        color: #777777;
-    }
-
-    .titulos_secundariosQS{
-        font-size: 180%;
-        font-weight: 900;
-        text-transform: uppercase;
-        text-align: center;
-        color: #777;
-    }
-
-    .rangeQS{
-         position: relative;
-         width: 86%;
-         max-width: 720px;
-         margin: 0 auto;
-         text-align: justify;
-         /*margin-left: 21%;*/
-         margin-top: 75px;
-    }
-
-    .logoQS {
-        width: 100%;
-        height: auto;
-        margin-top: 9%;
-    }
-
-    .txt_base{
-        padding: 0.1% 6.7% 5px 9.1%;
-    }
-
-    .h5{
-        line-height: 1.15385;
-        font-size: 26px;
-    }  
-}
-
-/*//---------------------------------Contenido total de la pagina Quienes Somos-------------------------------------------//*/
-.divider {
+.contendedor_image{
+    width: 150%;
     position: relative;
+    margin-left: -33%;
+    display: block;
+    margin-top: -87px;
+    z-index: -100;
 }
 
-.divider:before {
-    position: absolute;
-    bottom: -6px;
-    left: 50%;
-    -webkit-transform: translateX(-50%);
-    transform: translateX(-50%);
-    content: '';
-    display: inline-block;
-    height: 1px;
-    width: calc(60% - 30px);
+.img_font_GIS{
+    width: 111%;
+    opacity: 0.3;
+}
+
+.contenedor_opcionesQS{
+    position: relative;
+    margin: -514px 0 40px 65px;
+}
+
+.seccion_span1{
     background-color: #21c2f8;
+    width: 270px;
+    padding: 0% 1.7% 0% 8.6%;
+    position: relative;
+    height: auto;
+    margin-bottom: 20px;
 }
 
-.divider:after {
-    position: absolute;
-    left: 50%;
-    bottom: -8px;
-    -webkit-transform: translateX(-50%);
-    transform: translateX(-50%);
-    content: '';
-    display: inline-block;
-    height: 3px;
-    width: 80px;
-    background-color: #21c2f8;
+.contenedor_span1{
+    overflow: visible;
 }
 
-.tm_pb_blurb {
-    border: 1px solid #e0e0e8;
-    border-radius: 3px;
-    padding: 24px 15px 8px;
-    transition: .3s all ease;
+.featured-thumbnail .img_1QS{
+    position: relative;
+    width: 170px;
+    height: 170px;
+    border-radius: 50%;
+    margin-top: -87px;
+    margin-left: 21px;
 }
 
-.tm_pb_blurb_0.tm_pb_blurb {
-    border: 1px solid #ebebeb;
+.img_1QS:hover{
+    border-radius: 50%;
+    border: solid 10px #21c2f8;
 }
 
-.tm_pb_text_align_center {
+.sub_QS{
+    font-family: 'Raleway';
+    font-size: 20px;
     text-align: center;
-    margin: auto;
-    padding: 8px 10px 13px 10px;
-}
-
-.tm_pb_blurb:hover {
-    border-color: transparent;
-    border-radius: 0px;
-    transform: translateY(-10px);
-}
-
-.tm_pb_blurb:hover {
-    box-shadow: 6px 8px 24px 0 rgba(32,47,57,0.2);
-}
-
-.textos_valores{
-    margin: 9% 5%;
-    font-size: 16px;
-    line-height: 1.2 !important;
-    color: #7f7f7f;
-}
-
-.subtitulo_valores{
     font-weight: 900;
-    color: #21c2f8;
-    font-size: 40px;
-    text-transform: uppercase;
+    color: white;
 }
 
-.icono_entrega:hover, .icono_atencion:hover, .icono_calidad:hover, .icono_garantia:hover, .icono_instalacion:hover{
-    opacity: 0.6; 
+.banner_textQS{
+    position: relative;
+    margin-top: 14px;
+    background-color: #ffffff;
+    opacity: 0.6;
+    width: 115%;
+    margin-left: -29px;
+    padding: 2% 7% 2% 7%;
 }
 
-.icono_entrega:hover #entregaQS{
-opacity: 1;
+.contenedor_opcionesQS2{
+    position: relative;
+    margin: -480px 0 40px 65px;
 }
 
-.todo_gis{
-    width: 96%;
-    /*width: 100%;*/
-    height: auto;
-}
-
-.body_color{
-    color: #f5f5f5;
-}
-
-
-/*//============================================================= NUEVO ESTILO "PORQUE ELEGIRNOS"============================================//*/
-.seccion_iconos{
-}
-
-.contenedor_iconosQS{
+.seccion_span2{
     background-color: #21c2f8;
-    padding: 4% 0% 3% 2%;
-}
-
-.contenedor_entrega{
-    width: 15%;
-    position: absolute;
-}
-
-.iconos_QS{
-    margin-left: 20%;
-}
-
-.textos_iconosQS{
+    width: 270px;
+    padding: 0% 1.7% 0% 8.6%;
     position: relative;
-    margin-left: 28%;
+    height: auto;
+    margin-bottom: 20px;
 }
 
-.parrafo_eleccion{
-    font-family: 'Raleway' !important;
-    font-weight: 400;
-    font-size: 18px;
-    margin-top: -10%;
-    margin-left: 10%;
-    width: 100%;
+.contenedor_span2{
+    overflow: visible;
 }
 
-.Sub_titulosQS{
-    color: white;
-    font-family: 'Raleway' !important;
-    font-weight: 900;
-    font-size: 19px;
-}
-
-.contenedor_textoEntrega{
-    color: white;
-    font-weight: 900;
-    margin-left: 16%;
-    margin-top: -14%;
-    margin-bottom: 16%;
-}
-
-.icono_entrega{
-
-}
-
-.contenedor_atencion{
+.featured-thumbnail2 .img_2QS{
     position: relative;
-    width: 15%;
-    display: inline-block;
-    margin-left: 17%;
-    margin-top: 3.5%;
+    width: 170px;
+    height: 170px;
+    border-radius: 50%;
+    margin-top: -87px;
+    margin-left: 21px;
 }
 
-.contenedor_textoAtencion{
-    color: white;
+.img_2QS:hover{
+    border-radius: 50%;
+    border: solid 10px #21c2f8;
+}
+
+.sub_QS2{
+    font-family: 'Raleway';
+    font-size: 20px;
+    text-align: center;
     font-weight: 900;
-    margin-left: 16%;
-    margin-top: -38%;
-    margin-bottom: 6%;
+    color: white;
 }
 
-.contenedor_calidad{
+.banner_textQS2{
     position: relative;
-    width: 17%;
-    display: inline-block;
-    margin-left: 2.9%;
+    margin-top: 14px;
+    background-color: #ffffff;
+    opacity: 0.6;
+    width: 115%;
+    margin-left: -29px;
+    padding: 2% 7% 2% 7%;
 }
 
-.contenedor_textoCalidad{
-    color: white;
-    font-weight: 900;
-    margin-left: 6%;
-    margin-top: -24%;
-    margin-bottom: 6%;
-}
-
-.parrafo_Calidad{
-    font-family: 'Raleway' !important;
-    font-weight: 400;
-    font-size: 16px;
-    margin-top: -7%;
-    margin-left: 10%;
-    width: 100%;
-}
-
-.contenedor_garantia{
+.span4{
     position: relative;
-    width: 17%;
-    display: inline-block;
-    margin-left: 3.9%;
-}
-
-.contenedor_textoGarantia{
-    color: white;
-    font-weight: 900;
-    margin-top: -24%;
-    margin-bottom: 16%;
-}
-
-.parrafo_garantia{
-    font-family: 'Raleway' !important;
-    font-weight: 400;
-    margin-left: 10%;
-    width: 100%;
-    margin-top: -5%;
-    font-size: 17px;
-}
-
-.icono_garantia{
-
-}
-
-.contenedor_Instalacion{
-    position: relative;
-    width: 17%;
-    display: inline-block;
-    margin-left: 4.9%;
-}
-
-.contenedor_textoInstalacion{
-    color: white;
-    font-weight: 900;
-    margin-top: -24%;
-    margin-bottom: 6%;
-}
-
-.parrafo_instalacion{
-    font-family: 'Raleway' !important;
-    font-weight: 400;
-    /* font-size: 16px; */
-    margin-left: 10%;
-    width: 100%;
-    margin-top: -8%;
-}
-
-/*//================================================FIN NUEVO ESTILO "PORQUE ELEGIRNOS"===================================//*/
-
-.texto_baseAncho{
-    padding-right: 7%;
+    margin-top: 102px;
 }
 
 /*//---------------------------------22/08/2016 Alan "CLIENTES"-------------------------------------------------//*/

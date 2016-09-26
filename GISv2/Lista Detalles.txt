@@ -21,7 +21,7 @@ X-18.- Mover de posicion el logo de GIS   -Asignado: Juan Carlos
 X-19.- Cambiar Nombres de servicios       -Asignado: Alan 
 X-20.- Aplicar divisores entre los        -Asignado: Alan
      titulos 
-21.- Cambiar los nombres de los         -Asignado: Alan 
+X-21.- Cambiar los nombres de los         -Asignado: Alan 
      servicios Carousel
 X-22.- Modificar posiciones de servicios  -Asignado: Alan
      y tamaños
