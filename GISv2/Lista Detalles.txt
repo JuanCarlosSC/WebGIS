@@ -26,6 +26,8 @@ X-21.- Cambiar los nombres de los         -Asignado: Alan
 X-22.- Modificar posiciones de servicios  -Asignado: Alan
      y tamaños
 X-23.- Letra mas chica en banner          -Asignado: Juan Carlos
-*24.- Letra mas grande en textos de      -Asignado: Ambos
+X-24.- Letra mas grande en textos de      -Asignado: Ambos
      titulos y texto en general
 X-25.- Ajustar Iconos empresas		-Asignado: Alan
+26.- Lista de texto y traducciones 	-Asignado: Juan Carlos, Alan
+     Quienes somos 
