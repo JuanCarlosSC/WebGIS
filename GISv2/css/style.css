@@ -598,13 +598,18 @@ address {
 
 .contenedor_opcionesQS{
     position: relative;
-    margin: -514px 0 40px 65px;
+    top: -514px;
+    text-align: center;
 }
 
 .seccion_span1{
+    background-color: #545454;
+    position: relative;
+    height: auto;
+    margin-bottom: 20px;
+}
+.seccion_span_blue{
     background-color: #21c2f8;
-    width: 270px;
-    padding: 0% 1.7% 0% 8.6%;
     position: relative;
     height: auto;
     margin-bottom: 20px;
@@ -620,12 +625,14 @@ address {
     height: 170px;
     border-radius: 50%;
     margin-top: -87px;
-    margin-left: 21px;
 }
 
-.img_1QS:hover{
+.seccion_span_blue:hover .img_1QS{
     border-radius: 50%;
     border: solid 10px #21c2f8;
+}
+.seccion_span1:hover .img_1QS {
+    border: solid 10px #545454;
 }
 
 .sub_QS{
@@ -637,13 +644,13 @@ address {
 }
 
 .banner_textQS{
-    position: relative;
-    margin-top: 14px;
-    background-color: #ffffff;
-    opacity: 0.6;
-    width: 115%;
-    margin-left: -29px;
-    padding: 2% 7% 2% 7%;
+    padding: 20px 50px 20px 50px;
+    text-align: justify;
+    color: white;
+    border-top: 10px solid white;
+}
+.banner_textQS p{
+    line-height: 1.4!important;
 }
 
 .contenedor_opcionesQS2{
@@ -651,7 +658,7 @@ address {
     margin: -480px 0 40px 65px;
 }
 
-.seccion_span2{
+/*.seccion_span2{
     background-color: #21c2f8;
     width: 270px;
     padding: 0% 1.7% 0% 8.6%;
@@ -659,12 +666,12 @@ address {
     height: auto;
     margin-bottom: 20px;
 }
-
-.contenedor_span2{
+*/
+/*.contenedor_span2{
     overflow: visible;
-}
+}*/
 
-.featured-thumbnail2 .img_2QS{
+/*.featured-thumbnail2 .img_2QS{
     position: relative;
     width: 170px;
     height: 170px;
@@ -672,8 +679,8 @@ address {
     margin-top: -87px;
     margin-left: 21px;
 }
-
-.img_2QS:hover{
+*/
+/*.img_2QS:hover{
     border-radius: 50%;
     border: solid 10px #21c2f8;
 }
@@ -684,9 +691,9 @@ address {
     text-align: center;
     font-weight: 900;
     color: white;
-}
+}*/
 
-.banner_textQS2{
+/*.banner_textQS2{
     position: relative;
     margin-top: 14px;
     background-color: #ffffff;
@@ -694,12 +701,13 @@ address {
     width: 115%;
     margin-left: -29px;
     padding: 2% 7% 2% 7%;
-}
+}*/
 
 .span4{
     position: relative;
     margin-top: 102px;
 }
+
 
 /*//---------------------------------22/08/2016 Alan "CLIENTES"-------------------------------------------------//*/
 .Titulo_Clientes{
