@@ -14,11 +14,11 @@ body{
     margin-top: 62px;
     margin-bottom: 0px;
     float: right;
-    color: #676767;
+    color: #363636;
     font-weight: 300;
 }
 .container_logo_slogan{
-    margin-top: 5px;
+    padding-top: 5px;
 }
 .navbar-default {
     background-color: #21c2f8;
@@ -584,7 +584,7 @@ address {
 /*//-----------------------------------17/08/2016||18/08/2016 Alan "QUIENES SOMOS"---------------------------------------------------------------------//*/
 .contendedor_image{
     width: 150%;
-    position: relative;
+    position: absolute;
     margin-left: -33%;
     display: block;
     margin-top: -87px;
@@ -597,9 +597,8 @@ address {
 }
 
 .contenedor_opcionesQS{
-    position: relative;
-    top: -514px;
     text-align: center;
+    margin-top: 147px;
 }
 
 .seccion_span1{
