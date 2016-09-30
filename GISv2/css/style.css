@@ -24,12 +24,18 @@ body{
     font-size: 28px;
     font-family: 'Raleway', sans-serif;
     vertical-align: top;
-    margin-top: 62px;
+    margin-top: 13px;
     margin-bottom: 0px;
     float: right;
     color: #363636;
     font-weight: 300;
+    text-align: center;
 }
+.nombre_empresa{
+    font-size: 25px;
+    font-weight: 900;
+}
+
 .container_logo_slogan{
     padding-top: 5px;
 }
@@ -605,6 +611,7 @@ address {
     display: block;
     margin-top: -87px;
     z-index: -100;
+    width: 100%;
 }
 
 .img_font_GIS{

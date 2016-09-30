@@ -31,12 +31,12 @@ X-24.- Letra mas grande en textos de      -Asignado: Ambos
 X-25.- Ajustar Iconos empresas		-Asignado: Alan
 X-26.- Lista de texto y traducciones 	-Asignado: Juan Carlos, Alan
      Quienes somos 
-27.- Ajustar imagen al tamano de        -Asignado: Juan Carlos 
+X27.- Ajustar imagen al tamano de        -Asignado: Juan Carlos 
 	pantalla Quienes somos
 X-28.- Texto y traduccion estrategia      -Asignado: Alan
      y gobierno corporativo QS
 X-29.- Texto y traduccion Success Index   -Asignado: Alan
-30.- Agregar GLobal Integral Services   -Asignado: Juan Carlos
+X30.- Agregar GLobal Integral Services   -Asignado: Juan Carlos
      en el Header
 31.- Mover Success... :(                -Asignado: Juan Carlos           
 32.- Traducir y corregir traducciones   -Asignado: Juan Carlos
