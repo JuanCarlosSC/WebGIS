@@ -1,0 +1,14 @@
+CAM
+Desarrollo de manufactura bajo plataformas CAM, para la gestión técnica en fabricación y montaje.
+
+CAD
+Soluciones de diseño y simulaciones asistidos por computadora. Modelado, análisis y optimización, revisión y evaluación.
+
+SOFTWARE
+Diseño y desarrollo de soluciones para automatización de procesos, manejo de tableros eléctricos.
+
+PROTOTIPOS
+Diseño y desarrollo de proyectos prototipo.
+
+AUTOMATIZACION
+Procesos de automatización por medio de programación de PLC's.

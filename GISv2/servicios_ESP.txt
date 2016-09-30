@@ -1,5 +1,6 @@
 Nuestros Servicios
 Global Integral Services trabaja a diferentes empresas, organizaciones o instituciones de diferentes sectores, facilitando herramientas, software y equipos industriales que ayudan a la producción de productos o servicios. Nuestros servicios comprenden desde el diseño del equipo o herramienta, pasando por ingeniería, hasta salir de producción; manteniendo una estricta política de calidad de servicio. Finalmente, en los casos solicitados la capacitación para uso los proyectos realizados.
+
 Los servicios de GIS incluyen:
 	Contacto directo con agente de ventas
 	Evaluación técnica
@@ -18,6 +19,6 @@ SOFTWARE: Servicio de diseño y desarrollo de software, prueba eléctrica, manejo 
 
 REPARACION: Servicio de reparación y/o reconstrucción de estaciones de prueba o estaciones de procesos automatizados.
 
-DISEÑO ELECTRICO Y PROTOTIPOS: Servicio de diseño y fabricación de prototipos como sistemas embebidos, tarjetas de interfaz de comunicación.
+DISEÑO ELECTRICO Y PROTOTIPOS: Servicio de diseño y fabricación de prototipos como sistemas completos, tarjetas de interfaz de comunicación.
 
 INTEGRACION DE EQUIPOS: Integración e instalación de todo tipo de equipos bajo los más altos estándares de calidad.

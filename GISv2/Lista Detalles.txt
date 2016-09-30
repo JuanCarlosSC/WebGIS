@@ -33,9 +33,13 @@ X-26.- Lista de texto y traducciones 	-Asignado: Juan Carlos, Alan
      Quienes somos 
 27.- Ajustar imagen al tamano de        -Asignado: Juan Carlos 
 	pantalla Quienes somos
-28.- Texto y traduccion estrategia      -Asignado: Alan
+X-28.- Texto y traduccion estrategia      -Asignado: Alan
      y gobierno corporativo QS
-29.- Texto y traduccion Success Index   -Asignado: Alan, Juan Carlos
+X-29.- Texto y traduccion Success Index   -Asignado: Alan
 30.- Agregar GLobal Integral Services   -Asignado: Juan Carlos
      en el Header
 31.- Mover Success... :(                -Asignado: Juan Carlos           
+32.- Traducir y corregir traducciones   -Asignado: Juan Carlos
+      FINAL (Todas las paginas hubo
+      algunas modificaciones en los
+      textos)

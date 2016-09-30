@@ -1,5 +1,7 @@
 Our Services
-Global Integral Services Works different companies, organizations or institutions from different sectors; facilitating tools, software and industrial equipment to help with production of products or services. Our range from the design of the tool or equipment, passing by engineering, until exit production; maintaining a strict policy quality of service. Finally, in cases requested training for use the projects carried out. GIS services include:
+Global Integral Services Works different companies, organizations or institutions from different sectors; facilitating tools, software and industrial equipment to help with production of products or services. Our range from the design of the tool or equipment, passing by engineering, until exit production; maintaining a strict quality policies of service. Finally, in cases requested training for the use and correct operation of the carried out projects. 
+
+GIS services include:
 	Direct contact with a salesperson agent.
 	Technical Evaluation
 	Design and prototype
@@ -10,7 +12,7 @@ CAD Design
 Design services solutions in CAD System, simulation of mechanisms among other.
 
 Mechanical Parts
-Manufacture of parties in milling machine CNC, CNC lathe, milling conventional, grinder bender hydraulics.
+Manufacture of parties in milling machine CNC, CNC lathe, milling conventional, grinder, hydraulic benders.
 
 CAM Programming
 Creation of all types of programming under the platform of MasterCAM.

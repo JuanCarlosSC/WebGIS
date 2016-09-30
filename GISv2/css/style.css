@@ -137,6 +137,7 @@ a:hover {
 }
 .mensaje_servicios{
     margin-bottom: 5px;
+    text-align: justify;
 }
 .thumbnail{
 	position: relative;

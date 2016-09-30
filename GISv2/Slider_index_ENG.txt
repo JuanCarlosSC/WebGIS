@@ -1,0 +1,15 @@
+CAM
+Develop the manufacturing under CAM platforms, for technical process in fabrication and assembly.
+
+CAD
+Design solutions and computer aid simulations. Molding, analysis and optmizations, revision and
+evaluation.
+
+SOFTWARE
+Design and solutions develop for processes automation, handling of electrical boards.
+
+PROTOTYPES
+Design and develop of prototype projects.
+
+AUTOMATION
+Automation processes by full PLC's programming.
