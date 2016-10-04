@@ -281,47 +281,56 @@ a:hover {
 }
 /*=====================================================================================*/
 .jumbotron_slider_servicios{
-	/*z-index: 10000;
-	background: rgba(33,194,248,0.8);
-	padding: 29px 49px 39px 45px;
-	position: absolute;
-	left: 50%;
-	top: 50%;
-	color: white;
-    transform: translate3d(-50%,-25%,0);
-    margin-left: -315px;*/
     z-index: 10000;
+    background: rgba(33,194,248,0.8);
+    padding: 0px 45px 0px 45px;
+    color: white;
+    width: 100%;
+    text-align: center;
+/*    z-index: 10000;
     background: rgba(33,194,248,0.8);
     padding: 29px 49px 39px 45px;
     position: absolute;
     color: white;
-    top: 30px;
+    top: 30px;*/
 }
 .container-absolute{
     position: absolute;
     left: 50%;
+    transform: translate3d(-50%,-25%,0);
+    bottom: 0px;
+    /*position: absolute;
+    left: 50%;
     top: 50%;
     transform: translate3d(-50%,-25%,0);
-    height: 336px;
+    height: 336px;*/
 }
 .titulo_slider_servicios{
-	text-transform: uppercase;
+    text-transform: uppercase;
+    font-style: normal;
+    font-size: 45px;
+    font-weight: 900;
+	/*text-transform: uppercase;
     font-style: normal;
     font-size: 75px;
     font-weight: 900;
     line-height: 95px;
-    letter-spacing: -2px;
+    letter-spacing: -2px;*/
 }
 .wrap p{
-	float: left;
-    width: 360px;
-    font-size: 15px;
+	/*float: left;
+    width: 360px;*/
+    font-size: 16px;
 }
 .wrap a{
-	font-size: 25px;
+    font-size: 25px;
+    top: -23px;
+    left: 51%;
+    color: #ffffff;
+/*	font-size: 25px;
     top: 54px;
     left: 5px;
-    color: #ffffff;
+    color: #ffffff;*/
 }
 .wrap a:hover{
 	color: #3e3e3e!important;
