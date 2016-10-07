@@ -6,6 +6,14 @@
 	"quienes_somos":"QUIENES SOMOS?",
 	"bienvenido":"Bienvenido <small>Gracias por visitarnos!</small>" ,
 	"parrafo_1":"Global Integral Services les da la más cordial bienvenida a nuestro sitio web, en el cual esperamos que encuentren la información que buscan acerca de nuestros servicios y éstos sean de su agrado.<br><br>El objetivo de nuestro sitio web, es dar a conocer quiénes somos y qué hacemos, así como la ideología e historia de GIS. Usted podrá encontrar de una forma sencilla y directa nuestros servicios y algunos de nuestros proyectos de hoy en día. Usted podrá contactarnos y enviar preguntas o sugerencias relacionados con nuestros servicios o inquietudes que tenga; de tal forma que sea atendido a la brevedad. <br><br> Un cordial saludo; <i>\"Esperamos poder cumplir sus espectativas de calidad y satisfacción.\"</i>",
+	"CAM":"Desarrollo de manufactura bajo plataformas CAM, para la gestión técnica en fabricación y montaje.",
+	"CAD":"Soluciones de diseño y simulaciones asistidos por computadora. Modelado, análisis y optimización, revisión y evaluación.",
+	"PROTOTIPOS":"Diseño y desarrollo de proyectos prototipo.",
+	"TITULO-PROTOTIPOS":"PROTOTIPOS",
+	"AUTOMATIZACION":"Procesos de automatización por medio de programación de PLC's.",
+	"TITULO-AUTOMATIZACION":"AUTOMATIZACIÓN",
+	"SOFTWARE":"Diseño y desarrollo de soluciones para automatización de procesos, manejo de tableros eléctricos.",
+	"SLOGAN":"\"Haciendo que el mundo siga evolucionando\"",
 
 	"SERVICIOS":"",
 	"nuestrosServicios":"Nuestros <small>Servicios</small>",
@@ -25,6 +33,15 @@
 	"descripcion_servicio6":"Fabricación de partes en Fresadora CNC, Torno CNC, Fresadora Convencional, Torno Convencional, Rectificadora, Dobladora Hidráulica",
 	"servicio7":"Software",
 	"descripcion_servicio7":"Servicio de diseño y desarrollo de software, prueba eléctrica, manejo y proceso de tableros electrónicos",
+
+	"diseño_electrico":"Diseño eléctrico y prototipos",
+	"integracion":"Integración de equipos",
+	"programacion_CAM":"Programación CAM",
+	"maquinados":"Maquinados",
+	"diseño_CAD":"Diseño CAD",
+	"reparacion":"Reparación",
+	"partes_mecanicas":"Partes mecánicas",
+
 
 	"CLIENTES":"",
 	"nuestrosClientes":"Nuestros <small>Clientes</small>",
